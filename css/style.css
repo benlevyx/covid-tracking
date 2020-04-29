@@ -1,1 +1,5 @@
-
+path.country {
+    stroke: dimgrey;
+    stroke-width: 2px;
+    fill: lightsteelblue;
+}

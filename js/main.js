@@ -5,5 +5,9 @@ Promise.all([
 ]).then(function(data) {
   var appData = data[0],
       countries = data[1];
-  var mapVis = new MapVis('map-vis', {data: appData, geo: countries}, {})
+  var mapVis = new MapVis(
+      'map-vis',
+      {apps: appData, geo: countries},
+      {width: 800, height: 600}
+      )
 });
