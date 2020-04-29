@@ -1,5 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Roboto+Mono&display=swap');
+
+:root {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    --white: #f7f7f7;
+    --lightgray: #bdbdbd;
+    --darkgray: #636363;
+
+    --none: black;
+    --no: var(--darkgray);
+    --bluetooth: #1c57ff;
+    --gps-bluetooth: purple;
+    --gps: #F7301C;
+    --centralized: var(--darkgray);
+    --decentralized: #2ca25f;
+    --bluetrace: #243E95;
+    --p2pkit: #fa50e6;
+    --safepaths: #666AF6;
+    --d3pt: #d95f02;
+    --pepppt: #F7301C;
+    --applegoogle: #2ca25f;
+    --other: var(--darkgray);
+    --opt-in: #2ca25f;
+    --open-source: #2ca25f;
+    --government: var(--darkgray);
+}
+body {
+    background-color: #10104b;
+}
+h1, h2, h3, legend, label {
+    font-family: 'Roboto Mono', monospace;
+    color: var(--white);
+}
+a, p, text {
+    font-family: 'Manrope', sans-serif;
+    color: var(--white);
+}
+
 path.country {
     stroke: dimgrey;
-    stroke-width: 2px;
-    fill: lightsteelblue;
+    stroke-width: .5px;
+    fill: var(--white);
+}
+circle.marker {
+    stroke-width: 1px;
+    r: 5px;
+    fill-opacity: .6;
+    fill: black;
 }

@@ -10,7 +10,46 @@
 <body>
 
     <div class="container">
-        <div class="vis-container" id="map-vis"></div>
+        <div class="row">
+            <div class="col-md-8 col-sm-12">
+                <div class="vis-container" id="map-vis"></div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="row">
+                    <div class="panel-container" id="control-panel">
+                        <form class="form-horizontal">
+                            <fieldset>
+
+                                <!-- Form Name -->
+                                <legend>Color code by</legend>
+
+                                <!-- Select Basic -->
+                                <div class="form-group">
+                                    <label class="col-md-12 control-label" for="selectbasic">Choose variable</label>
+                                    <div class="col-md-12">
+                                        <select id="variable-choice" name="selectbasic" class="form-control">
+                                            <option value="data_type">Bluetooth/GPS</option>
+                                            <option value="central_id_storage">Centralized</option>
+                                            <option value="data_persistence_days">Data persistence time</option>
+                                            <option value="government">Government/private</option>
+                                            <option value="open_source">Open source</option>
+                                            <option value="opt_in">Opt-in</option>
+                                            <option value="protocol">Protocol</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div id="color-legend"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
