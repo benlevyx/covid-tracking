@@ -1,10 +1,12 @@
 // Loading data
-var mapVis;
+var mapVis,
+    colorLegend;
 
 
 Promise.all([
     d3.csv('data/project-data - all-apps.csv'),
-    d3.json('data/countries-50m.json')
+    d3.json('data/countries-50m.json'),
+    d3.csv('data/project-data - variables.csv')
 ]).then(function(data) {
   var appData = data[0],
       countries = data[1];
@@ -18,5 +20,7 @@ Promise.all([
   mapVis = new MapVis(
       'map-vis',
       {apps: appData, geo: countries},
-      config)
+      config);
+
+  colorLegend = new ColorLegend('color-legend', data[2], {});
 });

@@ -10,6 +10,7 @@
 <body>
 
     <div class="container">
+        <h3>COVID-19 contact tracing applications around the world</h3>
         <div class="row">
             <div class="col-md-8 col-sm-12">
                 <div class="vis-container" id="map-vis"></div>
@@ -21,11 +22,9 @@
                             <fieldset>
 
                                 <!-- Form Name -->
-                                <legend>Color code by</legend>
-
                                 <!-- Select Basic -->
                                 <div class="form-group">
-                                    <label class="col-md-12 control-label" for="selectbasic">Choose variable</label>
+                                    <label class="col-md-12 control-label" for="variable-choice">Choose variable</label>
                                     <div class="col-md-12">
                                         <select id="variable-choice" name="selectbasic" class="form-control">
                                             <option value="data_type">Bluetooth/GPS</option>
@@ -65,7 +64,7 @@
 
     <!-- Vis components -->
     <script src="js/map-vis.js"></script>
-    <script src="js/radial-vis.js"></script>
+    <script src="js/color-legend.js"></script>
 
     <!-- Main script -->
     <script src="js/main.js"></script>

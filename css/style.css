@@ -28,13 +28,20 @@
 body {
     background-color: #10104b;
 }
-h1, h2, h3, legend, label {
+h1, h2, h3, legend, label, p.label {
     font-family: 'Roboto Mono', monospace;
     color: var(--white);
 }
 a, p, text {
     font-family: 'Manrope', sans-serif;
     color: var(--white);
+}
+p.description {
+    size: 10px;
+}
+.description, .label {
+    alignment-baseline: middle;
+    vertical-align: middle;
 }
 
 path.country {
@@ -47,4 +54,13 @@ circle.marker {
     r: 5px;
     fill-opacity: .6;
     fill: black;
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    alignment-baseline: middle;
+    vertical-align: middle;
+    margin: 1em;
 }
