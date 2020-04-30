@@ -26,7 +26,7 @@ MapVis.prototype.initVis = function() {
   vis.zoom = d3.zoom()
       .scaleExtent([1, 8])
       .on('zoom', (d) => vis.zoomed(vis));
-  vis.svg.call(vis.zoom);
+  d3.select('#' + vis.parentElement).call(vis.zoom);
   vis.countries = topojson.feature(vis.data.geo, vis.data.geo.objects.countries).features;
   vis.centroids = vis.countries.map(d => {
     return {country: d.properties.name, centroid: vis.geoPath.centroid(d)};

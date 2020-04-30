@@ -28,6 +28,9 @@
 body {
     background-color: #10104b;
 }
+hr {
+    border-color: var(--lightgray);
+}
 h1, h2, h3, legend, label, p.label {
     font-family: 'Roboto Mono', monospace;
     color: var(--white);
@@ -40,8 +43,8 @@ p.description {
     size: 10px;
 }
 .description, .label {
-    alignment-baseline: middle;
-    vertical-align: middle;
+    alignment-baseline: top;
+    vertical-align: top;
 }
 
 path.country {
@@ -61,6 +64,14 @@ circle.marker {
     border-radius: 50%;
     display: inline-block;
     alignment-baseline: middle;
-    vertical-align: middle;
-    margin: 1em;
+    vertical-align: top;
+    margin-right: 1em;
+    margin-top: 5px;
+}
+td.color-dot {
+    vertical-align: top;
+}
+div#color-legend {
+    overflow: auto;
+    height: 400px;
 }

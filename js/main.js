@@ -14,7 +14,7 @@ Promise.all([
     d.data_persistence_days = +d.data_persistence_days;
   });
   var config = {
-    height: 600,
+    height: 400,
     selectedVar: 'data_type'
   };
   mapVis = new MapVis(

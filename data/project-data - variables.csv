@@ -1,25 +1,25 @@
 name,level,levelName,description
-data_type,bluetooth,Bluetooth,description
-data_type,gps,GPS,description
-data_type,gps + bluetooth,GPS + Bluetooth,description
-central_id_storage,no,Decentralized,description
-linkage_method,yes,Centralized,description
-protocol,BlueTrace,BlueTrace,description
+data_type,bluetooth,Bluetooth,Using Bluetooth Low Energy (BLE) to keep track of all other app users that the user comes into close contact with.
+data_type,gps,GPS,Using GPS to keep track of all the places that the user has visited and other users that they may have come into close contact with
+data_type,gps + bluetooth,GPS + Bluetooth,A hybrid of GPS and Bluetooth technology
+central_id_storage,no,Decentralized,The system is completely decentralized: there is no central server with a database of all the users and their ID's
+linkage_method,yes,Centralized,The system has at least one of: a central database of all the users and their pseudonymous keys; a server that stores user location trails or Bluetooth contact history
+protocol,BlueTrace,BlueTrace,"Used by Singapore's TraceTogether app. When two uesrs come into contact, they swap their randomly generated IDs, which are refreshed every 15 minutes. However, the phone number associated with the device is stored by the central authority. When someone tests positive, their history of timestamped IDs is broadcast out."
 protocol,p2pkit,p2pkit,description
-protocol,SafePaths,SafePaths,description
-protocol,PEPP-PT,PEPP-PT,description
-protocol,D3PT,D3PT,description
-protocol,TCN,TCN,description
-protocol,Apple/Google,Apple/Google,description
-protocol,other,Other,description
-data_persistence_days,0,Not stored,description
-data_persistence_days,14,14 days,description
-data_persistence_days,21,21 days,description
-data_persistence_days,30,30 days,description
-data_persistence_days,unlimited,Unlimited,description
-government,no,No,description
-government,yes,Yes,description
-opt_in,no,No,description
-opt_in,yes,Yes,description
-open_source,no,No,description
-open_source,yes,Yes,description
+protocol,SafePaths,SafePaths,An MIT-led open source project that uses detailed GPS location trails to match potential contacts. All data is stored on the device and shared with public health authorities only if the user tests positive for COVID-19 and consents to share their history.
+protocol,PEPP-PT,PEPP-PT,"""Pan-European Privacy-Preserving Proximity Tracing"": A centralized Bluetooth contact tracing protocol where pseudonymous IDs are stored on a central server."
+protocol,D3PT,D3PT,A completely decentralized protocol similar to the implementation of Apple/Google.
+protocol,TCN,TCN,"A Bluetooth-based protocol where users exchange rotating random IDs when contact is made. When a user tests positive, rather than sharing their history of IDs, they share a ID-generating cryptographic function, which can be used by other users to check whether they have come into contact with the positive user. Since the function is one-way, it cannot easily be used to re-identify the individual."
+protocol,Apple/Google,Apple/Google,"The Apple/Google collaboration is a fully decentralized, privacy-preserving Bluetooth-based protocol, similar to the BlueTrace model except that there is no centralized information stored about the users. Periodically, all users download a list of ID numbers that have been confirmed COVID-19 positive. If an individual tests positive, they can share their ID number history with public health authorities for distribution."
+protocol,other,Other,Unknown protocol
+data_persistence_days,0,Not stored,Data not stoored
+data_persistence_days,14,14 days,Data stored on phone or server for 14 days
+data_persistence_days,21,21 days,
+data_persistence_days,30,30 days,
+data_persistence_days,unlimited,Unlimited,No expressed limit on data storage
+government,no,No,No express government involvement
+government,yes,Yes,Government is partner or main backer
+opt_in,no,No,Users can freely choose whether to download/use the app
+opt_in,yes,Yes,App use is mandatory
+open_source,no,No,Implementation is open source
+open_source,yes,Yes,Implementation is not open source
