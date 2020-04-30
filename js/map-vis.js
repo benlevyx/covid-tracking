@@ -48,7 +48,7 @@ MapVis.prototype.initVis = function() {
         .range(['var(--gps)', 'var(--gps-bluetooth)', 'var(--bluetooth)', 'var(--other)']),
     government: d3.scaleOrdinal()
         .domain(['no', 'yes'])
-        .range(['var(--no)', 'var(--government)']),
+        .range(['var(--no-government)', 'var(--government)']),
     open_source: d3.scaleOrdinal()
         .domain(['no', 'yes'])
         .range(['var(--no)', 'var(--open-source)']),

@@ -23,7 +23,8 @@
     --other: var(--darkgray);
     --opt-in: #2ca25f;
     --open-source: #2ca25f;
-    --government: var(--darkgray);
+    --no-government: var(--decentralized);
+    --government: var(--centralized);
 }
 body {
     background-color: #10104b;

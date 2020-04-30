@@ -7,6 +7,10 @@ function makeAppTable(parentElem, data) {
   //   }),
   //   data: data
   // });
+  data.forEach(d => {
+    d.links = `<a href="${d.links}" target="_blank">${d.links}</a>`;
+  });
+
   var table = d3.select('#' + parentElem)
       .append('table')
       .attr('data-toggle', 'table')
@@ -29,7 +33,7 @@ function makeAppTable(parentElem, data) {
       .data(d => data.columns.map(c => {return {c: c, value: d[c]}; }))
       .enter()
       .append('td')
-      .text(d => d.value);
+      .html(d => d.value);
 
   makeDataTable(table.node());
 }
