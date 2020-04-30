@@ -41,6 +41,18 @@ ColorLegend.prototype.selectionChanged = function(newSelVar) {
   vis.selected = newSelVar;
   vis.wrangleData();
 };
+ColorLegend.prototype.highlight = function(d) {
+  var vis = this;
+
+  vis.tbody.selectAll('tr')
+      .data(vis.displayData)
+      .style('opacity', e => e.level === d ? 1 : .2);
+};
+ColorLegend.prototype.highlightClear = function() {
+  var vis = this;
+
+  vis.tbody.selectAll('tr').style('opacity', 1);
+};
 
 function makeRow(elem, vis) {
   elem.html("");

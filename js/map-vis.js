@@ -20,7 +20,7 @@ MapVis.prototype.initVis = function() {
   var vis = this;
 
   vis.projection = d3.geoMercator()
-      .translate([vis.width / 2, vis.height / 2])
+      .translate([vis.width / 2, vis.height * 2 / 3])
       .scale(vis.width / (2 * Math.PI));
   vis.geoPath = d3.geoPath().projection(vis.projection);
   vis.zoom = d3.zoom()
@@ -59,6 +59,19 @@ MapVis.prototype.initVis = function() {
         .domain(['BlueTrace', 'p2pkit', 'SafePaths', 'PEPP-PT', 'D3PT', 'TCN', 'Apple/Google', 'other'])
   };
 
+  // Tooltip
+  vis.tooltip = d3.tip()
+      .attr('class', 'd3-tip')
+      .offset([-10, 0])
+      .html(function(d) {
+        console.log(d);
+        return `<p class="label">${d.name}</p>` +
+               `<br/>` +
+               `<p class="description">${d.country}</p>` +
+               `<p class="description">${d.protocol}</p>`;
+      });
+  vis.svg.call(vis.tooltip);
+
   vis.wrangleData();
 };
 MapVis.prototype.wrangleData = function() {
@@ -93,7 +106,9 @@ MapVis.prototype.updateVis = function() {
       .attr('cy', d => position(d, vis, 1))
       .merge(markers)
       .style('fill', d => fillColor(d, vis))
-      .style('stroke', d => fillColor(d, vis));
+      .style('stroke', d => fillColor(d, vis))
+      .on('mouseover', function(e) { vis.mouseover(e, vis) })
+      .on('mouseout', function(e) { vis.mouseout(e, vis) });
 };
 MapVis.prototype.zoomed = function(vis) {
   vis.svg.selectAll('path.country')
@@ -106,6 +121,14 @@ MapVis.prototype.selectionChanged = function(newSelVar) {
 
   vis.selectedVar = newSelVar;
   vis.wrangleData();
+};
+MapVis.prototype.mouseover = function(elem, vis) {
+  vis.tooltip.show(elem);
+  colorLegend.highlight(elem[vis.selectedVar]);
+};
+MapVis.prototype.mouseout = function(elem, vis) {
+  vis.tooltip.hide();
+  colorLegend.highlightClear();
 };
 
 function fillColor(d, vis) {

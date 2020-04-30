@@ -3,7 +3,7 @@ data_type,bluetooth,Bluetooth,Using Bluetooth Low Energy (BLE) to keep track of 
 data_type,gps,GPS,Using GPS to keep track of all the places that the user has visited and other users that they may have come into close contact with
 data_type,gps + bluetooth,GPS + Bluetooth,A hybrid of GPS and Bluetooth technology
 central_id_storage,no,Decentralized,The system is completely decentralized: there is no central server with a database of all the users and their ID's
-linkage_method,yes,Centralized,The system has at least one of: a central database of all the users and their pseudonymous keys; a server that stores user location trails or Bluetooth contact history
+central_id_storage,yes,Centralized,The system has at least one of: a central database of all the users and their pseudonymous keys; a server that stores user location trails or Bluetooth contact history
 protocol,BlueTrace,BlueTrace,"Used by Singapore's TraceTogether app. When two uesrs come into contact, they swap their randomly generated IDs, which are refreshed every 15 minutes. However, the phone number associated with the device is stored by the central authority. When someone tests positive, their history of timestamped IDs is broadcast out."
 protocol,p2pkit,p2pkit,description
 protocol,SafePaths,SafePaths,An MIT-led open source project that uses detailed GPS location trails to match potential contacts. All data is stored on the device and shared with public health authorities only if the user tests positive for COVID-19 and consents to share their history.
