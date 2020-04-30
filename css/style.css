@@ -31,11 +31,13 @@ body {
 hr {
     border-color: var(--lightgray);
 }
-h1, h2, h3, legend, label, p.label {
+h1, h2, h3, legend, label, p.label, th {
     font-family: 'Roboto Mono', monospace;
     color: var(--white);
 }
-a, p, text {
+a, p, text, td,
+#app-table div.dataTables_inf,
+#app-table div.dataTables_paginate a {
     font-family: 'Manrope', sans-serif;
     color: var(--white);
 }
@@ -105,4 +107,19 @@ div#color-legend {
     margin: -1px 0 0 0;
     top: 100%;
     left: 0;
+}
+
+/* APP TABLE */
+div#app-table {
+    overflow: auto;
+}
+#app-table tr{
+    background-color: #10104b;
+}
+#app-table thead > tr > th.sorting_asc,
+#app-table thead > tr > th.sorting_desc {
+    background-color: #1f1fa7;
+}
+#app-table tbody > tr > td.sorting_1 {
+    background-color: #1f1fa7;
 }

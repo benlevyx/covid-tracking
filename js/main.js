@@ -23,4 +23,5 @@ Promise.all([
       config);
 
   colorLegend = new ColorLegend('color-legend', data[2], {});
+  makeAppTable('app-table', appData);
 });
