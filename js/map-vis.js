@@ -56,7 +56,8 @@ MapVis.prototype.initVis = function() {
         .domain(['no', 'yes'])
         .range(['var(--no)', 'var(--opt-in)']),
     protocol: d3.scaleOrdinal()
-        .domain(['BlueTrace', 'p2pkit', 'SafePaths', 'PEPP-PT', 'D3PT', 'TCN', 'Apple/Google', 'other'])
+        .domain(['BlueTrace', 'p2pkit', 'SafePaths', 'PEPP-PT', 'D3PT', 'TCN', 'Apple/Google', 'other', ""])
+        .range(['var(--bluetrace)', 'var(--p2pkit)', 'var(--safepaths)', 'var(--pepppt)', 'var(--d3pt)', 'var(--tcn)', 'var(--applegoogle)', 'var(--other)', 'var(--other)'])
   };
 
   // Tooltip
@@ -133,6 +134,7 @@ MapVis.prototype.mouseout = function(elem, vis) {
 
 function fillColor(d, vis) {
   if (vis.selectedVar != null) {
+    console.log(vis.selectedVar);
     var col = vis.colorScales[vis.selectedVar](d[vis.selectedVar]);
     console.log(col);
     return col;
