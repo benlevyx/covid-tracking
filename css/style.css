@@ -33,7 +33,7 @@ body {
 hr {
     border-color: var(--lightgray);
 }
-h1, h2, h3, legend, label, p.label, th {
+h1, h2, h3, legend, label, p.label, th .footer {
     font-family: 'Roboto Mono', monospace;
     color: var(--white);
 }
