@@ -9,6 +9,7 @@ geodata = raw / 'geodata'
 src = root / 'src'
 notebooks = root / 'notebooks'
 models = root / 'models'
+figs = root / 'figs'
 
 
 xmode_cols = ['advertiser_id', 'platform', 'location_at', 'latitude', 'longitude',

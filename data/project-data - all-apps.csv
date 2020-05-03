@@ -1,6 +1,6 @@
 name,country,links,platform,data_type,bluetooth,gps,centralized,status,data_storage,linkage_method,protocol,anon_method,central_id_storage,data_persistence_days,government,contact_trace_aid,opt_in,open_source,encryption,covid_positive_verification,quarantine_enforcement,notes
 COVIDSafe,Australia,https://www.health.gov.au/resources/apps-and-tools/covidsafe-app,mobile app,bluetooth,yes,no,,,local,exchange temporary ids,BlueTrace,pseudonymous,yes,21,yes,yes,yes,yes,yes,test,,based on TraceTogether
-Coronavirus Australia,Australia,health.gov.au,mobile app,,,,,,,,,,,,yes,no,,,,,,
+Coronavirus Australia,Australia,health.gov.au,mobile app,,no,no,,,,,,,,,yes,no,,,,,,
 Stopp Corona,Austria,https://www.roteskreuz.at/site/faq-app-stopp-corona/datenschutzinformation-zur-stopp-corona-app/#c253470,mobile app,bluetooth,yes,no,,,local,exchange temporary ids,p2pkit,pseudonymous,no,14,yes,yes,yes,,yes,,,
 BeAware,Bahrain,https://play.google.com/store/apps/details?id=bh.bahrain.corona.tracker,mobile app,gps + bluetooth,yes,yes,yes,released,central,,,none,yes,14,yes,yes,yes,no,,test,yes,
 ViruSafe,Bulgaria,https://play.google.com/store/apps/details?id=bg.government.virusafe,mobile app,gps + bluetooth,yes,yes,,,,,,,yes,,yes,yes,yes,yes,,,,
@@ -8,10 +8,9 @@ Alipay Health Code + Close Contact Detector,China,https://www.nytimes.com/2020/0
 CoronApp,Colombia,https://coronaviruscolombia.gov.co/test/aislamiento-saludable/coronapp.html,mobile app,gps + bluetooth,yes,yes,,,,,,,yes,,yes,,,,,,,based on TraceTogether
 CovTracer,Cyprus,https://covid-19.rise.org.cy/en/,mobile app,gps,no,yes,,,local,,SafePaths,,yes,14,yes,yes,yes,yes,yes,,no,MIT SafePaths
 ERouška,Czechia,erouska.cz,mobile app,bluetooth,yes,no,,,local,,,,,,yes,yes,yes,yes,,,,
-,Ecuador,,,,,,,,,,,,,,,,,,,,,
-PEPP-PT,EU,https://www.pepp-pt.org/,mobile app,bluetooth,yes,,,,,,,,,,,yes,yes,yes,,,,
-StopCovid,France,https://techcrunch.com/2020/04/08/france-is-officially-working-on-stop-covid-contact-tracing-app/,mobile app,bluetooth,yes,no,,,central,,PEPP-TT,pseudonymous,yes,,yes,yes,yes,yes,,,,ROBERT-ROBust and privacy-presERving proximity Tracing protocol. Builds on PEPP-PT
-,Germany,https://www.bloomberg.com/news/articles/2020-04-27/germany-taps-sap-deutsche-telekom-for-contact-tracing-app,mobile app,bluetooth,yes,no,,,local,,D3PT,pseudonymous,no,,yes,yes,yes,,,,,In development
+PEPP-PT,EU,https://www.pepp-pt.org/,mobile app,bluetooth,yes,no,no,,,,,,,,,yes,yes,yes,,,,
+StopCovid,France,https://techcrunch.com/2020/04/08/france-is-officially-working-on-stop-covid-contact-tracing-app/,mobile app,bluetooth,yes,no,yes,,central,,PEPP-TT,pseudonymous,yes,,yes,yes,yes,yes,,,,ROBERT-ROBust and privacy-presERving proximity Tracing protocol. Builds on PEPP-PT
+,Germany,https://www.bloomberg.com/news/articles/2020-04-27/germany-taps-sap-deutsche-telekom-for-contact-tracing-app,mobile app,bluetooth,yes,no,,,local,,DP3T,pseudonymous,no,,yes,yes,yes,,,,,In development
 Ito,Germany,https://www.ito-app.org/,mobile app,bluetooth,yes,no,,,local,"exchange temporary ids; when test positive, upload id generating function",TCN,anonymous,no,,no,yes,yes,,,,,
 GH COVID-19 Tracker App,Ghana,https://ghcovid19.com/,mobile app,gps,no,yes,,,,,,,,,yes,yes,yes,no,,,,
 Stay Home Safe,Hong Kong,,,,,,,,,,,,,,yes,no,,,,,yes,
@@ -37,7 +36,7 @@ StopKorona!,North Macedonia,https://stop.koronavirus.gov.mk/,mobile app,bluetoot
 Smittestopp,Norway,https://helsenorge.no/smittestopp,mobile app,gps + bluetooth,yes,yes,,,central,,,pseudonymous,yes,30,yes,yes,yes,yes,,,,partnership with the Norwegian institute of public health (government?)
 PeruEnTusManos,Peru,https://play.google.com/store/apps/details?id=peruentusmanos.gob.pe,mobile app,gps + bluetooth,yes,yes,yes,released,central,,,,yes,unlimited,yes,yes,yes,,,,,
 WeTrace,Philippines,https://apps.apple.com/US/app/id1506567245?l=en,mobile app,bluetooth,yes,no,,,local,,,pseudonymous,no,30,,yes,no,no,,,,ordered everyone in the province of Cebu to download
-Kwarantana Dommowa,Poland,https://www.politico.eu/article/poland-coronavirus-app-offers-playbook-for-other-governments/,mobile app,gps,no,yes,,,central,direct,,none,yes,,yes,no,no,no,no,test,no,
+Kwarantana Dommowa,Poland,https://www.politico.eu/article/poland-coronavirus-app-offers-playbook-for-other-governments/,mobile app,gps,no,yes,yes,released,central,direct,,none,yes,unlimited,yes,no,no,no,no,test,yes,
 ProteGO,Poland,github.com/ProteGO-app,mobile app,bluetooth,yes,no,no,development,local,,GNU GPLv3 + GNU AGPLv3,,no,14,yes,yes,yes,yes,,test,,
 Contact Tracer,Russia,https://contacttracer.ru,mobile app,,,,,,,,,,,,no,yes,,,,,,
 Tawakkalna,Saudi Arabia,,mobile app,,,,,,,,,,,,yes,no,no,,,,yes,
@@ -94,3 +93,6 @@ Safe2,United States,https://safe2.org/,mobile app,gps + bluetooth,yes,yes,,devel
 Unmaze,Bulgaria,http://cyborgsys.com/unmaze/,mobile app,gps + bluetooth,yes,yes,,released,,,,,,,no,,,,,,,
 Coalition,France,http://CoalitionNetwork.org,mobile app,bluetooth,yes,no,no,released,local,,Whisper,anonymous,no,,yes,yes,yes,,,,,
 CoroWarner,Turkey,https://www.aa.com.tr/en/latest-on-coronavirus-outbreak/turkey-to-use-contact-tracing-app-to-detect-coronavirus/1804425,mobile app,gps + bluetooth,yes,yes,,development,,,,,,,no,,,,,,,
+Corona GO,Germany,https://corona-go.de/,mobile app,bluetooth,yes,no,no,development,local,,TCN,anonymous,no,14,no,yes,yes,yes,,,,
+my co:radar,Germany,http://mycoradar.de/my-coradar-eu/,mobile app,bluetooth,yes,no,no,development,local,,TCN,pseudonymnous,no,20,no,yes,yes,yes,,,,
+OHIOH,Germany,https://ohioh.de/,mobile app,gps + bluetooth,yes,yes,no,development,local,,TCN,,no,,no,yes,yes,yes,,,,
