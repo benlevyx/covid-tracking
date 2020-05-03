@@ -33,11 +33,12 @@ body {
 hr {
     border-color: var(--lightgray);
 }
-h1, h2, h3, legend, label, p.label, th .footer {
+h1, h2, h3, legend, label,
+p.label, th .footer, .caption {
     font-family: 'Roboto Mono', monospace;
     color: var(--white);
 }
-a, p, text, td,
+a, p, text, td, li,
 #app-table div.dataTables_inf,
 #app-table div.dataTables_paginate a {
     font-family: 'Manrope', sans-serif;

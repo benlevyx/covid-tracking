@@ -60,8 +60,34 @@
         <div class="row">
             <div class="col">
                 <h3>How the different protocols stack up</h3>
-                <div>
-                    <p style="font-style: italic;">Coming soon</p>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <p>The main protocols were found were:</p>
+                        <ul>
+                            <li>TCN</li>
+                            <li>PrivateKit SafePaths</li>
+                            <li>BlueTrace/OpenTrace</li>
+                            <li>PEPP-PT</li>
+                            <li>DP3T</li>
+                        </ul>
+                        <p>
+                            Of these, three distinct groups arise: Decentralized geolocation (Private Kit SafePaths),
+                            decentralized Bluetooth (DP^3T, TCN, Apple/Google), and centralized Bluetooth (PEPP-PT, ROBERT, OpenTrace).
+                            No protocols were found to conduct centralized geolocation-based contact-tracing, since this
+                            is essentially government surveillance.
+                        </p>
+                        <p>
+                            By "centralized", we mean that the procotol does one or more of the following: (a) stores the
+                            pseudonymous IDs of each user on a central server; (b) conducts the contact matching process
+                            via a central server. Conversely, decentralized protocols require the application to store
+                            all data and conduct all contact matching on user devices, minimizing the opportunity for a
+                            a central authority to re-identify users or control their data.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                        <img class="img-fluid" src="img/protocol-vis.png" alt="2x2 matrix of the major privacy-preserving contact tracing protocols">
+                        <p><span class="caption">Fig. 1:</span> The main privacy-preserving mobile contact tracing protocols.</p>
+                    </div>
                 </div>
             </div>
         </div>
