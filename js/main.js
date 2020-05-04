@@ -5,7 +5,7 @@ var mapVis,
 
 Promise.all([
     d3.csv('data/project-data - all-apps.csv'),
-    d3.json('data/countries-50m.json'),
+    d3.json('data/countries-110m.json'),
     d3.csv('data/project-data - variables.csv')
 ]).then(function(data) {
   var appData = data[0],

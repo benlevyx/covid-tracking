@@ -9,7 +9,7 @@ CoronApp,Colombia,https://coronaviruscolombia.gov.co/test/aislamiento-saludable/
 CovTracer,Cyprus,https://covid-19.rise.org.cy/en/,mobile app,gps,no,yes,,,local,,SafePaths,,yes,14,yes,yes,yes,yes,yes,,no,MIT SafePaths
 ERouška,Czechia,erouska.cz,mobile app,bluetooth,yes,no,,,local,,,,,,yes,yes,yes,yes,,,,
 PEPP-PT,EU,https://www.pepp-pt.org/,mobile app,bluetooth,yes,no,no,,,,,,,,,yes,yes,yes,,,,
-StopCovid,France,https://techcrunch.com/2020/04/08/france-is-officially-working-on-stop-covid-contact-tracing-app/,mobile app,bluetooth,yes,no,yes,,central,,PEPP-TT,pseudonymous,yes,,yes,yes,yes,yes,,,,ROBERT-ROBust and privacy-presERving proximity Tracing protocol. Builds on PEPP-PT
+StopCovid,France,https://techcrunch.com/2020/04/08/france-is-officially-working-on-stop-covid-contact-tracing-app/,mobile app,bluetooth,yes,no,yes,,central,,PEPP-PT,pseudonymous,yes,,yes,yes,yes,yes,,,,ROBERT
 ,Germany,https://www.bloomberg.com/news/articles/2020-04-27/germany-taps-sap-deutsche-telekom-for-contact-tracing-app,mobile app,bluetooth,yes,no,,,local,,DP3T,pseudonymous,no,,yes,yes,yes,,,,,In development
 Ito,Germany,https://www.ito-app.org/,mobile app,bluetooth,yes,no,,,local,"exchange temporary ids; when test positive, upload id generating function",TCN,anonymous,no,,no,yes,yes,,,,,
 GH COVID-19 Tracker App,Ghana,https://ghcovid19.com/,mobile app,gps,no,yes,,,,,,,,,yes,yes,yes,no,,,,
@@ -30,7 +30,7 @@ Test Yourself Goa,India,*,mobile app,,,,,,,,,,,,yes,no,,,,,,
 Test Yourself Puducherry,India,*,mobile app,,,,,,,,,,,,yes,no,,,,,,
 PeduliLindungi,Indonesia,https://play.google.com/store/apps/details?id=com.telkom.tracencare,mobile app,bluetooth,yes,no,,,local,,,,no,14,yes,,yes,,yes,,,based on TraceTogether
 HaMagen,Israel,https://govextra.gov.il/ministry-of-health/hamagen-app/download-en/,mobile app,gps,no,yes,no,released,local,matched locations + times visited by  infected users sent from ministry of health to all users,,anonymous location traces,no,14,no,yes,yes,yes,yes,test,,many false positives
-Immuni,Italy,https://www.nytimes.com/reuters/2020/04/17/technology/17reuters-health-coronavirus-italy-technology.html,mobile app,bluetooth,yes,np,,,local,,PEPP-TT,,yes,,yes,yes,yes,,yes,,,
+Immuni,Italy,https://www.nytimes.com/reuters/2020/04/17/technology/17reuters-health-coronavirus-italy-technology.html,mobile app,bluetooth,yes,np,,,local,,PEPP-PT,,yes,,yes,yes,yes,,yes,,,
 SM-COVID-19,Italy,https://www.smcovid19.org/,mobile app,gps (optional) + bluetooth,yes,optional,,,local,,ReCoVer,,yes,21,no,yes,yes,no,yes,,no,
 StopKorona!,North Macedonia,https://stop.koronavirus.gov.mk/,mobile app,bluetooth,yes,no,,,local,,,pseudonymous,yes,14,yes,yes,yes,no,,,,unique random ID is linked to phone number on central server
 Smittestopp,Norway,https://helsenorge.no/smittestopp,mobile app,gps + bluetooth,yes,yes,,,central,,,pseudonymous,yes,30,yes,yes,yes,yes,,,,partnership with the Norwegian institute of public health (government?)

@@ -81,3 +81,25 @@ function clamp(n, min, max) {
 function capitalizeFirstLetter(s) {
   return s.replace(/^\w/, c => c.toUpperCase());
 }
+
+/**
+ * Determine the number of rows and columns to compactly lay out `n` points
+ * @param n
+ */
+function getRowsCols(n) {
+  let m = 1,
+      r = 1,
+      c = 1,
+      i = 0;
+  while (n > m) {
+    if (i % 2 === 1) {
+      // Add a row
+      r++;
+    } else {
+      c++;
+    }
+    m = r * c;
+    i++;
+  }
+  return [r, c];
+}

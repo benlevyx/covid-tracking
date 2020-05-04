@@ -22,6 +22,15 @@ ColorLegend.prototype.wrangleData = function() {
   var vis = this;
 
   vis.displayData = vis.data.filter(d => d.name === vis.selected);
+  console.log(vis.displayData);
+  if (!(vis.displayData.map(d => d.level).includes('other'))) {
+    vis.displayData.push({
+      name: vis.selected,
+      level: 'other',
+      levelName: 'Other',
+      description: 'Other or unknown'
+    });
+  }
 
   vis.updateVis()
 };

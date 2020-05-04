@@ -12,18 +12,20 @@
     --bluetooth: #1c57ff;
     --gps-bluetooth: purple;
     --gps: #F7301C;
-    --centralized: var(--darkgray);
+    --centralized: #243E95;
     --decentralized: #2ca25f;
     --bluetrace: #243E95;
     --p2pkit: #fa50e6;
     --safepaths: #666AF6;
-    --d3pt: #d95f02;
+    --dp3t: #d95f02;
     --pepppt: #F7301C;
     --applegoogle: #2ca25f;
     --tcn: #B2BAA4;
     --other: var(--darkgray);
+    --no-opt-in: #243E95;
     --opt-in: #2ca25f;
-    --open-source: #2ca25f;
+    --no-open-source: var(--no-opt-in);
+    --open-source: var(--opt-in);
     --no-government: var(--decentralized);
     --government: var(--centralized);
 }
@@ -34,15 +36,19 @@ hr {
     border-color: var(--lightgray);
 }
 h1, h2, h3, legend, label,
-p.label, th .footer, .caption {
+p.label, th .footer, .caption, .title,
+th.sorting, th.sorting_asc, th.sorting_desc {
     font-family: 'Roboto Mono', monospace;
     color: var(--white);
+    fill: var(--white);
 }
 a, p, text, td, li,
+text.label,
 #app-table div.dataTables_inf,
 #app-table div.dataTables_paginate a {
     font-family: 'Manrope', sans-serif;
     color: var(--white);
+    fill: var(--white);
 }
 p.description {
     font-size: 12px;
@@ -50,6 +56,7 @@ p.description {
 .description, .label {
     alignment-baseline: top;
     vertical-align: top;
+    line-height: 1.5em;
 }
 
 path.country {

@@ -19,7 +19,7 @@ data_persistence_days,30,30 days,
 data_persistence_days,unlimited,Unlimited,No expressed limit on data storage
 government,no,No,No express government involvement
 government,yes,Yes,Government is partner or main backer
-opt_in,no,No,Users can freely choose whether to download/use the app
-opt_in,yes,Yes,App use is mandatory
+opt_in,no,No,App use is mandatory
+opt_in,yes,Yes,Users can freely choose whether to download/use the app
 open_source,no,No,Implementation is open source
 open_source,yes,Yes,Implementation is not open source
