@@ -1,5 +1,7 @@
 # Ethical and privacy implications of using large-scale smartphone data to monitor the spread of COVID-19 
 
+**Matthew Stewart and Benjamin Levy**
+
 
 > *“There is an understandable desire to marshal all tools that are at our disposal to help confront the pandemic, [...]. Yet countries’ efforts to contain the virus must not be used as an excuse to create a greatly expanded and more intrusive digital surveillance system.”* 
 > 
@@ -9,7 +11,7 @@
 
 The outbreak of the SARS-nCoV-2 virus --- responsible for the novel coronavirus disease of 2019 called COVID-19 --- has resulted in an ongoing global pandemic that has infected more than 3 million people and killed over 200,000 people (as of April 28th 2020, shown in Figure 1). In response to the pandemic, many countries have put in place draconian measures compelling entire populations to remain indoors under quarantine to help stop the spread, and enforcing social distancing measures in public places. Due to these measures we have seen substantial rises in telecommuting, as well as a dramatic increase in unemployment as a result of weakened consumer spending.
 
-![](https://cdn.mos.cms.futurecdn.net/oRrbj5ZnZEj2rmFj9BzoJN-1024-80.jpg.webp)
+![](https://cdn.mos.cms.futurecdn.net/oRrbj5ZnZEj2rmFj9BzoJN-1024-80.jpg)
 
 **Figure 1:** COVID-19 dashboard. Source: [John Hopkins University](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6).
 
@@ -48,7 +50,9 @@ The rapid development of these schemes by a multitude of sources including gover
 
 In addition to the platforms themselves, several concerns have been raised about the quality of the data obtained from such platforms. There are two types of platforms that have been proposed: Bluetooth-based contact tracing and Global Positioning System (GPS)-based contact tracing. Bluetooth-based contact tracing utilizes short-range Bluetooth communication between smartphones. Thus, signals are only sent if two people are within a certain proximity. However, if two individuals visit the same location but at different times, and the virus was transmitted through touch via a fomite (an object carrying the virus), the bluetooth-based mechanism would not pick up on this transmission event. GPS-based methods utilize smartphone geolocation data and do not suffer from this specific problem. Instead, the disadvantage of GPS is in its lower resolution than bluetooth. GPS signal accuracy in smartphones can vary widely but has been found to be around 4.9m ([ION](https://www.ion.org/publications/abstract.cfm?articleID=13079), 2015). In addition to these issues, the time resolution of the data may not be sufficient to pick up on many transmission events. However, high-risk individuals are deemed to be those within 6 meters of each other for 15 minutes or more, meaning that a time resolution of 15 minutes will likely pick up on the majority of cases.
 
-The aforementioned problems are challenges with the data collection itself. When we add in the human and social elements, more pernicious complications come into effect. For example, the individual who forgets to take their phone to the grocery store, or people living in remote locations that have limited access to cellular data or internet. There is also a significant portion of the population that do not have a smartphone, including a substantial proportion of elderly people --- those known to be at high risk if infected. Many of the systems require active opt-in, including for both passive tracking and active disclosure of symptoms/positive test results. If and when an individual contracts the disease, they may still have the decision not to disclose this information for whatever reason. Lastly, the system's efficacy is tied to its ability to exploit network effects --- the more people using the system, the more valuable the information it provides. If even a minor portion of the population choose not to use it, the system's utility is reduced. 
+The aforementioned problems are challenges with the data collection itself. When we add in the human and social elements, more pernicious complications come into effect. For example, the individual who forgets to take their phone to the grocery store, or people living in remote locations that have limited access to cellular data or internet. There is also a significant portion of the population that do not have a smartphone, including a substantial proportion of elderly people --- those known to be at high risk if infected. Many of the systems require active opt-in, including for both passive tracking and active disclosure of symptoms/positive test results. If and when an individual contracts the disease, they may still have the decision not to disclose this information for whatever reason. Lastly, the system's efficacy is tied to its ability to exploit network effects --- the more people using the system, the more valuable the information it provides. If even a minor portion of the population choose not to use it, the system's utility is reduced.
+
+False positives also present a challenge, as they can arise for a variety of reasons involving technical and human elements. For example, Bluetooth signals can pass through most walls, which may result in specious signals. Similarly, if an individual self-diagnoses themself incorrectly, it may result in a domino effect that is difficult to correct. This has been one argument by health authorities to use a centralized system such that errors like this can be corrected in a timely manner. In addition, coronavirus testing is now widespread, but it is not 100% accurate. False positives from these tests may result in many other individuals needing to be tested unnecessarily, which may also throw up several false positives and put strain on the healthcare system.
 
 Researchers at the [Oxford University Big Data Institute](https://www.bdi.ox.ac.uk/news/infectious-disease-experts-provide-evidence-for-a-coronavirus-mobile-app-for-instant-contact-tracing) have used simulations to find that if such an app were rolled out in the United Kingdom, 80% of smartphone users or 56% of the U.K. population would be sufficient to suppress the virus with effective reproductive number $R < 1$ (Hinch et al., 2020).
 
@@ -198,7 +202,7 @@ Including both apps that are for contact tracing and those for quarantine enforc
 
 ## Discussion
 
-The astronomic pace at which COVID-19 contact tracing applications have been developed and released has, until now, outstripped the ability of academics and policymakers to adequately assess and regulate this space. In this study, we have provided a synthesis of existing databases of contact tracing applications, supplemented with additional apps found in the course of research, to create, to our knowledge, the most comprehensive collection of contact tracing applications for COVID-19 to date.
+The astronomic pace at which COVID-19 contact tracing applications have been developed and released has, until now, outstripped the ability of academics and policymakers to adequately assess and regulate this space. In this paper, we have provided a synthesis of existing databases of contact tracing applications, supplemented with additional apps found in the course of research, to create, to our knowledge, the most comprehensive collection of contact tracing applications for COVID-19 to date.
 
 ### Comparison of protocols
 
@@ -228,9 +232,9 @@ In contrast to the government-driven centralized approach of OpenTrace/BlueTrace
 
 More recently, various public and private institutions in the European Union have been collaborating on a European privacy-preserving bluetooth protocol for contact tracing. On the one hand is PEPP-PT (Pan-European Privacy-Preserving Proximity Tracing). This is a government-led project that bears several key similarities to the Singaporean model, namely that rotating random IDs are used to establish contact via Bluetooth and that contact histories are stored locally until the point at which a user tests positive, whereupon they can opt in to sharing their contact history with the central authority. Depending on the country and app, these contacts can be broadcast out to all users, who then perform matching on their own devices locally (PEPP-PT, 2020). Two examples of projects that are implementing part of all of the PEPP-PT protocol are the U.K.'s [NHSX](https://www.nhsx.nhs.uk/blogs/digital-contact-tracing-protecting-nhs-and-saving-lives/) contact tracing app and France's [ROBERT](https://github.com/ROBERT-proximity-tracing/documents) (ROBust and privacy-presERving proximity Tracing).
 
-#### DP^3T (EU)
+#### DP-3T (EU)
 
-On the other hand is DP^3T (Decentralized Privacy-Preserving Proximity Tracing). As per the name, this is a completely decentralized alternative to PEPP-PT. The main dissimilarity is that when an individual is confirmed COVID-19-positive, they send their own history of anonymous keys (and the times each was used) to the server, which then broadcasts them to all other users on a periodic basis (e.g. once an hour). In this way, the entire graph of a user's contact history cannot be reconstructed by a potential adversary with access to the central server, since key or contact histories are never stored anywhere except for individual devices. Of course, clever adversaries could potentially re-identify infected users by setting up BLE listening devices to collect lists of user keys, but there is a low probability that this resource-intensive snooping method would result in a positive identification due to the fact that keys rotate so frequently (DP^3T Coalition, 2020).
+On the other hand is DP-3T (Decentralized Privacy-Preserving Proximity Tracing). As per the name, this is a completely decentralized alternative to PEPP-PT. The main dissimilarity is that when an individual is confirmed COVID-19-positive, they send their own history of anonymous keys (and the times each was used) to the server, which then broadcasts them to all other users on a periodic basis (e.g. once an hour). In this way, the entire graph of a user's contact history cannot be reconstructed by a potential adversary with access to the central server, since key or contact histories are never stored anywhere except for individual devices. Of course, clever adversaries could potentially re-identify infected users by setting up BLE listening devices to collect lists of user keys, but there is a low probability that this resource-intensive snooping method would result in a positive identification due to the fact that keys rotate so frequently (DP^3T Coalition, 2020).
 
 #### Apple/Google implementation
 
@@ -255,76 +259,73 @@ Apple and Google released draft technical documentation about the Bluetooth and 
 
 However, this implementation is by no means perfect, and concerns have been raised by notable organizations and privacy advocates. The phase 1 implementation involves a voluntary app to be downloaded on a user's device. However, in phase 2, the tracing functionality will be programmed into the operating system of iPhone and Android devices, without the need to download an app. This eliminates the consent of the user which presents privacy concerns. Apple and Google have mentioned that they will remove the provisions once the pandemic has dissipated, but no specific timeline has been provided. In addition, the decentralized nature of the implementation also means that it is more difficult to update if there are any bugs or security issues. If a security issue does arise at this point, it leaves many devices potentially vulnerable to being compromised. The ACLU stated the Google and Apple's approach "*appears to mitigate the worst privacy and centralization risks, but there is still room for improvement*" ([ACLU](https://www.aclu.org/press-releases/aclu-comment-applegoogle-covid-19-contact-tracing-effort), 2020).
 
-**SUMMARY**
+![](https://i.imgur.com/bt7iUgz.png)
 
-[CHART SHOWING COMPARISON OF THE PROTOCOLS (GPS VS BLUETOOTH; CENTRALIZED VS. DECENTRALIZED)]
+**Figure 6:** Summary of main protocols for privacy-preserving mobile phone contact tracing.
 
 ### Recommendations
 
 
 ## Conclusion
 
-The COVID-19 pandemic has purportedly reached its peak in several countries, with some governments beginning to ease restrictions. However, it has become increasingly clear that the virus will remain with us for many months, potentially years or indefinitely. Using location data to help governments track and quickly respond to new infections and flare-ups has drawn much attention as one potential solution. However, we have shown that public adoption is the most critical aspect for successful contact tracin
+The COVID-19 pandemic has purportedly reached its peak in several countries, with some governments beginning to ease restrictions. However, it has become increasingly clear that the virus will remain with us for many months, potentially years or indefinitely. Using location data to help governments track and quickly respond to new infections and flare-ups has drawn much attention as one potential solution. However, it is clear that public adoption is the most critical aspect for successful contact tracing applications. Since it would be unacceptable to coerce people into using these applications, as this would violate several important ethical guidelines, the main avenue to promote adoption is to work on building public trust. It is vital that the public feel that they are in control of their data at all times. Thus, we recommend to build public trust through the use of non-coercive, decentralized, encrypted and anonymous contact tracing schemes, that require informed consent for operation.
 
-
-.... Therefore, we caution...
-
-These systems cannot be effective if people do not trust them. People will only trust these systems if they protect privacy, remain voluntary, and store data on an individual's device, not a centralized repository. The bluetooth-based privacy-preserving system developed by Google and Apple has been given the green light by the ACLU, but they caution that there is still room for improvement. That being said, they are far less invasive than schemes involving any form of geolocation data, social or government coercion, or centralized data storage.
+The bluetooth-based privacy-preserving system developed by Google and Apple is so far the most ethical implementation. It has been given the green light by the ACLU, but they caution that there is still room for improvement. That being said, they are far less invasive than schemes involving any form of geolocation data, social or government coercion, centralized data storage, or lack of informed consent.
 
 
 References
 ---
-Mehta, Ivan (2020-03-03). "China's coronavirus detection app is reportedly sharing citizen data with police". The Next Web. Retrieved 2020-04-01.
 
-Dudden, Alexis; Marks, Andrew (2020-03-20). "South Korea took rapid, intrusive measures against Covid-19 – and they worked". The Guardian. ISSN 0261-3077. Retrieved 2020-04-01.
-
-Kelion, Leo (2020-04-01). "Moscow coronavirus app raises privacy concerns". BBC News. Retrieved 2020-04-01.
-
-Kelion, Leo (31 March 2020). "UK considers virus-tracing app to ease lockdown". Retrieved 2020-04-01 – via www.bbc.co.uk.
-
-Gorey, Colm (2020-03-30). "HSE announces coronavirus contact-tracing app, but privacy concerns remain". Silicon Republic. Retrieved 2020-04-01.
-
-Phelan, David (2020-04-14). "COVID-19: Google And Apple Reveal More Intriguing Details Of Contact-Tracing". Retrieved 2020-04-15. [Link](https://www.forbes.com/sites/davidphelan/2020/04/14/covid-19-google-and-apple-reveal-more-intriguing-details-of-contact-tracing/#3f212a593d20)
-
-Oliver, Nuria (2020-03-26). “Mobile phone data and COVID-19: Missing an opportunity?”. Preprint. Retrieved 2020-04-02. https://arxiv.org/pdf/2003.12347.pdf.
-
-E. Kenneally and D. Dittrich, "The Menlo Report: Ethical Principles Guiding Information and Communication Technology Research", Tech. Report., U.S. Department of Homeland Security, Aug 2012. [Link](https://www.dhs.gov/sites/default/files/publications/CSD-MenloPrinciplesCORE-20120803_1.pdf).
-
-Sweeney, L. (2000). Simple demographics often identify people uniquely. Health (San Francisco), 671, 1-34. [Link](http://ggs685.pbworks.com/w/file/fetch/94376315/Latanya.pdf)
-
-Privacy International  (2020-04). Tracking the Global Response to COVID-19. Retrieved 2020-04-26 via [link](https://privacyinternational.org/examples/tracking-global-response-covid-19).
-
-McArthur, Rachel (2020-04-08). Bahrain launches electronic bracelets to keep track of active COVID-19 cases. Retrieved 2020-04-26 via [link](https://www.mobihealthnews.com/news/europe/bahrain-launches-electronic-bracelets-keep-track-active-covid-19-cases).
-
-Bostock, Bill (2020-04-11). South Korea launched wristbands for those breaking quarantine because people were leaving their phones at home to trick government tracking apps. Retrieved on 2020-04-28 via [link](https://www.businessinsider.com/south-korea-wristbands-coronavirus-catch-people-dodging-tracking-app-2020-4).
+Bay, J., Kek, J., Tan, A., Hau, C. S., Yongquan, L., Tan, J., Quy, T. A. (2020). BlueTrace: A privacy-preserving protocol for
+community-driven contact tracing across borders. [https://bluetrace.io/static/bluetrace_whitepaper-938063656596c104632def383eb33b3c.pdf](https://bluetrace.io/static/bluetrace_whitepaper-938063656596c104632def383eb33b3c.pdf).
 
 BBC News, 2020-04-24. Coronavirus: People-tracking wristbands tested to enforce lockdown. Retrieved on 2020-04-26 via [link](https://www.bbc.com/news/technology-52409893).
 
-Khalid, Amrita (2020-04-23). Utah’s new Covid-19 contact tracing app will track user locations. Retrieved on 2020-04-27 via [link]( https://qz.com/1843418/utahs-new-covid-19-contact-tracing-app-will-track-user-locations/).
+BlueTrace. (2020). TraceTogether - an overview. [Link](https://bluetrace.io/policy/).
 
-Hinch, Robert; Probert, Will; Nurtay, Anel; Kendall, Michelle; Wymant, Chris; Hall, Matthew; Lythgoe, Katrine; Bulas Cruz, Ana; Zhao, Lele; Stewart, Andrea; Feretti, Luca; Parker, Michael; Meroueh, Area; Mathias, Bryn; Stevenson, Scott; Montero, Daniel; Warren, James; Mathew, Nicole K.; Finkelstein, Anthony; Abeler-Dörner, Lucie; Bonsall, David; Fraser, Christophe. "Effective Configurations of a Digital Contact Tracing App: A report to NHSX". Preprint. 16 April, 2020. [Link.](https://github.com/BDI-pathogens/covid-19_instant_tracing/blob/master/Report%20-%20Effective%20Configurations%20of%20a%20Digital%20Contact%20Tracing%20App.pdf)
-
-Hart, Vi; Siddarth, Divya; Cantrell, Betha; Tretikov, Lila; Eckersley, Peter; Langford, John; Leibrand, Scott; Kakade, Sham; Latta, Steve; Lewis, Dana; Tessaro, Stefano; Weyl, Glen. "Outpacing the Virus: Digital Response to Containing the Spread of COVID-19 while Mitigating Privacy Risks". 3 April 2020. White paper. [Link](https://ethics.harvard.edu/files/center-for-ethics/files/white_paper_5_outpacing_the_virus_final.pdf)
+Bostock, Bill (2020-04-11). South Korea launched wristbands for those breaking quarantine because people were leaving their phones at home to trick government tracking apps. Retrieved on 2020-04-28 via [link](https://www.businessinsider.com/south-korea-wristbands-coronavirus-catch-people-dodging-tracking-app-2020-4).
 
 Dodd, Darren (2020-04-20). Contact-tracing apps raise surveillance fears. Retrieved on 2020-04-28 via [link](https://www.ft.com/content/005ab1a8-1691-4e7b-8e10-0d3d2614a276).
 
+DP-3T Coalition (2020). Decentralized Privacy-Preserving Proximity Tracing. [Link](https://github.com/DP-3T/documents/blob/master/DP3T%20White%20Paper.pdf).
+
+Dudden, Alexis; Marks, Andrew (2020-03-20). "South Korea took rapid, intrusive measures against Covid-19 – and they worked". The Guardian. ISSN 0261-3077. Retrieved 2020-04-01.
+
+E. Kenneally and D. Dittrich, "The Menlo Report: Ethical Principles Guiding Information and Communication Technology Research", Tech. Report., U.S. Department of Homeland Security, Aug 2012. [Link](https://www.dhs.gov/sites/default/files/publications/CSD-MenloPrinciplesCORE-20120803_1.pdf).
+
+Gorey, Colm (2020-03-30). "HSE announces coronavirus contact-tracing app, but privacy concerns remain". Silicon Republic. Retrieved 2020-04-01.
+
+Guariglia, Matthew. (2020). The Dangers of COVID-19 Surveillance Proposals to the Future of Protest. Electronic Frontier Foundation. [Link](https://www.eff.org/deeplinks/2020/04/some-covid-19-surveillance-proposals-could-harm-free-speech-after-covid-19).
+
+Hart, Vi; Siddarth, Divya; Cantrell, Betha; Tretikov, Lila; Eckersley, Peter; Langford, John; Leibrand, Scott; Kakade, Sham; Latta, Steve; Lewis, Dana; Tessaro, Stefano; Weyl, Glen. "Outpacing the Virus: Digital Response to Containing the Spread of COVID-19 while Mitigating Privacy Risks". 3 April 2020. White paper. [Link](https://ethics.harvard.edu/files/center-for-ethics/files/white_paper_5_outpacing_the_virus_final.pdf)
+
+Hinch, Robert; Probert, Will; Nurtay, Anel; Kendall, Michelle; Wymant, Chris; Hall, Matthew; Lythgoe, Katrine; Bulas Cruz, Ana; Zhao, Lele; Stewart, Andrea; Feretti, Luca; Parker, Michael; Meroueh, Area; Mathias, Bryn; Stevenson, Scott; Montero, Daniel; Warren, James; Mathew, Nicole K.; Finkelstein, Anthony; Abeler-Dörner, Lucie; Bonsall, David; Fraser, Christophe. "Effective Configurations of a Digital Contact Tracing App: A report to NHSX". Preprint. 16 April, 2020. [Link.](https://github.com/BDI-pathogens/covid-19_instant_tracing/blob/master/Report%20-%20Effective%20Configurations%20of%20a%20Digital%20Contact%20Tracing%20App.pdf)
+
+Kelion, Leo (2020-04-01). "Moscow coronavirus app raises privacy concerns". BBC News. Retrieved 2020-04-01.
+
 Kelion, Leo (2020-03-31). Coronavirus: UK considers virus-tracing app to ease lockdown. Retrieved on 2020-04-28 via [link](https://www.bbc.com/news/technology-52095331).
+
+Khalid, Amrita (2020-04-23). Utah’s new Covid-19 contact tracing app will track user locations. Retrieved on 2020-04-27 via [link]( https://qz.com/1843418/utahs-new-covid-19-contact-tracing-app-will-track-user-locations/).
 
 Kirzinger, Ashley; Hamel, Liz; Muñana, Cailey; Kearney, Audrey; Brodie, Mollyann (2020-04-24). KFF Health Tracking Poll - Late April 2020: Coronavirus, Social Distancing, and Contact Tracing. Retrieved on 2020-04-28 via [link](https://www.kff.org/global-health-policy/issue-brief/kff-health-tracking-poll-late-april-2020/).
 
 Linton, N. M., Kobayashi, T., Yang, Y., Hayashi, K., Akhmetzhanov, A. R., Jung, S. M., ... & Nishiura, H. (2020). Incubation period and other epidemiological characteristics of 2019 novel coronavirus infections with right truncation: a statistical analysis of publicly available case data. Journal of clinical medicine, 9(2), 538. [Link](https://doi.org/10.3390/jcm9020538).
 
-Guariglia, Matthew. (2020). The Dangers of COVID-19 Surveillance Proposals to the Future of Protest. Electronic Frontier Foundation. [Link](https://www.eff.org/deeplinks/2020/04/some-covid-19-surveillance-proposals-could-harm-free-speech-after-covid-19).
+McArthur, Rachel (2020-04-08). Bahrain launches electronic bracelets to keep track of active COVID-19 cases. Retrieved 2020-04-26 via [link](https://www.mobihealthnews.com/news/europe/bahrain-launches-electronic-bracelets-keep-track-active-covid-19-cases).
 
-Raskar, R., Schunemann, I., Barbar, R., Vilcans, K., Gray, J., Vepakomma, P., Kapa, S., Nuzzo, A., Gupta, R., Berke, A., Greenwood, D., Keegan, C., Kanaparti, S., Beaudry, R., Stansbury, D., Botero Arcila, B., Kanaparti, R., Pamplona, V., Benedetti, F. M., Clough, A., Das, R., Jain, K., Louisy, K., Naeau, G., Penrod, S., Rajaee, Y., Singh, A., Storm, G., Werner, J. (2020). Apps Gone Rogue: Maintaining Personal Privacy in an Epidemic.
+Mehta, Ivan (2020-03-03). "China's coronavirus detection app is reportedly sharing citizen data with police". The Next Web. Retrieved 2020-04-01.
 
-BlueTrace. (2020). TraceTogether - an overview. [Link](https://bluetrace.io/policy/).
 
-Bay, J., Kek, J., Tan, A., Hau, C. S., Yongquan, L., Tan, J., Quy, T. A. (2020). BlueTrace: A privacy-preserving protocol for
-community-driven contact tracing across borders. [https://bluetrace.io/static/bluetrace_whitepaper-938063656596c104632def383eb33b3c.pdf](https://bluetrace.io/static/bluetrace_whitepaper-938063656596c104632def383eb33b3c.pdf).
-
-TCN Coalition (2020). The TCN Protocol. [Link](https://github.com/TCNCoalition/TCN).
+Oliver, Nuria (2020-03-26). “Mobile phone data and COVID-19: Missing an opportunity?”. Preprint. Retrieved 2020-04-02. https://arxiv.org/pdf/2003.12347.pdf.
 
 PEPP-PT (2020). Pan-European Privacy-Preserving Proximity Tracing - High Level Overview. [Link](https://github.com/pepp-pt/pepp-pt-documentation/blob/master/PEPP-PT-high-level-overview.pdf).
 
-DP^3T Coalition (2020). Decentralized Privacy-Preserving Proximity Tracing. [Link](https://github.com/DP-3T/documents/blob/master/DP3T%20White%20Paper.pdf).
+Phelan, David (2020-04-14). "COVID-19: Google And Apple Reveal More Intriguing Details Of Contact-Tracing". Retrieved 2020-04-15. [Link](https://www.forbes.com/sites/davidphelan/2020/04/14/covid-19-google-and-apple-reveal-more-intriguing-details-of-contact-tracing/#3f212a593d20).
+
+Privacy International  (2020-04). Tracking the Global Response to COVID-19. Retrieved 2020-04-26 via [link](https://privacyinternational.org/examples/tracking-global-response-covid-19).
+
+Raskar, R., Schunemann, I., Barbar, R., Vilcans, K., Gray, J., Vepakomma, P., Kapa, S., Nuzzo, A., Gupta, R., Berke, A., Greenwood, D., Keegan, C., Kanaparti, S., Beaudry, R., Stansbury, D., Botero Arcila, B., Kanaparti, R., Pamplona, V., Benedetti, F. M., Clough, A., Das, R., Jain, K., Louisy, K., Naeau, G., Penrod, S., Rajaee, Y., Singh, A., Storm, G., Werner, J. (2020). Apps Gone Rogue: Maintaining Personal Privacy in an Epidemic.
+
+Sweeney, L. (2000). Simple demographics often identify people uniquely. Health (San Francisco), 671, 1-34. [Link](http://ggs685.pbworks.com/w/file/fetch/94376315/Latanya.pdf).
+
+TCN Coalition (2020). The TCN Protocol. [Link](https://github.com/TCNCoalition/TCN).
