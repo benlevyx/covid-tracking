@@ -263,9 +263,6 @@ However, this implementation is by no means perfect, and concerns have been rais
 
 **Figure 6:** Summary of main protocols for privacy-preserving mobile phone contact tracing.
 
-### Recommendations
-
-
 ## Conclusion
 
 The COVID-19 pandemic has purportedly reached its peak in several countries, with some governments beginning to ease restrictions. However, it has become increasingly clear that the virus will remain with us for many months, potentially years or indefinitely. Using location data to help governments track and quickly respond to new infections and flare-ups has drawn much attention as one potential solution. However, it is clear that public adoption is the most critical aspect for successful contact tracing applications. Since it would be unacceptable to coerce people into using these applications, as this would violate several important ethical guidelines, the main avenue to promote adoption is to work on building public trust. It is vital that the public feel that they are in control of their data at all times. Thus, we recommend to build public trust through the use of non-coercive, decentralized, encrypted and anonymous contact tracing schemes, that require informed consent for operation.
