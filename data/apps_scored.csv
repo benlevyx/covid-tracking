@@ -1,0 +1,102 @@
+﻿Name,Country,Links,1.1. App has defined lifetime,1.2. Data storage is time-limited,2.1. Opt-in download and use,2.2. Opt-in data sharing,2.3. Not tied to other benefits,3.1. Data used only for establishing contacts,3.2. No PII collection,4.1. Open source,4.2. Published privacy policy,5.1. Freely available,5.2. Android and iOS (when necessary),6.1. Decentralized storage,6.2. Can erase data,7.1. Decentralized matching,7.2. Rotating randomized beacon,"8.1. Contact accuracy (BLE, not GPS or other)",8.2. Positive cases verified by test,protocol
+Hi5X,unknown,https://hi5x-app.com,unknown,21 days,yes,unknown,unknown,unknown,unknown,no,no,yes,both,unknown,unknown,unknown,unknown,gps + qr code,unknown,none
+COVIDSafe,Australia,https://www.health.gov.au/resources/apps-and-tools/covidsafe-app,yes,21 days,yes,yes,yes,yes,no,yes,yes,yes,both,no,yes,no,yes,ble,yes,none
+Stopp Corona,Austria,https://www.roteskreuz.at/site/faq-app-stopp-corona/datenschutzinformation-zur-stopp-corona-app/#c253470,yes,14 days,yes,yes,yes,yes,yes,yes,yes,yes,android only,yes,yes,yes,yes,ble,no (self-report),Apple/Google
+BeAware,Bahrain,https://play.google.com/store/apps/details?id=bh.bahrain.corona.tracker,no,no,no,no,no,no,no,no,no,yes,android only,no,no,no,no,gps + ebracelet,yes,none
+Covid Radius,Belgium,https://www.usine-digitale.fr/article/covid-19-le-port-d-anvers-recourt-a-un-bracelet-connecte-pour-faire-respecter-la-distanciation-sociale.N957046,no,14 days,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,unknown,none
+Unmaze,Bulgaria,http://cyborgsys.com/unmaze/,no,no,unknown,unknown,unknown,unknown,unknown,no,no,no,unknown,unknown,unknown,unknown,unknown,gps + wifi,unknown,none
+ViruSafe,Bulgaria,https://play.google.com/store/apps/details?id=bg.government.virusafe,no,unknown,yes,yes,unknown,yes,no,yes,yes,yes,both,unknown,unknown,no,unknown,ble + gps,unknown,none
+ABTraceTogether,Canada,https://www.alberta.ca/ab-trace-together-privacy.aspx,yes,21 days,yes,yes,yes,yes,yes,no,yes,yes,both,no,yes,no,yes,ble,yes,OpenTrace
+ConTrac,Canada,https://livnao.com/covid19/,no,no,no,no,unknown,unknown,no,no,no,no,unknown,unknown,unknown,no,unknown,unknown,unknown,none
+Covi,Canada,https://covicanada.org/?gclid=CjwKCAjw8J32BRBCEiwApQEKgYT17Ril920EAZBfnUYbJWm81Q5bj-TBpwzTUtWVT0JZA1FKtUBMKhoC96sQAvD_BwE,yes,30 days,yes,yes,yes,yes,no,yes,yes,yes,both,yes,yes,yes,yes,ble,no (AI),none
+COVID Alert,Canada,https://www.cbc.ca/news/politics/contact-tracing-app-1.5617121,yes,14 days,yes,yes,yes,yes,yes,yes,no,yes,unknown,yes,yes,yes,yes,ble,unknown,Apple/Google
+flaat,Canada,https://app.flaat.io/,unknown,unknown,yes,yes,yes,yes,unknown,yes,yes,yes,iOS only,yes,yes,yes,yes,ble,yes,TCN
+MyTrace,Canada,https://www.mytrace.ca/,unknown,28 days,yes,yes,yes,gps,no,no,yes,yes,both,yes,yes,no,no,gps,unknown,none
+Alipay Health Code + Close Contact Detector,China,https://www.nytimes.com/2020/03/01/business/china-coronavirus-surveillance.html,unknown,unknown,no,no,no,unknown,no,no,no,yes,both,no,no,no,unknown,ble + gps + qr code,unknown,none
+CoronApp,Colombia,https://coronaviruscolombia.gov.co/test/aislamiento-saludable/coronapp.html,unknown,unknown,yes,unknown,yes,yes,yes,no,no,yes,both,yes,unknown,no,yes,no,unknown,OpenTrace
+CovTracer,Cyprus,https://covid-19.rise.org.cy/en/,no,14 days,yes,yes,yes,gps,yes,no,no,yes,both,yes,yes,yes,na,gps,unknown,SafePaths
+ERouška,Czechia,https://erouska.cz,no,30 days,yes,yes,yes,yes,no,yes,yes,yes,both,yes,yes,yes,yes,ble,yes,none
+Unnamed,Estonia,https://e-estonia.com/trace-covid-19-while-respecting-privacy/,unknown,yes,yes,yes,yes,yes,unknown,unknown,no,yes,unknown,yes,yes,yes,yes,ble,unknown,DP3T
+CoCOVID,EU,https://cocovid.info/,unknown,30 days,yes,yes,unknown,unknown,no,no,no,yes,unknown,yes,unknown,unknown,unknown,ble,unknown,none
+Epidose,EU,https://github.com/dspinellis/epidose,unknown,unknown,yes,yes,unknown,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,ble,unknown,DP3T
+Ketju,Finland,https://gdprhub.eu/index.php?title=Projects_using_personal_data_to_combat_SARS-CoV-2#Finland:_Ketju_project_.28Private_.26_Public.29,unknown,unknown,yes,yes,unknown,unknown,unknown,yes,no,yes,unknown,unknown,unknown,unknown,unknown,unknown,unknown,none
+StopCovid,France,https://www.orange.com/en/content/download/54161/1485137/version/10/file/CP%STOPCOVID%26avril%EN.pdf,yes,unknown,yes,yes,yes,unknown,unknown,no,yes,yes,both,no,unknown,no,yes,ble,unknown,ROBERT
+Stop Covid,Georgia,https://play.google.com/store/apps/details?id=gov.georgia.novid20,unknown,unknown,yes,yes,yes,yes,unknown,no,no,yes,both,unknown,unknown,unknown,unknown,ble,yes,PEPP-PT
+Corona-Warn-App,Germany,https://www.coronawarn.app/,no,14 days,yes,yes,yes,yes,yes,yes,yes,yes,both,yes,yes,yes,yes,ble,yes,TCN + DP3T
+Corona GO,Germany,https://corona-go.de/,yes,yes,yes,yes,yes,yes,unknown,yes,yes,yes,unknown,unknown,yes,no,unknown,ble,unknown,PEPP-PT
+Coronika,Germany,https://www.coronika.app/,no,no,yes,yes,yes,na,no,yes,yes,yes,android only,yes,yes,na,na,na,na,none
+Cotect,Germany,https://cotect.launchaco.com/,no,14,yes,yes,yes,na,yes,yes,yes,yes,both,no,yes,no,na,gps,unknown,none
+Ito,Germany,https://www.ito-app.org/,no,yes,yes,yes,yes,yes,unknown,yes,no,yes,android only,yes,yes,yes,yes,ble,yes,TCN
+my co:radar,Germany,http://mycoradar.de/my-coradar-eu/,no,20 days,yes,yes,unknown,yes,yes,yes,yes,yes,android only,yes,yes,no,no,ble,unknown,none
+OHIOH,Germany,https://ohioh.de/,no,14 days,yes,yes,yes,yes,yes,yes,yes,yes,both,yes,yes,yes,yes,ble + gps,unknown,TCN
+Pandoa,Germany,https://pandoa.org/,no,14 days,yes,yes,yes,na,yes,yes,yes,yes,both,yes,yes,yes,yes,gps,self-report,none
+GH COVID-19 Tracker App,Ghana,https://ghcovid19.com/,unknown,unknown,yes,yes,na,unknown,no,no,no,yes,both,no,unknown,no,no,cell tower location,unknown,none
+Covid Community Alert,Global,https://coronavirus-outbreak-control.github.io/web/index_en.html,unknown,14 days,yes,yes,unknown,unknown,yes,yes,no,yes,both,unknown,unknown,unknown,no,ble,unknown,none
+Stay Home Safe,Hong Kong,https://www.coronavirus.gov.hk/eng/stay-home-safe.html,unknown,no,no,no,no,na,no,no,no,yes,both,no,no,na,no,ble + gps + wifi,na,none
+VirusRadar,Hungary,https://virusradar.hu/,unknown,30 days,yes,yes,yes,yes,no,no,no,yes,both,yes,yes,no,no,ble,unknown,none
+Rakning C-19,Iceland,https://www.covid.is/app/,no,14 days,yes,yes,yes,na,no,yes,yes,yes,both,yes,yes,no,na,gps,yes,none
+Aarogya Setu,India,https://theprint.in/opinion/india-can-prevent-long-term-lockdown-contain-covid-if-90-people-download-aarogya-setu/401116/,no,45 days,no,no,no,unknown,no,yes,yes,yes,both,no,yes,no,no,ble + gps,yes,none
+COVA Punjab,India,https://www.tribuneindia.com/news/punjab/now-get-updates-on-cova-punjab-app-62406,no,unknown,yes,yes,unknown,unknown,no,no,no,yes,both,no,unknown,no,na,gps,unknown,none
+COVID-19 Quarantine Monitor,India,https://www.deccanherald.com/national/south/coronavirus-tamil-nadu-launches-app-to-provide-advice-to-those-under-home-quarantine-816562.html,no,unknown,no,no,no,quarantine,no,no,no,yes,android only,no,no,na,no,na,yes,none
+Mahakavach,India,https://play.google.com/store/apps/details?id=com.mahakavach&hl=en_CA,no,unknown,no,no,no,no (quarantine enforcement),no,no,no,yes,android only,no,unknown,no,no,gps,yes,none
+Quarantine Watch,India,https://www.business-standard.com/article/technology/quarantine-watch-karnataka-uses-apps-to-keep-track-of-people-under-watch-120040201641_1.html,no,unknown,no,no,no,no (quarantine),no,no,no,yes,android only,no,no,no,no,gps,yes,none
+SAIYAM,India,https://government.economictimes.indiatimes.com/news/digital-india/pune-municipal-corporation-develops-saiyam-app-to-track-home-quarantine/75286114,no,unknown,no,no,no,no (quarantine),no,no,no,yes,android only,no,no,no,no,gps,yes,none
+SMC COVID-19 Tracker,India,https://pib.gov.in/PressReleseDetailm.aspx?PRID=1613926,no,no,no,no,no,no (quarantine),no,no,no,yes,android only,no,no,no,no,gps,yes,none
+Tracy,India,https://www.gettracy.app/,no,no,yes,yes,no,unknown,unknown,yes,no,yes,android only,maybe (blockchain),no,unknown,na,gps,unknown,none
+Unmaze,India,https://www.expresscomputer.in/news/indian-ai-startup-creates-app-that-alerts-presence-of-nearby-home-quarantined-people-for-coronavirus/52117/,no,no,no,no,no,no (quarantine),no,no,no,yes,unknown,no,no,na,na,gps,unknown,none
+PeduliLindungi,Indonesia,https://play.google.com/store/apps/details?id=com.telkom.tracencare,no,14 days,yes,yes,unknown,unknown,yes,no,no,yes,both,yes,unknown,no,unknown,ble,unknown,none
+AC19,Iran,https://ac19.ir/,no,no,yes,yes,unknown,unknown,no,no,no,yes,android only,no,unknown,no,unknown,ble + gps,unknown,none
+Mask.ir,Iran,https://mask.ir/faq.html,yes,no,yes,yes,no,unknown,no,no,yes,yes,both,no,yes,no,unknown,ble + gps + qr code,unknown,none
+HSE Covid-19 App,Ireland,https://github.com/HSEIreland/,no,28 days,yes,yes,yes,yes,no,yes,yes,yes,both,yes,yes,yes,yes,ble,yes,Apple/Google
+Code Orange,Israel,https://docs.google.com/document/d/1Nv_Uxt3ATyzaD-rY5nu-BU-CXNHvF9LblwdOFzWc0s4,no,14 days,yes,yes,unknown,unknown,unknown,no,no,yes,both,unknown,unknown,no,na,gps,unknown,none
+HaMagen,Israel,https://govextra.gov.il/ministry-of-health/hamagen-app/download-en/,no,14 days,yes,yes,yes,yes,yes,yes,no,yes,both,yes,yes,no,na,gps,yes,none
+Track Virus,Israel,https://www.track-virus.com/,no,unknown,yes,yes,yes,unknown,unknown,no,no,yes,both,yes,unknown,no,na,gps,yes,none
+diAry,Italy,https://covid19app.uniurb.it/en/diary-lets-stop-covid-19-together/,no,30 days,yes,yes,no (WOM vouchers),no,no,yes,yes,yes,both,yes,yes,no,na,gps,unknown,none
+Immuni,Italy,https://www.nytimes.com/reuters/2020/04/17/technology/17reuters-health-coronavirus-italy-technology.html,yes,14 days,yes,yes,yes,yes,yes,yes,yes,yes,both,yes,yes,yes,yes,ble,yes,Apple/Google
+SM-COVID-19,Italy,https://www.smcovid19.org/,unknown,30 days,yes,yes,yes,no (gps for heatmap),unknown,no,yes,yes,both,yes,yes,no,yes,ble,unknown,ReCoVer
+COVID19Radar,Japan,https://lp-covid-19radarjapan.studio.design/,no,14 days,yes,yes,yes,unknown,no,yes,yes,yes,both,yes,yes,yes,yes,ble,yes,none
+AMAN App,Jordan,https://www.amanapp.jo/en,no,14 days,yes,yes,unknown,yes,yes,no,yes,yes,both,yes,yes,no,na,gps,yes,none
+Apturi Covid,Latvia,https://apturicovid.lv/#en,no,14 days,yes,yes,yes,yes,yes,yes,yes,yes,both,yes,yes,yes,yes,ble,yes,Apple/Google
+Gerak Malaysia,Malaysia,https://www.gerakmalaysia.gov.my/,yes,no,no,no,no,unknown,no,no,yes,yes,both,no,unknown,no,no,gps,no,none
+MyTrace,Malaysia,https://www.malaysiakini.com/news/523824,yes,unknown,yes,yes,unknown,unknown,no,no,no,yes,both,unknown,unknown,unknown,unknown,ble,yes,unknown (possibly Apple/Google)
+CovidRadar,Mexico,http://covidradar.mx/,no,unknown,yes,yes,unknown,unknown,yes,no,yes,yes,both,unknown,unknown,unknown,unknown,ble,unknown,none
+Wiqaytna,Morocco,https://www.wiqaytna.ma/Default_Fr.aspx,yes,21 days,yes,yes,yes,yes,no,yes,yes,yes,both,yes,yes,yes,yes,ble,yes,none
+PrivateTracer,Netherlands,https://www.privatetracer.org/,unknown,unknown,yes,yes,yes,yes,no,yes,no,yes,both,yes,yes,yes,yes,ble,unknown,DP3T
+NZ COVID Tracer,New Zealand,https://tracing.covid19.govt.nz/,unknown,31 days,yes,yes,maybe,yes,no,no,yes,yes,both,yes,yes,no,na,qr code,yes,none
+StopKorona!,North Macedonia,https://stop.koronavirus.gov.mk/,no,14 days,yes,yes,yes,yes,no,no,yes,yes,both,yes,yes,no,no,ble,yes,none
+Smittestopp,Norway,https://helsenorge.no/smittestopp,no,30 days,yes,yes,yes,no (modelling),no,no,yes,yes,both,no,yes,no,no,ble + gps,yes,none
+PeruEnTusManos,Peru,https://play.google.com/store/apps/details?id=peruentusmanos.gob.pe,no,14 days,yes,yes,unknown,no,no,no,no,yes,both,no,unknown,no,unknown,ble + gps,no (self-diagnosis),none
+WeTrace,Philippines,https://www.wetrace.ph/,no,30 days,no,no,unknown,unknown,no,no,no,yes,both,unknown,unknown,unknown,na,gps,yes,none
+Kwarantanna Dommowa,Poland,https://www.politico.eu/article/poland-coronavirus-app-offers-playbook-for-other-governments/,no,no,no,no,no,no (quarantine),no,no,yes,yes,both,no,no,na,na,gps,yes,none
+ProteGO,Poland,github.com/ProteGO-app,no,14 days,yes,yes,yes,yes,yes,yes,yes,yes,both,yes,yes,yes,yes,ble,yes,Apple/Google
+Ehteraz,Qatar,https://portal.www.gov.qa/wps/portal/media-center/news/news-details/todeterminecoronavirustransmissionchainsehterazappisnowavailablefordownload,no,no,no,no,no,unknown,no,no,no,yes,both,no,no,no,unknown,ble + gps,unknown,none
+Contact Tracer,Russia,https://contacttracer.ru/,no,no,no,no,no,no,no,no,no,no,both,no,no,no,no,ble + gps,unknown,none
+Tawakkalna,Saudi Arabia,https://play.google.com/store/apps/details?id=sa.gov.nic.tawakkalna&hl=en_CA,no,no,no,no,no,no,no,no,no,yes,both,no,no,no,na,gps,unknown,none
+TraceTogether,Singapore,https://www.tracetogether.gov.sg/,yes,25 days,yes,yes,yes,yes,no,yes,yes,yes,both,yes,yes,no,yes,ble,yes,OpenTrace
+Zostaň Zdravý,Slovakia,https://www.zostanzdravy.sk/,no,14 days,yes,yes,unknown,unknown,no,no,yes,yes,both,unknown,unknown,no,unknown,ble,unknown,none
+Covi-ID,South Africa,https://coviid.me/,no,unknown,yes,yes,no (public spaces),yes,yes,yes,yes,yes,both,yes,yes,yes,na,qr code,yes,none
+Corona 100m (Co100),South Korea,https://play.google.com/store/apps/details?id=com.tina3d.corona100m&hl=en_US,no,unknown,yes,yes,unknown,no (heatmap),no,no,yes,yes,both,no,unknown,no,no,ble + gps,yes,none
+Contact tracing app,Switzerland,https://lenews.ch/2020/05/14/swiss-government-reveals-more-on-covid-19-tracing-app/,no,yes (unknown),yes,yes,yes,yes,unknown,unknown,no,yes,unknown,yes,yes,yes,yes,ble,yes,Apple/Google
+MyLog14,Taiwan,https://devpost.com/software/mylog14,no,14 days,yes,yes,no,no,no,yes,no,yes,both,yes,yes,unknown,unknown,gps,unknown,none
+MorChana,Thailand,https://apps.apple.com/th/app/allthaialert/id1505185420?_branch_match_id=719443404369189740&utm_source=10april&utm_campaign=10april&utm_medium=marketing,unknown,unknown,yes,yes,unknown,unknown,no,no,yes,yes,both,no,unknown,no,unknown,gps,unknown,none
+TraceCovid,UAE,https://tracecovid.ae/,no,unknown,yes,yes,unknown,yes,yes,no,yes,yes,both,yes,no,no,yes,ble,unknown,none
+Дій вдома (Action at Home),Ukraine,https://apps.apple.com/US/app/id1504695512?l=en,no,yes,no,no,no,no (quarantine),no,no,yes,yes,both,no,no,na,na,gps,yes,none
+NHS App,United Kingdom,https://www.bbc.com/news/technology-52441428,unknown,yes,yes,yes,unknown,unknown,unknown,no,no,yes,unknown,yes,yes,yes,yes,ble,unknown,Apple/Google
+Coalition,United States,http://CoalitionNetwork.org,no,unknown,yes,yes,yes,yes,yes,yes,yes,yes,both,yes,yes,yes,yes,ble,unknown,Whisper
+CoEpi,United States,https://www.coepi.org,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,both,yes,yes,yes,yes,ble,no,TCN
+Contact Tracing,United States,https://apps.apple.com/us/app/contact-tracing/id1504531104,no,14 days,yes,yes,unknown,unknown,no,no,yes,yes,both,no,yes,unknown,unknown,gps,unknown,none
+CoronaTrace,United States,https://www.coronatrace.org/,no,28 days,yes,yes,unknown,unknown,unknown,no,yes,yes,both,yes,yes,yes,na,gps,no,SafePaths
+COVID Watch,United States,https://www.covid-watch.org/,no,yes,yes,yes,unknown,unknown,unknown,yes,yes,yes,both,yes,yes,yes,yes,ble,unknown,TCN
+NOVID,United States,https://www.novid.org/,no,yes,yes,yes,yes,yes,yes,no,yes,yes,both,yes,yes,yes,yes,ble + ultrasound,unknown,TCN
+Opendemic,United States,https://www.opendemic.org/,no,unknown,yes,yes,yes,unknown,yes,yes,yes,yes,both,no,unknown,na,na,gps,no,none
+Safe2,United States,https://safe2.org/,no,14 days,yes,yes,unknown,no (heatmap),yes,no,yes,yes,unknown,no,unknown,no,yes,ble + gps,no,none
+SafePaths,United States,https://covidsafepaths.org/,no,yes,yes,yes,unknown,unknown,unknown,yes,yes,yes,both,yes,yes,yes,yes,ble,unknown,Apple/Google
+SafeTrace,United States,https://github.com/enigmampc/SafeTrace,no,yes,yes,yes,unknown,unknown,unknown,yes,yes,yes,unknown,yes,yes,yes,yes,kml,no,TCN
+ZeroBase,United States,https://www.zerobase.io/,no,unknown,yes,yes,unknown,unknown,yes,no,yes,yes,both,no,unknown,no,na,qr code,unknown,none
+NCOVI,Viet Nam,https://ncov.moh.gov.vn/,no,unknown,no,no,no,no (quarantine),no,no,no,yes,both,no,unknown,no,na,qr code,unknown,none
+COCOA,Japan,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/cocoa_00138.html,no,14 days,yes,yes,yes,yes,yes,no,yes,yes,both,yes,yes,yes,yes,ble,yes,Apple/Google
+StaySafe,Philippines,https://www.staysafe.ph/,no,no,yes,yes,unknown,no (modelling),no,no,yes,yes,both,no,maybe,no,no,gps,unknown,none
+ENDCoV,Philippines,https://endcov.org/,no,unknown,yes,yes,unknown,no (heatmap),no,no,yes,yes,android only,no,unknown,unknown,na,gps,unknown,none
+CovCT,Singapore,https://covct.org/,no,14 days,yes,yes,unknown,yes,no,no,no,yes,both,no,yes,no,na,qr code,yes,none
+Social Monitoring,Russia,https://play.google.com/store/apps/details?id=ru.mos.app,no,no,no,no,no,no (quarantine),no,no,yes,yes,both,no,no,na,na,gps,yes,none
+WeTrace,Switzerland,https://wetrace.ch/,no,14 days,yes,yes,unknown,yes,yes,yes,yes,yes,both,yes,yes,yes,yes,ble,unknown,none

@@ -13,7 +13,6 @@
     <title>COVID-19 Contact Tracing Apps</title>
 </head>
 <body>
-
     <div class="container">
         <hr>
         <h3>COVID-19 contact tracing applications around the world</h3>
@@ -56,6 +55,13 @@
             </div>
         </div>
         <p class="description">*Scroll to zoom!</p>
+        <hr>
+        <h3>Timeline of contact tracing applications</h3>
+        <div class="row">
+            <div class="col">
+                <div class="vis-container" id="timeline-vis"></div>
+            </div>
+        </div>
         <hr>
         <div class="row">
             <div class="col">
@@ -115,6 +121,7 @@
     <script src="js/libs/d3.min.js"></script>
     <script src="https://unpkg.com/topojson-client@3"></script>
     <script src="js/libs/d3-tip.js"></script>
+    <script src="js/libs/airtable.browser.js"></script>
 
     <!-- Utility modules -->
     <script src="js/utils.js"></script>
@@ -124,6 +131,7 @@
     <script src="js/map-vis.js"></script>
     <script src="js/color-legend.js"></script>
     <script src="js/app-table.js"></script>
+    <script src="js/timeline-vis.js"></script>
 
     <!-- Main script -->
     <script src="js/main.js"></script>

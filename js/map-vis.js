@@ -37,39 +37,6 @@ MapVis.prototype.initVis = function() {
   vis.radius = d3.scaleSqrt()
       .range([3, 10]);
 
-  // Initializing color scales
-  var dataTypeColors = d3.schemeRdYlBu[3];
-  dataTypeColors.push('var(--other)');
-
-  vis.colorScales = {
-    central_id_storage: d3.scaleOrdinal()
-        .domain(["no", "yes"])
-        .range(['var(--decentralized)', 'var(--centralized)'])
-        .unknown('var(--other)'),
-    data_persistence_days: d3.scaleSequential()
-        .domain([0, d3.max(vis.data.apps, d => d.data_persistence_days)])
-        .interpolator(d3.interpolateOrRd),
-    data_type: d3.scaleOrdinal()
-        .domain(['gps', 'gps + bluetooth', 'bluetooth', ''])
-        .range(['var(--gps)', 'var(--gps-bluetooth)', 'var(--bluetooth)', 'var(--other)'])
-        .unknown('var(--other)'),
-    government: d3.scaleOrdinal()
-        .domain(['no', 'yes'])
-        .range(['var(--no-government)', 'var(--government)'])
-        .unknown('var(--other)'),
-    open_source: d3.scaleOrdinal()
-        .domain(['no', 'yes'])
-        .range(['var(--no-open-source)', 'var(--open-source)'])
-        .unknown('var(--other)'),
-    opt_in: d3.scaleOrdinal()
-        .domain(['no', 'yes'])
-        .range(['var(--no-opt-in)', 'var(--opt-in)'])
-        .unknown('var(--other)'),
-    protocol: d3.scaleOrdinal()
-        .domain(['BlueTrace', 'p2pkit', 'SafePaths', 'PEPP-PT', 'ROBERT', 'DP3T', 'TCN', 'Apple/Google', 'other', ""])
-        .range(['var(--bluetrace)', 'var(--p2pkit)', 'var(--safepaths)', 'var(--pepppt)', 'var(--pepppt)', 'var(--dp3t)', 'var(--tcn)', 'var(--applegoogle)', 'var(--other)', 'var(--other)'])
-        .unknown('var(--other)')
-  };
 
   // Tooltip
   vis.tooltip = d3.tip()
@@ -218,13 +185,6 @@ MapVis.prototype.mouseout = function(elem, vis) {
   colorLegend.highlightClear();
 };
 
-function fillColor(d, vis) {
-  if (vis.selectedVar != null) {
-    return vis.colorScales[vis.selectedVar](d.value);
-  } else {
-    return 'var(--other)';
-  }
-}
 function position(d, vis, xy) {
   var country,
       offset = 0;
@@ -254,6 +214,14 @@ function position(d, vis, xy) {
     }
     return pos + offset;
   } else {
+  }
+}
+
+function fillColor(d, vis) {
+  if (vis.selectedVar != null) {
+    return colorScales[vis.selectedVar](d.value);
+  } else {
+    return 'var(--other)';
   }
 }
 

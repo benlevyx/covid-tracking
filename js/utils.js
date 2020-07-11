@@ -103,3 +103,54 @@ function getRowsCols(n) {
   }
   return [r, c];
 }
+
+/**
+ * Return the sum of all values in an object
+ * @param obj
+ * @returns {number}
+ */
+function sumValues( obj ) {
+  var sum = 0;
+  for( var el in obj ) {
+    if( obj.hasOwnProperty( el ) ) {
+      sum += parseFloat( obj[el] );
+    }
+  }
+  return sum;
+}
+
+
+// Initializing color scales
+var dataTypeColors = d3.schemeRdYlBu[3];
+dataTypeColors.push('var(--other)');
+
+const colorScales = {
+  central_id_storage: d3.scaleOrdinal()
+      .domain(["no", "yes"])
+      .range(['var(--decentralized)', 'var(--centralized)'])
+      .unknown('var(--other)'),
+  data_persistence_days: d3.scaleSequential()
+      .domain([0, 30])
+      .interpolator(d3.interpolateOrRd),
+  data_type: d3.scaleOrdinal()
+      .domain(['gps', 'gps + bluetooth', 'bluetooth', ''])
+      .range(['var(--gps)', 'var(--gps-bluetooth)', 'var(--bluetooth)', 'var(--other)'])
+      .unknown('var(--other)'),
+  government: d3.scaleOrdinal()
+      .domain(['no', 'yes'])
+      .range(['var(--no-government)', 'var(--government)'])
+      .unknown('var(--other)'),
+  open_source: d3.scaleOrdinal()
+      .domain(['no', 'yes'])
+      .range(['var(--no-open-source)', 'var(--open-source)'])
+      .unknown('var(--other)'),
+  opt_in: d3.scaleOrdinal()
+      .domain(['no', 'yes'])
+      .range(['var(--no-opt-in)', 'var(--opt-in)'])
+      .unknown('var(--other)'),
+  protocol: d3.scaleOrdinal()
+      .domain(['BlueTrace', 'p2pkit', 'SafePaths', 'PEPP-PT', 'ROBERT', 'DP3T', 'TCN', 'Apple/Google', 'other', ""])
+      .range(['var(--bluetrace)', 'var(--p2pkit)', 'var(--safepaths)', 'var(--pepppt)', 'var(--pepppt)', 'var(--dp3t)', 'var(--tcn)', 'var(--applegoogle)', 'var(--other)', 'var(--other)'])
+      .unknown('var(--other)'),
+  status: d => `var(--${d})`
+};

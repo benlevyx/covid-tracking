@@ -28,6 +28,10 @@
     --open-source: var(--opt-in);
     --no-government: var(--decentralized);
     --government: var(--centralized);
+    --proposed: var(--tcn);
+    --dev: lightblue;
+    --released: var(--bluetooth);
+    --cancelled: var(--gps);
 }
 body {
     background-color: #10104b;

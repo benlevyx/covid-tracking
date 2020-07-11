@@ -69,7 +69,7 @@ function makeRow(elem, vis) {
       .attr('class', 'color-dot')
       .append('span')
       .attr('class', 'dot')
-      .style('background-color', d => mapVis.colorScales[vis.selected](d.level));
+      .style('background-color', d => colorScales[vis.selected](d.level));
   var textCell = elem.append('td');
   textCell.append('p')
       .text(d => d.levelName)

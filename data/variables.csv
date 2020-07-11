@@ -22,4 +22,8 @@ government,yes,Yes,Government is partner or main backer
 opt_in,no,No,App use is mandatory
 opt_in,yes,Yes,Users can freely choose whether to download/use the app
 open_source,no,No,Implementation is open source
-open_source,yes,Yes,Implementation is not open source
+open_source,yes,Yes,Implementation is not open source,
+status,proposed,Proposed,App has been proposed but is not yet in development
+status,dev,Development,App is being developed but is not yet released
+status,released,Released,App has been released
+status,cancelled,Cancelled,App has been cancelled
