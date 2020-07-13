@@ -154,3 +154,12 @@ const colorScales = {
       .unknown('var(--other)'),
   status: d => `var(--${d})`
 };
+
+
+function swap(obj){
+  var ret = {};
+  for(var key in obj){
+    ret[obj[key]] = key;
+  }
+  return ret;
+}

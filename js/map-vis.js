@@ -20,14 +20,16 @@ function MapVis(_parentElem, _data, _config) {
 MapVis.prototype.initVis = function() {
   var vis = this;
 
-  vis.projection = d3.geoMercator()
-      .translate([vis.width / 2, vis.height * 2 / 3])
-      .scale(vis.width / (2 * Math.PI));
+  vis.projection = d3.geoNaturalEarth1()
+      .translate([vis.width / 2, vis.height / 4])
+      .scale(vis.width / (3 * Math.PI / 2));
   vis.geoPath = d3.geoPath().projection(vis.projection);
+
   vis.zoom = d3.zoom()
       .scaleExtent([1, 8])
       .on('zoom', (d) => vis.zoomed(vis));
   d3.select('#' + vis.parentElement).call(vis.zoom);
+
   vis.countries = topojson.feature(vis.data.geo, vis.data.geo.objects.countries).features;
   vis.centroids = vis.countries.map(d => {
     return {country: d.properties.name, centroid: vis.geoPath.centroid(d)};
@@ -36,7 +38,6 @@ MapVis.prototype.initVis = function() {
   // Radius scale for markers
   vis.radius = d3.scaleSqrt()
       .range([3, 10]);
-
 
   // Tooltip
   vis.tooltip = d3.tip()

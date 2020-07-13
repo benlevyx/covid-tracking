@@ -47,7 +47,7 @@ Unmaze,India,https://www.expresscomputer.in/news/indian-ai-startup-creates-app-t
 PeduliLindungi,Indonesia,https://play.google.com/store/apps/details?id=com.telkom.tracencare,no,14 days,yes,yes,unknown,unknown,yes,no,no,yes,both,yes,unknown,no,unknown,ble,unknown,none
 AC19,Iran,https://ac19.ir/,no,no,yes,yes,unknown,unknown,no,no,no,yes,android only,no,unknown,no,unknown,ble + gps,unknown,none
 Mask.ir,Iran,https://mask.ir/faq.html,yes,no,yes,yes,no,unknown,no,no,yes,yes,both,no,yes,no,unknown,ble + gps + qr code,unknown,none
-HSE Covid-19 App,Ireland,https://github.com/HSEIreland/,no,28 days,yes,yes,yes,yes,no,yes,yes,yes,both,yes,yes,yes,yes,ble,yes,Apple/Google
+COVID Tracker app,Ireland,https://covidtracker.gov.ie/,yes,28 days,yes,yes,yes,yes,yes,yes,yes,yes,both,yes,yes,yes,yes,ble,yes,Apple/Google
 Code Orange,Israel,https://docs.google.com/document/d/1Nv_Uxt3ATyzaD-rY5nu-BU-CXNHvF9LblwdOFzWc0s4,no,14 days,yes,yes,unknown,unknown,unknown,no,no,yes,both,unknown,unknown,no,na,gps,unknown,none
 HaMagen,Israel,https://govextra.gov.il/ministry-of-health/hamagen-app/download-en/,no,14 days,yes,yes,yes,yes,yes,yes,no,yes,both,yes,yes,no,na,gps,yes,none
 Track Virus,Israel,https://www.track-virus.com/,no,unknown,yes,yes,yes,unknown,unknown,no,no,yes,both,yes,unknown,no,na,gps,yes,none
@@ -100,3 +100,9 @@ ENDCoV,Philippines,https://endcov.org/,no,unknown,yes,yes,unknown,no (heatmap),n
 CovCT,Singapore,https://covct.org/,no,14 days,yes,yes,unknown,yes,no,no,no,yes,both,no,yes,no,na,qr code,yes,none
 Social Monitoring,Russia,https://play.google.com/store/apps/details?id=ru.mos.app,no,no,no,no,no,no (quarantine),no,no,yes,yes,both,no,no,na,na,gps,yes,none
 WeTrace,Switzerland,https://wetrace.ch/,no,14 days,yes,yes,unknown,yes,yes,yes,yes,yes,both,yes,yes,yes,yes,ble,unknown,none
+Beat COVID Gibraltar,Gibraltar,https://www.gibraltar.gov.gi/beatcovidapp,no,14 days,yes,yes,yes,yes,yes,no,yes,yes,both,yes,yes,unknown,yes,ble,unknown,none
+Virus Radar,Hungary,https://virusradar.hu/,no,30 days,yes,yes,yes,yes,yes,no,yes,yes,both,yes,yes,no,no,ble,unknown,none
+Shlonik,Kuwait,https://play.google.com/store/apps/details?id=com.healthcarekw.app&hl=en_US,no,unknown,yes,yes,no,no (quarantine),no,no,no,yes,android only,no,unknown,no,no,gps,unknown,none
+Tabaud,Saudi Arabia,https://tabaud.sdaia.gov.sa/,no,14 days,yes,yes,yes,yes,yes,no,yes,yes,both,yes,yes,yes,yes,ble,unknown,Apple/Google
+E7mi,Tunisia,https://www.e7mi.tn/,no,14 days,yes,yes,unknown,unknown,yes,no,yes,yes,both,no,unknown,no,yes,ble,unknown,none
+BlueZone,Vietname,https://bluezone.ai/,no,14 days,yes,yes,yes,yes,yes,yes,yes,yes,both,yes,yes,no,no,ble,yes,none

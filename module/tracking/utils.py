@@ -3,8 +3,15 @@ from IPython.display import display
 import pandas as pd
 import numpy as np
 import scipy.stats as spstats
+import yaml
+
+import chart_studio as cs
+import chart_studio.plotly as py
 
 from . import config
+
+
+credentials = {}
 
 
 def display_all_rows(df):
@@ -48,3 +55,17 @@ def cramers_v_corrected(x1, x2):
     rcorr = r - ((r - 1) ** 2) / (n - 1)
     kcorr = k - ((k - 1) ** 2) / (n - 1)
     return np.sqrt(phi2corr / min((kcorr - 1), (rcorr - 1)))
+
+
+def load_plotly_credentials():
+    """Load plotly credentials
+    """
+    with open(config.plotly_credentials_file) as f:
+        data = yaml.load(f, Loader=yaml.Loader)
+    cs.tools.set_credentials_file(**data)
+
+
+def upload_to_plotly(fig, filename, auto_open=False):
+    """Upload a plot to plotly.
+    """
+    py.plot(fig, filename='app_score_by_release_date', auto_open=auto_open)

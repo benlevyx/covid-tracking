@@ -1,0 +1,20 @@
+const question2var = {
+        '1.1. App has defined lifetime': 'defined_lifetime',
+        '1.2. Data storage is time-limited': 'storage_time_limited',
+        '2.1. Opt-in download and use': 'opt_in_download_use',
+        '2.2. Opt-in data sharing': 'opt_in_share',
+        '2.3. Not tied to other benefits': 'other_benefits',
+        '3.1. Data used only for establishing contacts': 'only_contacts',
+        '3.2. No PII collection': 'no_pii',
+        '4.1. Open source': 'open_source',
+        '4.2. Published privacy policy': 'privacy_policy',
+        '5.1. Freely available': 'free',
+        '5.2. Android and iOS (when necessary)': 'android_ios',
+        '6.1. Decentralized storage': 'decentralized_storage',
+        '6.2. Can erase data': 'erase_data',
+        '7.1. Decentralized matching': 'decentralized_matching',
+        '7.2. Rotating randomized beacon': 'rotating_randomized',
+        '8.1. Contact accuracy (BLE, not GPS or other)': 'ble_only',
+        '8.2. Positive cases verified by test': 'verify_test'
+    },
+    var2question = swap(question2var);

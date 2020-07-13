@@ -2,9 +2,8 @@
 CAuDHT,,https://bit.ly/blecontacttracerdesign,mobile app,bluetooth,yes,no,no,,,,,,,proposal,,,,2020-04-18,,,,,,,,,no,,,,,,Merged with Safe2
 Guardian,,https://www.myguardian.life/,mobile app,gps,no,yes,no,,,,,,yes,development,,,,,,,,,no,yes,yes,,no,no,,,,,
 Hi5X,,https://hi5x-app.com,mobile app,gps + QR code,yes,yes,no,,,,,,,released,,,2020-04-17,,,,,,,,,,no,,,,,,
-NinjaPad,,https://github.com/dantam/ninja-pad-python,mobile app,gps,no,yes,no,no,no,no,no,,,proposed,2020-04-22,,,,,,,,no,yes,yes,yes,no,yes,,test,,,seems to be discontinued
+NinjaPad,,https://github.com/dantam/ninja-pad-python,mobile app,gps,no,yes,no,no,no,no,no,,,proposed,2020-03-20,,,2020-04-22,,,,,no,yes,yes,yes,no,yes,,test,,,seems to be discontinued
 COVIDSafe,Australia,https://www.health.gov.au/resources/apps-and-tools/covidsafe-app,mobile app,bluetooth,yes,no,no,yes,yes,yes,no,yes,yes,released,2020-04-14,,2020-04-26,,exchange temporary ids,BlueTrace,pseudonymous,21,yes,yes,yes,yes,no,yes,yes,test,,1778000,based on TraceTogether
-NOVID20,Austria,https://www.novid20.org/en,mobile app,gps + bluetooth,yes,yes,no,no,no,no,no,yes,no,development,,2020-04-06,,,,,anonymous,,no,yes,yes,yes,no,yes,yes,,,,
 Stopp Corona,Austria,https://www.roteskreuz.at/site/faq-app-stopp-corona/datenschutzinformation-zur-stopp-corona-app/#c253470,mobile app,bluetooth,yes,no,no,no,no,no,no,no,no,released,,,2020-03-27,,exchange temporary ids,Apple/Google,pseudonymous,14,yes,yes,,yes,no,no,yes,self,,307103,
 BeAware,Bahrain,https://play.google.com/store/apps/details?id=bh.bahrain.corona.tracker,mobile app,gps + bluetooth,yes,yes,no,yes,yes,yes,,,yes,released,,,2020-04-09,,,,none,14,yes,yes,no,yes,yes,no,,test,,,
 Rombit,Belgium,https://www.usine-digitale.fr/article/covid-19-le-port-d-anvers-recourt-a-un-bracelet-connecte-pour-faire-respecter-la-distanciation-sociale.N957046,e-bracelet,bluetooth,yes,no,no,no,none,,,,,released,,,,,,,,,yes,yes,,no,no,no,,,,,
@@ -29,22 +28,24 @@ PEPP-PT,EU,https://www.pepp-pt.org/,mobile app,bluetooth,yes,no,no,no,no,no,no,y
 Ketju,Finland,https://gdprhub.eu/index.php?title=Projects_using_personal_data_to_combat_SARS-CoV-2#Finland:_Ketju_project_.28Private_.26_Public.29,mobile app,bluetooth,yes,no,no,no,no,no,no,no,,development,,2020-05-18,,,,DP3T,,,,,,,no,,,,,,
 StopCovid,France,https://www.orange.com/en/content/download/54161/1485137/version/10/file/CP%STOPCOVID%26avril%EN.pdf,mobile app,bluetooth,yes,no,no,yes,yes,yes,,,,development,,2020-05-05,,,,PEPP-PT,pseudonymous,,yes,yes,,yes,no,yes,,,,,ROBERT
 Stop Covid,Georgia,https://play.google.com/store/apps/details?id=gov.georgia.novid20,mobile app,bluetooth,yes,no,no,yes,no,no,no,yes,,released,,,2020-04-04,,,PEPP-PT,,,yes,yes,yes,yes,no,yes,,,,100000,NOVID 20
-BanDemic,Germany,https://bandemic.app/,mobile app,bluetooth,yes,no,no,,no,no,no,,,cancelled,,,,2020-03-22,,STRICT (Simply TRack InfeCTions),anonymous,,no,yes,yes,yes,no,,,test,,,
-Corona App,Germany,https://www.fraunhofer.de/en/press/research-news/2020/april/fraunhofer-develops-anti-sars-cov-2-app.html,mobile app,bluetooth,yes,no,no,no,no,,,,,proposed,2020-04-22,,,,,Apple/Google,,,yes,yes,,,no,,,,,,Fraunhofer Institute. Unnamed
-Corona GO,Germany,https://corona-go.de/,mobile app,bluetooth,yes,no,no,no,no,no,,,,development,,2020-04-14,,,,TCN,anonymous,14,no,yes,,yes,no,yes,,,,,
-Corona-Datenspende,Germany,https://www.reuters.com/article/us-health-coronavirus-germany-tech/germany-launches-smartwatch-app-to-monitor-coronavirus-spread-idUSKBN21P1SS,smart watch,health data,no,no,no,,,,,,,released,,,2020-04-06,,,,,,yes,yes,,,no,,,,,582671,
-Coronika,Germany,https://www.coronika.app/,mobile app,gps + bluetooth,yes,yes,no,no,no,no,no,no,yes,released,,,2020-03-19,,,TCN,,,no,yes,yes,yes,no,no,,,,71140,
+BanDemic,Germany,https://bandemic.app/,mobile app,bluetooth,yes,no,no,,no,no,no,,,cancelled,,,,2020-03-22,,STRICT (Simply TRack InfeCTions),anonymous,,no,yes,yes,yes,no,,,test,,,Merged with ito
+Corona GO,Germany,https://corona-go.de/,mobile app,bluetooth,yes,no,no,no,no,no,,,,cancelled,,2020-03-18,,2020-04-14,,TCN,anonymous,14,no,yes,,yes,no,yes,,,,,
+Corona-Datenspende,Germany,https://www.reuters.com/article/us-health-coronavirus-germany-tech/germany-launches-smartwatch-app-to-monitor-coronavirus-spread-idUSKBN21P1SS,smart watch,health data,no,no,no,,,,,,,released,,,2020-04-06,,,,,,yes,yes,,,no,yes,,,,582671,
+Corona-Warn-App,Germany,https://www.coronawarn.app/,mobile app,bluetooth,yes,no,no,no,no,,,,,proposed,2020-04-22,,,,,Apple/Google,,,yes,yes,,,no,,,,,,Fraunhofer Institute. Unnamed
+Coronika,Germany,https://www.coronika.app/,mobile app,gps + bluetooth,yes,yes,no,no,no,no,no,no,yes,released,,,2020-03-19,,,TCN,,,no,yes,yes,yes,no,no,,,,71140,Personal diary
 Cotect,Germany,https://cotect.launchaco.com/,mobile app,self-report,no,no,no,yes,yes,yes,yes,yes,yes,development,,2020-03-12,,,comparing hashed id numbers,,hashing and aggregation,14,no,yes,yes,yes,no,yes,yes,,,,
 Infection Chain,Germany,https://devpost.com/software/infection-chain,mobile app,QR code,no,no,yes,,,,,,,cancelled,,2020-03-22,,2020-03-30,,,,,,,,,no,yes,,,,,
 Ito,Germany,https://www.ito-app.org/,mobile app,bluetooth,yes,no,no,,no,no,no,no,no,development,2020-04-10,2020-04-13,,,"exchange temporary ids; when test positive, upload id generating function",TCN,anonymous,,no,yes,yes,yes,no,yes,,,,,
 my co:radar,Germany,http://mycoradar.de/my-coradar-eu/,mobile app,bluetooth,yes,no,no,no,no,no,no,no,no,cancelled,,2020-03-21,,2020-05-04,,TCN,pseudonymous,14,no,yes,,yes,no,yes,,,,,
 OHIOH,Germany,https://ohioh.de/,mobile app,gps + bluetooth,yes,yes,no,no,no,no,no,no,no,development,,2020-04-28,,,,TCN,anonymous,,no,yes,yes,yes,no,yes,,,,,
-Pandoa,Germany,https://pandoa.org/,mobile app,gps,no,yes,no,no,no,no,no,no,no,development,,2020-03-22,,,,,anonymous,14,no,yes,yes,yes,no,yes,,self,,,"WirVsVirus Hackathon, March 22"
+Pandoa,Germany,https://pandoa.org/,mobile app,gps,no,yes,no,no,no,no,no,no,no,cancelled,,2020-03-22,,2020-04-25,,,anonymous,14,no,yes,yes,yes,no,yes,,self,,,"WirVsVirus Hackathon, March 22"
 GH COVID-19 Tracker App,Ghana,https://ghcovid19.com/,mobile app,gps,no,yes,no,,,,,,,released,,,2020-04-15,,,,,,yes,yes,,yes,no,no,,,,,
+Beat COVID Gibraltar,Gibraltar,https://www.gibraltar.gov.gi/beatcovidapp,,,,,,,,,,,,released,,,2020-06-17,,,,,,yes,,,,no,,,,,,
 Covid Community Alert,Global,https://coronavirus-outbreak-control.github.io/web/index_en.html,mobile app,bluetooth,yes,no,no,no,no,yes,yes,yes,no,development,2020-04-02,2020-04-08,,,,,pseudonymous,,no,yes,yes,yes,no,yes,yes,test,,,
 Covid World,Global,https://www.sygic.com/press/code-vs-corona-volunteers-and-developers-from-slovakia-are-offering-everyone-covid-19-app-for-free-as-open-source-software#,mobile app,gps + bluetooth,yes,yes,no,,,,,,,released,,2020-03-10,2020-04-18,,,,,,no,,,,no,,,,,,
 DOCANDU Covid Checker,Greece,https://www.docandu.com/en/,mobile app,self-report,no,no,no,yes,,,,,,,,,,,,,,,no,no,,,no,,,,,,
 Stay Home Safe,Hong Kong,,eBracelet,eBracelet,no,no,no,,,,,,,released,,,2020-03-18,,,,,,yes,no,,,yes,,,,,,
+Virus Radar,Hungary,https://virusradar.hu/,,,,,,,,,,,,released,,,2020-05-10,,,,,,yes,,,,no,,,,,,
 VirusRadar,Hungary,https://virusradar.hu/,mobile app,bluetooth,yes,no,no,,no,no,no,yes,yes,released,,,2020-05-13,,,,pseudonymous,30,yes,,,,no,,,,,,
 Rakning C-19,Iceland,https://www.covid.is/app/,mobile app,gps,no,yes,no,yes,no,yes,no,yes,yes,released,,,2020-03-31,,,,pseudonymous,14,yes,yes,yes,yes,no,yes,yes,,,,
 Aarogya Setu,India,https://theprint.in/opinion/india-can-prevent-long-term-lockdown-contain-covid-if-90-people-download-aarogya-setu/401116/,mobile app,gps + bluetooth,yes,yes,no,yes,yes,yes,no,yes,yes,released,,,2020-04-02,,centralized,,pseudonymous,45,yes,yes,yes,yes,no,no,yes,test,,1375000000,
@@ -73,11 +74,13 @@ Code Orange,Israel,https://docs.google.com/document/d/1Nv_Uxt3ATyzaD-rY5nu-BU-CX
 HaMagen,Israel,https://govextra.gov.il/ministry-of-health/hamagen-app/download-en/,mobile app,gps,no,yes,no,no,no,no,no,no,no,released,,,2020-03-22,,matched locations + times visited by  infected users sent from ministry of health to all users,,anonymous location traces,14,no,yes,yes,yes,no,yes,yes,test,,1766000,many false positives
 Track Virus,Israel,https://www.track-virus.com/,mobile app,gps,no,yes,no,yes,no,no,no,no,no,released,,,2020-03-31,,,,,,yes,yes,yes,yes,yes,no,,,,347652,
 diAry,Italy,https://covid19app.uniurb.it/en/diary-lets-stop-covid-19-together/,mobile app,gps,no,yes,no,no,no,no,no,no,no,development,,2020-03-20,,,,,,,no,no,yes,yes,no,yes,yes,no,,,keeping a personal log of all movements
-Immuni,Italy,https://www.nytimes.com/reuters/2020/04/17/technology/17reuters-health-coronavirus-italy-technology.html,mobile app,bluetooth,yes,np,no,no,no,no,no,no,no,development,,2020-05-13,,,,Apple/Google,,14,yes,yes,,yes,no,,yes,,,3515,
+Immuni,Italy,https://www.nytimes.com/reuters/2020/04/17/technology/17reuters-health-coronavirus-italy-technology.html,mobile app,bluetooth,yes,np,no,no,no,no,no,no,no,released,,2020-05-13,2020-06-01,,,Apple/Google,,14,yes,yes,,yes,no,,yes,,,3515,
 Proximity,Italy,https://arxiv.org/abs/2003.10222,mobile app,bluetooth,yes,no,no,no,no,no,no,no,no,proposal,2020-04-02,,,,,,,,,,,,no,,yes,,,,
-SM-COVID-19,Italy,https://www.smcovid19.org/,mobile app,gps (optional) + bluetooth,yes,optional,no,yes,yes,yes,no,yes,yes,development,,2020-05-02,,,,ReCoVer,,21,no,yes,,yes,no,no,yes,,,,
+SM-COVID-19,Italy,https://www.smcovid19.org/,mobile app,gps (optional) + bluetooth,yes,optional,no,yes,yes,yes,no,yes,yes,released,,,2020-04-01,,,ReCoVer,,21,no,yes,,yes,no,no,yes,,,,
+COCOA,Japan,,,,,,,,,,,,,released,,,2020-06-17,,,Apple/Google,,,,,,,,,,,,,
 COVID19Radar,Japan,https://lp-covid-19radarjapan.studio.design/,mobile app,bluetooth,yes,no,no,no,no,no,no,no,no,released,,,2020-05-25,,,,"pseudonymous, single i",14,no,yes,yes,yes,no,yes,,test,,,
 AMAN App,Jordan,https://www.amanapp.jo/en,mobile app,gps,no,yes,no,yes,no,no,no,yes,no,released,,,2020-05-21,,,,pseudonymous,14,yes,yes,yes,yes,no,no,yes,test,,,
+Shlonik,Kuwait,https://play.google.com/store/apps/details?id=com.healthcarekw.app&hl=en_US,,,,,,,,,,,,released,,,2020-04-09,,,,,,yes,,,,yes,,,,,,
 Apturi Covid,Latvia,https://apturicovid.lv/#en,mobile app,bluetooth,yes,no,no,no,no,no,on,no,no,released,,,2020-05-29,,,Apple/Google,anonymous,14,yes,yes,yes,yes,no,no,yes,test,,,
 Gerak Malaysia,Malaysia,https://www.gerakmalaysia.gov.my/,mobile app,gps,no,yes,no,yes,,,,,,released,,,,,,,,,yes,,,,no,no,,,,2048000,
 MyTrace,Malaysia,https://www.malaysiakini.com/news/523824,mobile app,bluetooth,yes,no,no,yes,,,,,,released,,,,,,,,,yes,yes,,,no,no,,,,296309,
@@ -87,14 +90,19 @@ PrivateTracer,Netherlands,https://www.privatetracer.org/,mobile app,bluetooth,ye
 NZ COVID Tracer,New Zealand,https://tracing.covid19.govt.nz/,mobile app,qr code,no,no,yes,yes,no,no,no,yes,yes,released,,,2020-05-20,,,,,31,yes,yes,yes,yes,no,no,yes,test,,,
 StopKorona!,North Macedonia,https://stop.koronavirus.gov.mk/,mobile app,bluetooth,yes,no,no,yes,no,yes,no,no,yes,released,,,2020-04-12,,,,pseudonymous,14,yes,yes,yes,yes,no,no,yes,test,,,unique random ID is linked to phone number on central server
 Smittestopp,Norway,https://helsenorge.no/smittestopp,mobile app,gps + bluetooth,yes,yes,no,yes,yes,yes,no,yes,yes,released,,,2020-04-16,,,,pseudonymous,30,yes,yes,,yes,no,yes,,,,,"partnership with the Norwegian institute of public health (government?), linked to bank ID"
-PeruEnTusManos,Peru,https://play.google.com/store/apps/details?id=peruentusmanos.gob.pe,mobile app,gps + bluetooth,yes,yes,no,yes,yes,yes,,,,released,,,2020-04-03,,,,,unlimited,yes,yes,,yes,no,,,,,,
+PeruEnTusManos,Peru,https://play.google.com/store/apps/details?id=peruentusmanos.gob.pe,mobile app,gps + bluetooth,yes,yes,no,yes,yes,yes,,,,released,,,2020-04-03,,,,,unlimited,yes,yes,,yes,no,no,,,,,
+ENDCoV,Philippines,https://endcov.org/,mobile app,gps,no,yes,no,,,,,,,released,,,2020-03-27,,,,,,no,yes,,,no,no,,,,,
+StaySafe,Philippines,https://www.staysafe.ph/,mobile app,gps,no,yes,no,yes,,,,,,released,,,2020-05-05,,,,,,yes,yes,,,no,no,,,,,
 WeTrace,Philippines,https://apps.apple.com/US/app/id1506567245?l=en,mobile app,bluetooth,yes,no,no,,no,no,,,,released,,,2020-04-06,,,,pseudonymous,30,,yes,,no,no,no,,,,11585,ordered everyone in the province of Cebu to download
 Kwarantanna Dommowa,Poland,https://www.politico.eu/article/poland-coronavirus-app-offers-playbook-for-other-governments/,mobile app,gps,no,yes,no,yes,yes,yes,,,,released,,,2020-03-19,,direct,,none,unlimited,yes,no,,no,yes,no,no,test,,,
-ProteGO,Poland,github.com/ProteGO-app,mobile app,bluetooth,yes,no,no,no,no,no,,,,released,,,2020-04-30,,,GNU GPLv3 + GNU AGPLv3,,14,yes,yes,,yes,no,yes,,test,,27903,
+ProteGO,Poland,github.com/ProteGO-app,mobile app,bluetooth,yes,no,no,no,no,no,,,,released,,,2020-04-30,,,Apple/Google,,14,yes,yes,,yes,no,yes,,test,,27903,
 Ehteraz,Qatar,https://portal.www.gov.qa/wps/portal/media-center/news/news-details/todeterminecoronavirustransmissionchainsehterazappisnowavailablefordownload,mobile app,gps + bluetooth,yes,yes,no,yes,,yes,yes,yes,yes,released,,,2020-04-25,,,,,,yes,yes,no,no,no,no,,,,,
-Contact Tracer,Russia,https://contacttracer.ru/,mobile app,gps + bluetooth,yes,yes,no,,,,,,,released,,,,,,,,,,yes,,,no,,,,,1480,Not much info
+Contact Tracer,Russia,https://contacttracer.ru/,mobile app,gps + bluetooth,yes,yes,no,,,,,,,released,,,,,,,,,no,yes,,,no,,,,,1480,Workplace monitoring
+Social Monitoring,Russia,,,,,,,,,,,,,released,,,2020-03-25,,,,,,yes,yes,,,yes,,,,,,
+Tabaud,Saudi Arabia,https://tabaud.sdaia.gov.sa/,,,,,,,,,,,,released,,,2020-06-12,,,,,,yes,,,,no,,,,,,
 Tawakkalna,Saudi Arabia,,mobile app,,,,,,,,,,,released,,,2020-04-06,,,,,,yes,no,,no,yes,,,,,,
-TraceTogether,Singapore,https://www.tracetogether.gov.sg/,mobile app,bluetooth,yes,no,no,,no,yes,,,,released,,,2020-02-18,,exchange temporary ids,BlueTrace,pseudonymous,21,yes,yes,,yes,no,yes,yes,,,1794000,
+CovCT,Singapore,https://covct.org/,mobile app,qr code,no,no,yes,,,,,,,released,,,,,,,,,no,yes,yes,yes,no,no,,,,,
+TraceTogether,Singapore,https://www.tracetogether.gov.sg/,mobile app,bluetooth,yes,no,no,,no,yes,,,,released,,,2020-02-18,,exchange temporary ids,BlueTrace,pseudonymous,25,yes,yes,,yes,no,yes,yes,,,1794000,
 Zostaň Zdravý,Slovakia,https://www.zostanzdravy.sk/,,gps + bluetooth,yes,yes,no,,,,,,,released,,,2020-03-16,,,,pseudonymous,,no,,,yes,no,,,self,,,
 Covi-ID,South Africa,https://coviid.me/,mobile app,gps + bluetooth,yes,yes,no,no,no,yes,,,,released,,,2020-04-30,,blockchain,,pseudonymous,,no,yes,,yes,no,yes,yes,,,,blockchain
 Corona 100m (Co100),South Korea,https://play.google.com/store/apps/details?id=com.tina3d.corona100m&hl=en_US,mobile app,gps,no,yes,no,yes,no,yes,,,,cancelled,,,,,centralized,,,unlimited,yes,yes,,yes,no,no,,,,,hard to find any info
@@ -104,16 +112,18 @@ CoronaMadrid,Spain,https://www.coronamadrid.com/,mobile app,gps,no,yes,no,,yes,y
 STOP COVID19 CAT,Spain,https://canalsalut.gencat.cat/ca/salut-a-z/c/coronavirus-2019-ncov/stop-covid19-cat/,mobile app,gps,no,yes,no,,yes,yes,,,,released,,,2020-03-18,,,,none,14,yes,no,,yes,no,,,,,673457,
 Self Shield,Sri Lanka,https://sshield.org/,mobile app,gps,no,no,no,yes,yes,yes,no,no,yes,released,,,2020-04-10,,,,none,,no,no,,yes,yes,no,,,,,
 Contact tracing app,Switzerland,https://lenews.ch/2020/05/14/swiss-government-reveals-more-on-covid-19-tracing-app/,mobile app,bluetooth,yes,no,no,no,no,no,no,,,development,,,,,,DP3T,,,yes,yes,yes,yes,no,,,,,,
-Corona Science,Switzerland,https://coronascience.ch/en/,,gps,,yes,no,,,,,,,released,,,2020-04-12,,,,aggregated,,,no,,yes,no,yes,,,,,
+Corona Science,Switzerland,https://coronascience.ch/en/,,gps,,yes,no,,,,,,,released,,,2020-04-12,,,,aggregated,,yes,no,,yes,no,yes,,,,,
+WeTrace,Switzerland,https://wetrace.ch/,mobile app,bluetooth,yes,no,no,no,,,,,,development,,2020-03-29,,,,,,,no,,,,,,,,,,
 MyLog14,Taiwan,https://devpost.com/software/mylog14,mobile app,,,,,,,,,,,development,,,,,,,,,,,,,no,yes,,,,,also collecting self-reported symptom data and offering coupons for bubble tea in exchange for giving up data
 MorChana,Thailand,https://apps.apple.com/th/app/allthaialert/id1505185420?_branch_match_id=719443404369189740&utm_source=10april&utm_campaign=10april&utm_medium=marketing,mobile app,gps + bluetooth,yes,yes,no,,no,yes,,,,released,,,2020-04-01,,,,pseudonymous,,yes,yes,,yes,no,no,,,,230743,
+E7mi,Tunisia,https://www.e7mi.tn/,,,,,,,,,,,,released,,,2020-05-09,,,,,,yes,,,,no,,,,,,
 CoroWarner,Turkey,https://www.aa.com.tr/en/latest-on-coronavirus-outbreak/turkey-to-use-contact-tracing-app-to-detect-coronavirus/1804425,mobile app,gps + bluetooth,yes,yes,no,,,,,,,development,,,,,,,,,no,,,,no,,,,,,
 Hayat Eve Sığar,Turkey,https://www.iletisim.gov.tr/english/haberler/detay/director-of-communications-altun-shares-a-post-on-pandemic-isolation-tracking-project,mobile app,gps + bluetooth,yes,yes,no,yes,yes,yes,,,yes,released,,,2020-04-17,,,,none,,yes,no,no,no,yes,no,,,,7762000,
 Korona Önlem,Turkey,https://apps.apple.com/US/app/id1503515316?l=en,mobile app,gps,no,yes,no,,,,,,,released,,,2020-03-20,,,,,,yes,,,,no,,,,,333556,
 TraceCovid,UAE,https://tracecovid.ae/,mobile app,bluetooth,yes,no,no,no,no,no,no,yes,,released,,,2020-04-05,,,,pseudonymous,,yes,yes,yes,,no,no,yes,test,,186370,
-Дій вдома (Action at Home),Ukraine,https://apps.apple.com/US/app/id1504695512?l=en,mobile app,gps,no,yes,no,,yes,yes,,,,released,,,2020-04-07,,,,none,,yes,no,,no,yes,no,,test,,54186,
-NHS App,United Kingdom,https://www.bbc.com/news/technology-52441428,mobile app,bluetooth,yes,no,no,,yes,yes,,,,development,,,,,,,pseudonymous,,yes,yes,,yes,no,,,test,,664282,in development
-OpenMined,United Kingdom,https://openmined.org,mobile app,gps,no,yes,no,,,,,,,development,,,,,,,,,,,,,no,,,,,,
+Дій вдома (Action at Home)`,Ukraine,https://apps.apple.com/US/app/id1504695512?l=en,mobile app,gps,no,yes,no,,yes,yes,,,,released,,,2020-04-07,,,,none,,yes,no,,no,yes,no,,test,,54186,
+NHS App,United Kingdom,https://www.bbc.com/news/technology-52441428,mobile app,bluetooth,yes,no,no,,yes,yes,,,,development,,,,,,Apple/Google,pseudonymous,,yes,yes,,yes,no,,,test,,664282,in development
+OpenMined,United Kingdom,https://openmined.org,mobile app,gps,no,yes,no,,,,,,,cancelled,,,,,,,,,,,,,no,,,,,,
 P6,United Kingdom,https://github.com/approov/bluetooth-p6,mobile app,bluetooth,yes,no,no,no,no,no,no,no,no,proposed,2020-04-03,,,,,P6,anonymous,,no,yes,yes,yes,no,yes,,,,,Privacy Preserving Proven Prior Proximity Protocol
 Coalition,United States,http://CoalitionNetwork.org,mobile app,bluetooth,yes,no,no,no,no,no,,,,released,,,2020-04-10,,,Whisper,anonymous,,yes,yes,,yes,no,,,,,,
 CoEpi,United States,https://www.coepi.org,mobile app,gps + bluetooth,yes,yes,no,no,no,no,,,,development,,2020-03-22,,,,TCN,pseudonymous,limited (check),no,yes,,yes,no,yes,,self,,,
@@ -124,11 +134,11 @@ COVID-19 Apple App,United States,https://www.apple.com/covid19/contacttracing,mo
 How We Feel,United States,https://howwefeel.org/,mobile app,zip code,no,no,no,,yes,no,,,,released,,,2020-04-02,,none,,anonymous,unlimited,no,no,,yes,no,no,,self,,,
 NextTrace,United States,https://nexttrace.org/,mobile app,gps,no,yes,no,yes,,,,,,proposed,2020-04-11,,,,,,,,,yes,,,no,,,,,,
 NOVID,United States,https://www.novid.org/,mobile app,bluetooth + ultrasound,yes,no,no,no,no,no,no,no,no,released,,,2020-05-01,,none,,anonymous,,no,yes,yes,yes,no,no,,,15195,9026,
-Opendemic,United States,https://www.opendemic.org/,mobile app,gps,no,yes,no,,,,,,,,,,2020-03-17,,,,,,no,yes,,yes,no,yes,,,,,
+Opendemic,United States,https://www.opendemic.org/,mobile app,gps,no,yes,no,,,,,,,released,,,2020-03-17,,,,,,no,yes,,yes,no,yes,,,,,
 PACT: Private Automatic Contact Tracing,United States,https://pact.mit.edu/,protocol,bluetooth,yes,no,no,,,,,,,,,,,,,,,,no,yes,,,no,,,,,,MIT
 Safe2,United States,https://safe2.org/,mobile app,gps + bluetooth,yes,yes,no,,,,,,,development,,,,,,,,,no,,,,no,,,self,,,
 SafePaths,United States,https://covidsafepaths.org/,mobile app,gps,no,yes,no,no,no,no,,,,released,,,2020-04-24,,,SafePaths,anonymous,limited (check),no,yes,,yes,no,yes,,,,,
 SafeTrace,United States,https://github.com/enigmampc/SafeTrace,web app,kml,no,yes,no,yes,,,,,,development,,2020-03-20,,,,,,,,,,,no,,,,,,
-TraceToZero,United States,https://www.tracetozero.org/,mobile app,,no,no,yes,,,,,,,cancelled,,,,2020-05-05,,,,,,,,,no,,,,,,in development
 ZeroBase,United States,https://www.zerobase.io/,QR code,QR code scans,no,no,yes,,yes,no,,,,released,,,2020-04-05,,none,,anonymous,,no,no,,yes,no,yes,,,,,"QR code scanning, not contact tracing"
 NCOVI,Viet Nam,https://ncov.moh.gov.vn/,mobile app,,,,,,,,,,,released,,,2020-03-11,,,,,,yes,no,,,no,no,,,,3790000,
+BlueZone,Vietname,https://bluezone.ai/,,,,,,,,,,,,released,,,2020-04-17,,,,,,yes,,,,no,,,,,,
