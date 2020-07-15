@@ -155,6 +155,15 @@ const colorScales = {
   status: d => `var(--${d})`
 };
 
+const colors = {
+  policy: null,
+  government: null
+}
+const defaultColorScale = d3.scaleOrdinal()
+    .domain(['no', 'unknown', 'yes'])
+    .range(['var(--no)', 'var(--unknown)', 'var(--yes)'])
+    .unknown('var(--unknown)')
+
 
 function swap(obj){
   var ret = {};

@@ -35,8 +35,8 @@ Promise.all([
 
   mapVis = new MapVis(
       'map-vis',
-      {apps: appData, geo: countries},
-      {height: 400, selectedVar: 'data_type'});
+      {apps: appScores, geo: countries},
+      {height: 400, selectedVar: 'decentralized_matching'});
 
   colorLegend = new ColorLegend('color-legend', variables, {});
 

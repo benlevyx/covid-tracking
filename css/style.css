@@ -8,7 +8,10 @@
     --darkgray: #636363;
 
     --none: black;
-    --no: var(--darkgray);
+    --no: var(--white);
+    --unknown: var(--darkgray);
+    --yes: #2ca25f;
+
     --bluetooth: #1c57ff;
     --gps-bluetooth: purple;
     --gps: #F7301C;
@@ -21,13 +24,10 @@
     --pepppt: #F7301C;
     --applegoogle: #2ca25f;
     --tcn: #B2BAA4;
-    --other: var(--darkgray);
-    --no-opt-in: #243E95;
-    --opt-in: #2ca25f;
-    --no-open-source: var(--no-opt-in);
-    --open-source: var(--opt-in);
+
     --no-government: var(--decentralized);
     --government: var(--centralized);
+
     --proposed: var(--tcn);
     --dev: lightblue;
     --released: var(--bluetooth);

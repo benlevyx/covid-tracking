@@ -220,7 +220,8 @@ function position(d, vis, xy) {
 
 function fillColor(d, vis) {
   if (vis.selectedVar != null) {
-    return colorScales[vis.selectedVar](d.value);
+    var colorScale = colorScales[vis.selectedVar] || defaultColorScale;
+    return colorScale(d.value);
   } else {
     return 'var(--other)';
   }
