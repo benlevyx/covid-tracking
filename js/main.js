@@ -40,15 +40,15 @@ Promise.all([
 
   colorLegend = new ColorLegend('color-legend', variables, {});
 
-  timelineVis = new TimelineVis(
-      'timeline-vis',
-      {apps: appData, events: eventData, variables: variables},
-      {
-        height: 300,
-        startDate: new Date('2019-12-30'),
-        endDate: new Date('2020-06-30'),
-        selectedVar: 'data_type'
-      })
+  // timelineVis = new TimelineVis(
+  //     'timeline-vis',
+  //     {apps: appData, events: eventData, variables: variables},
+  //     {
+  //       height: 300,
+  //       startDate: new Date('2019-12-30'),
+  //       endDate: new Date('2020-06-30'),
+  //       selectedVar: 'data_type'
+  //     })
 
   makeAppTable('app-table', appData);
 });

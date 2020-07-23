@@ -27,8 +27,10 @@ MapVis.prototype.initVis = function() {
 
   vis.zoom = d3.zoom()
       .scaleExtent([1, 8])
-      .on('zoom', (d) => vis.zoomed(vis));
+      .on('zoom', (d) =>  vis.zoomed(vis));
+
   d3.select('#' + vis.parentElement).call(vis.zoom);
+
 
   vis.countries = topojson.feature(vis.data.geo, vis.data.geo.objects.countries).features;
   vis.centroids = vis.countries.map(d => {
@@ -107,7 +109,7 @@ MapVis.prototype.updateVis = function() {
 
   markers.enter()
       .append('circle')
-      .attr('class', 'marker')
+      .attr('class', 'marker app-marker')
       .merge(markers)
       .attr('cx', d => position(d, vis, 0))
       .attr('cy', d => position(d, vis, 1))
@@ -130,12 +132,12 @@ MapVis.prototype.updateVis = function() {
 
   var sizeMarkers = gLegendSize.append('g')
       .attr('class', 'size-markers')
-      .selectAll('circle.marker')
+      .selectAll('circle.marker.legend-marker')
       .data(legendVals);
 
   sizeMarkers.enter()
       .append('circle')
-      .attr('class', 'marker')
+      .attr('class', 'marker legend-marker')
       .merge(sizeMarkers)
       .attr('cx', 0)
       .attr('cy', (d, i) => i * 20)
@@ -164,11 +166,13 @@ MapVis.prototype.updateVis = function() {
       .text('Number of apps')
       .attr('transform', 'translate(-25, -15)');
 
+
+
 };
 MapVis.prototype.zoomed = function(vis) {
   vis.svg.selectAll('path.country')
       .attr('transform', d3.event.transform);
-  vis.svg.selectAll('circle.marker')
+  vis.svg.selectAll('circle.app-marker')
       .attr('transform', d3.event.transform);
 };
 MapVis.prototype.selectionChanged = function(newSelVar) {
