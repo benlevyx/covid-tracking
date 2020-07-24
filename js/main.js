@@ -36,7 +36,7 @@ Promise.all([
       {apps: appScores, geo: countries},
       {height: 400, selectedVar: 'decentralized_matching'});
 
-  colorLegend = new ColorLegend('color-legend', variables, {});
+  // colorLegend = new ColorLegend('color-legend', variables, {});
 
   // timelineVis = new TimelineVis(
   //     'timeline-vis',
@@ -48,7 +48,7 @@ Promise.all([
   //       selectedVar: 'data_type'
   //     })
 
-  makeAppTable('app-table', appData);
+  makeAppTable('app-table', appScores);
 });
 
 const replaceFuncs = {
