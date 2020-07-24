@@ -15,6 +15,11 @@ const question2var = {
         '7.1. Decentralized matching': 'decentralized_matching',
         '7.2. Rotating randomized beacon': 'rotating_randomized',
         '8.1. Contact accuracy (BLE, not GPS or other)': 'ble_only',
-        '8.2. Positive cases verified by test': 'verify_test'
-    },
+        '8.2. Positive cases verified by test': 'verify_test',
+        'Country': 'country',
+        'Average Rating (Google Play)': 'avg_rating',
+        'Installs (Google Play)': 'installs',
+        'Links': 'links',
+        'Name': 'name'
+};
     var2question = swap(question2var);

@@ -23,14 +23,12 @@ Promise.all([
   appScores.forEach(d => {
     for (var e in question2var) {
       var varName = question2var[e];
-      var f = replaceFuncs[varName];
-      if (!f) {
-        f = replaceFuncs.other;
-      }
+      var f = replaceFuncs[varName] || replaceFuncs.other;
       d[varName] = f(d[e]);
       delete d[e];
     }
   });
+  appScores.columns = Object.keys(var2question);
   console.log(appScores);
 
   mapVis = new MapVis(

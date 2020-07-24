@@ -21,7 +21,7 @@ MapVis.prototype.initVis = function() {
   var vis = this;
 
   vis.projection = d3.geoNaturalEarth1()
-      .translate([vis.width / 2, vis.height / 4])
+      .translate([vis.width / 2, vis.height / 2])
       .scale(vis.width / (3 * Math.PI / 2));
   vis.geoPath = d3.geoPath().projection(vis.projection);
 
@@ -36,6 +36,7 @@ MapVis.prototype.initVis = function() {
   vis.centroids = vis.countries.map(d => {
     return {country: d.properties.name, centroid: vis.geoPath.centroid(d)};
   });
+  vis.gMarkers = vis.svg.append('g').attr('class', 'markers');
 
   // Radius scale for markers
   vis.radius = d3.scaleSqrt()
@@ -51,6 +52,7 @@ MapVis.prototype.initVis = function() {
                `<p class="description">${d.names.join('<br/>')}</p>`
       });
   vis.svg.call(vis.tooltip);
+  console.log(vis.data.apps);
 
   vis.wrangleData();
 };
@@ -67,6 +69,8 @@ MapVis.prototype.wrangleData = function() {
         }
       })
       .entries(vis.data.apps);
+
+  console.log(nested);
 
   vis.grouped = [];
   nested.forEach(d => {
@@ -104,7 +108,7 @@ MapVis.prototype.updateVis = function() {
       .merge(countries)
       .attr('d', vis.geoPath);
 
-  var markers = vis.svg.selectAll('circle.marker')
+  var markers = vis.gMarkers.selectAll('circle.marker')
       .data(vis.grouped);
 
   markers.enter()
