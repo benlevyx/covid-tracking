@@ -35,6 +35,7 @@ Promise.all([
   });
   appScores.columns = Object.keys(var2question);
   console.log(appScores);
+  makeAppTable('app-table', appScores);
 
   mapVis = new MapVis(
       'map-vis',
@@ -53,7 +54,6 @@ Promise.all([
   //       selectedVar: 'data_type'
   //     })
 
-  makeAppTable('app-table', appScores);
 });
 
 const replaceFuncs = {

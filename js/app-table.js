@@ -23,7 +23,7 @@ function makeAppTable(parentElem, data) {
       .data(data.columns)
       .enter()
       .append('th')
-      .text(d => d);
+      .text(d => var2question[d]);
 
   tbody.selectAll('tr')
       .data(data)

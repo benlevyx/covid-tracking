@@ -1,4 +1,6 @@
 const question2var = {
+        'Name': 'name',
+        'Country': 'country',
         '1.1. App has defined lifetime': 'defined_lifetime',
         '1.2. Data storage is time-limited': 'storage_time_limited',
         '2.1. Opt-in download and use': 'opt_in_download_use',
@@ -16,10 +18,8 @@ const question2var = {
         '7.2. Rotating randomized beacon': 'rotating_randomized',
         '8.1. Contact accuracy (BLE, not GPS or other)': 'ble_only',
         '8.2. Positive cases verified by test': 'verify_test',
-        'Country': 'country',
         'Average Rating (Google Play)': 'avg_rating',
         'Installs (Google Play)': 'installs',
-        'Links': 'links',
-        'Name': 'name'
+        'Links': 'links'
 };
     var2question = swap(question2var);
