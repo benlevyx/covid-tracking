@@ -187,7 +187,7 @@ MapVis.prototype.selectionChanged = function(newSelVar) {
 };
 MapVis.prototype.mouseover = function(elem, vis) {
   vis.tooltip.show(elem);
-  colorLegend.highlight(elem[vis.selectedVar]);
+  colorLegend.highlight(elem.value);
 };
 MapVis.prototype.mouseout = function(elem, vis) {
   vis.tooltip.hide();
@@ -223,6 +223,7 @@ function position(d, vis, xy) {
     }
     return pos + offset;
   } else {
+    console.log(country);
   }
 }
 
@@ -243,7 +244,7 @@ const specialCentroids = {
     offset: [0, 25]
   },
   'Hong Kong': {
-    anchor: 'Viet Nam',
+    anchor: 'Vietnam',
     offset: [5, -5]
   },
   'Singapore': {
@@ -253,5 +254,9 @@ const specialCentroids = {
   'Bahrain': {
     anchor: 'Saudi Arabia',
     offset: [12, -1]
+  },
+  'Gibraltar': {
+    anchor: 'Portugal',
+    offset: [5, 10]
   }
 };

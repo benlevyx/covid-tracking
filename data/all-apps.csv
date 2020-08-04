@@ -12,7 +12,7 @@ ViruSafe,Bulgaria,EURO,https://play.google.com/store/apps/details?id=bg.governme
 ABTraceTogether,Canada,NORAM,https://www.alberta.ca/ab-trace-together-privacy.aspx,mobile app,bluetooth,yes,no,no,yes,no,no,no,yes,yes,released,,,2020-05-01,,,,pseudonymous,21,yes,yes,yes,yes,no,no,,test,,,Official Alberta Government contact tracing app,
 ConTrac,Canada,NORAM,https://livnao.com/covid19/,mobile app,bluetooth,yes,no,no,,,,,,,released,,,2020-04-25,,,,,,no,yes,,,no,no,,,,,app for companies to track their employees' mental health and potential contacts,
 Covi,Canada,NORAM,https://covicanada.org/?gclid=CjwKCAjw8J32BRBCEiwApQEKgYT17Ril920EAZBfnUYbJWm81Q5bj-TBpwzTUtWVT0JZA1FKtUBMKhoC96sQAvD_BwE,mobile app,gps,no,yes,no,no,no,no,no,no,yes,development,,2020-05-18,,,,SafePaths,,30,no,yes,yes,yes,no,yes,yes,test,,,,
-COVID Alert,Canada,NORAM,https://www.cbc.ca/news/politics/contact-tracing-app-1.5617121,mobile app,bluetooth,yes,no,no,no,no,no,no,no,unknown,development,,2020-06-18,,,,Apple/Google,anonymous,14,yes,yes,yes,yes,no,yes,,,0,0,Built on top of COVID Shielf,
+COVID Alert,Canada,NORAM,https://www.cbc.ca/news/politics/contact-tracing-app-1.5617121,mobile app,bluetooth,yes,no,no,no,no,no,no,no,unknown,released,,2020-06-18,2020-07-30,,,Apple/Google,anonymous,14,yes,yes,yes,yes,no,yes,,,0,0,Built on top of COVID Shielf,
 COVID Shield,Canada,NORAM,https://www.covidshield.app/,mobile app,bluetooth,yes,no,no,no,no,no,no,no,no,development,,2020-04-22,,,exposure notification framework,Apple/Google,anonymous,30,no,yes,,,no,yes,,test,,,,
 flaat,Canada,NORAM,https://app.flaat.io/,mobile app,bluetooth,yes,no,no,no,no,no,no,no,,development,,2020-04-17,,,tcn,TCN,pseudonymous,,no,yes,yes,yes,no,yes,yes,test,,,,
 MyTrace,Canada,NORAM,https://www.mytrace.ca/,mobile app,gps + bluetooth,yes,yes,no,no,no,no,no,no,no,development,,,,,,SafePaths,,,no,yes,yes,yes,no,no,yes,,,,,
@@ -35,11 +35,12 @@ Corona-Datenspende,Germany,EURO,https://www.reuters.com/article/us-health-corona
 Corona-Warn-App,Germany,EURO,https://www.coronawarn.app/,mobile app,bluetooth,yes,no,no,no,no,,,,,proposed,2020-04-22,,,,,Apple/Google,,,yes,yes,,,no,,,,,,Fraunhofer Institute. Unnamed,
 Coronika,Germany,EURO,https://www.coronika.app/,mobile app,gps + bluetooth,yes,yes,no,no,no,no,no,no,yes,released,,,2020-03-19,,,TCN,,,no,yes,yes,yes,no,no,,,,71140,Personal diary,
 Cotect,Germany,EURO,https://cotect.launchaco.com/,mobile app,self-report,no,no,no,yes,yes,yes,yes,yes,yes,development,,2020-03-12,,,comparing hashed id numbers,,hashing and aggregation,14,no,yes,yes,yes,no,yes,yes,,,,,
-Infection Chain,Germany,EURO,https://devpost.com/software/infection-chain,mobile app,QR code,no,no,yes,,,,,,,cancelled,,2020-03-22,,2020-03-30,,,,,,,,,no,yes,,,,,,
+Infection Chain,Germany,EURO,https://devpost.com/software/infection-chain,mobile app,QR code,no,no,yes,,,,,,,cancelled,,2020-03-22,,2020-03-30,,,,,no,,,,no,yes,,,,,,
 Ito,Germany,EURO,https://www.ito-app.org/,mobile app,bluetooth,yes,no,no,,no,no,no,no,no,development,2020-04-10,2020-04-13,,,"exchange temporary ids; when test positive, upload id generating function",TCN,anonymous,,no,yes,yes,yes,no,yes,,,,,,
 my co:radar,Germany,EURO,http://mycoradar.de/my-coradar-eu/,mobile app,bluetooth,yes,no,no,no,no,no,no,no,no,cancelled,,2020-03-21,,2020-05-04,,TCN,pseudonymous,14,no,yes,,yes,no,yes,,,,,,
 OHIOH,Germany,EURO,https://ohioh.de/,mobile app,gps + bluetooth,yes,yes,no,no,no,no,no,no,no,development,,2020-04-28,,,,TCN,anonymous,,no,yes,yes,yes,no,yes,,,,,,
 Pandoa,Germany,EURO,https://pandoa.org/,mobile app,gps,no,yes,no,no,no,no,no,no,no,cancelled,,2020-03-22,,2020-04-25,,,anonymous,14,no,yes,yes,yes,no,yes,,self,,,"WirVsVirus Hackathon, March 22",
+Plinks,Germany,EURO,https://plinks.io/,mobile app,,,,,,,,,,,released,,,,,,,,,no,,,,,,,,,,,
 GH COVID-19 Tracker App,Ghana,AFRO,https://ghcovid19.com/,mobile app,gps,no,yes,no,,,,,,,released,,,2020-04-15,,,,,,yes,yes,,yes,no,no,,,,,,
 Beat COVID Gibraltar,Gibraltar,EURO,https://www.gibraltar.gov.gi/beatcovidapp,,,,,,,,,,,,released,,,2020-06-17,,,,,,yes,,,,no,,,,,,,
 Covid Community Alert,Global,,https://coronavirus-outbreak-control.github.io/web/index_en.html,mobile app,bluetooth,yes,no,no,no,no,yes,yes,yes,no,development,2020-04-02,2020-04-08,,,,,pseudonymous,,no,yes,yes,yes,no,yes,yes,test,,,,
@@ -104,6 +105,7 @@ Contact Tracer,Russia,EURO,https://contacttracer.ru/,mobile app,gps + bluetooth,
 Social Monitoring,Russia,EURO,,,,,,,,,,,,,released,,,2020-03-25,,,,,,yes,yes,,,yes,,,,,,,
 Tabaud,Saudi Arabia,EMRO,https://tabaud.sdaia.gov.sa/,,,,,,,,,,,,released,,,2020-06-12,,,,,,yes,,,,no,,,,,,,500000
 Tawakkalna,Saudi Arabia,EMRO,,mobile app,,,,,,,,,,,released,,,2020-04-06,,,,,,yes,no,,no,yes,,,,,,,1000000
+Daancovid19,Senegal,AFRO,https://daancovid19.sn/,,,,,,,,,,,,development,,,,,,Whisper,,,yes,yes,,,,,,,,,,
 CovCT,Singapore,WPRO,https://covct.org/,mobile app,qr code,no,no,yes,,,,,,,released,,,,,,,,,no,yes,yes,yes,no,no,,,,,,
 TraceTogether,Singapore,WPRO,https://www.tracetogether.gov.sg/,mobile app,bluetooth,yes,no,no,,no,yes,,,,released,,,2020-02-18,,exchange temporary ids,BlueTrace,pseudonymous,25,yes,yes,,yes,no,yes,yes,,,1794000,,1000000
 Zostaň Zdravý,Slovakia,EURO,https://www.zostanzdravy.sk/,,gps + bluetooth,yes,yes,no,,,,,,,released,,,2020-03-16,,,,pseudonymous,,no,,,yes,no,,,self,,,,
@@ -130,7 +132,7 @@ TraceCovid,UAE,EMRO,https://tracecovid.ae/,mobile app,bluetooth,yes,no,no,no,no,
 NHS App,United Kingdom,EURO,https://www.bbc.com/news/technology-52441428,mobile app,bluetooth,yes,no,no,,yes,yes,,,,development,,,,,,Apple/Google,pseudonymous,,yes,yes,,yes,no,,,test,,664282,in development,500000
 OpenMined,United Kingdom,EURO,https://openmined.org,mobile app,gps,no,yes,no,,,,,,,cancelled,,,,,,,,,,,,,no,,,,,,,
 P6,United Kingdom,EURO,https://github.com/approov/bluetooth-p6,mobile app,bluetooth,yes,no,no,no,no,no,no,no,no,proposed,2020-04-03,,,,,P6,anonymous,,no,yes,yes,yes,no,yes,,,,,Privacy Preserving Proven Prior Proximity Protocol,
-Coalition,United States,NORAM,http://CoalitionNetwork.org,mobile app,bluetooth,yes,no,no,no,no,no,,,,released,,,2020-04-10,,,Whisper,anonymous,,yes,yes,,yes,no,,,,,,,1000
+Coalition,United States,NORAM,http://CoalitionNetwork.org,mobile app,bluetooth,yes,no,no,no,no,no,,,,released,,,2020-04-10,,,Whisper,anonymous,,no,yes,,yes,no,,,,,,,1000
 CoEpi,United States,NORAM,https://www.coepi.org,mobile app,gps + bluetooth,yes,yes,no,no,no,no,,,,development,,2020-03-22,,,,TCN,pseudonymous,limited (check),no,yes,,yes,no,yes,,self,,,,
 Contact Tracing,United States,NORAM,https://apps.apple.com/us/app/contact-tracing/id1504531104,mobile app,gps + bluetooth,yes,yes,no,,yes,yes,,,,released,,,2020-04-04,,,,,,,yes,,,no,,,,,2751,,10000
 CoronaTrace,United States,NORAM,https://www.coronatrace.org/,mobile app,gps,no,yes,no,no,no,no,,,,development,,2020-03-22,,,,SafePaths,,,no,yes,yes,yes,no,yes,yes,test,,,,

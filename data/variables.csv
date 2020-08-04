@@ -1,29 +1,55 @@
-name,level,levelName,description
-data_type,bluetooth,Bluetooth,Using Bluetooth Low Energy (BLE) to keep track of all other app users that the user comes into close contact with.
-data_type,gps,GPS,Using GPS to keep track of all the places that the user has visited and other users that they may have come into close contact with
-data_type,gps + bluetooth,GPS + Bluetooth,A hybrid of GPS and Bluetooth technology
-central_id_storage,no,Decentralized,The system is completely decentralized: there is no central server with a database of all the users and their ID's
-central_id_storage,yes,Centralized,The system has at least one of: a central database of all the users and their pseudonymous keys; a server that stores user location trails or Bluetooth contact history
-protocol,BlueTrace,BlueTrace,"Used by Singapore's TraceTogether app. When two uesrs come into contact, they swap their randomly generated IDs, which are refreshed every 15 minutes. However, the phone number associated with the device is stored by the central authority. When someone tests positive, their history of timestamped IDs is broadcast out."
-protocol,p2pkit,p2pkit,description
-protocol,SafePaths,SafePaths,An MIT-led open source project that uses detailed GPS location trails to match potential contacts. All data is stored on the device and shared with public health authorities only if the user tests positive for COVID-19 and consents to share their history.
-protocol,PEPP-PT,PEPP-PT,"""Pan-European Privacy-Preserving Proximity Tracing"": A centralized Bluetooth contact tracing protocol where pseudonymous IDs are stored on a central server."
-protocol,D3PT,D3PT,A completely decentralized protocol similar to the implementation of Apple/Google.
-protocol,TCN,TCN,"A Bluetooth-based protocol where users exchange rotating random IDs when contact is made. When a user tests positive, rather than sharing their history of IDs, they share a ID-generating cryptographic function, which can be used by other users to check whether they have come into contact with the positive user. Since the function is one-way, it cannot easily be used to re-identify the individual."
-protocol,Apple/Google,Apple/Google,"The Apple/Google collaboration is a fully decentralized, privacy-preserving Bluetooth-based protocol, similar to the BlueTrace model except that there is no centralized information stored about the users. Periodically, all users download a list of ID numbers that have been confirmed COVID-19 positive. If an individual tests positive, they can share their ID number history with public health authorities for distribution."
-protocol,other,Other,Unknown protocol
-data_persistence_days,0,Not stored,Data not stoored
-data_persistence_days,14,14 days,Data stored on phone or server for 14 days
-data_persistence_days,21,21 days,
-data_persistence_days,30,30 days,
-data_persistence_days,unlimited,Unlimited,No expressed limit on data storage
-government,no,No,No express government involvement
-government,yes,Yes,Government is partner or main backer
-opt_in,no,No,App use is mandatory
-opt_in,yes,Yes,Users can freely choose whether to download/use the app
-open_source,no,No,Implementation is open source
-open_source,yes,Yes,Implementation is not open source,
-status,proposed,Proposed,App has been proposed but is not yet in development
-status,dev,Development,App is being developed but is not yet released
-status,released,Released,App has been released
-status,cancelled,Cancelled,App has been cancelled
+displayName,name,level,displayLevel,description
+App has defined lifetime,defined_lifetime,yes,Yes,App will be decommissioned at a set date or when pandemic ends
+App has defined lifetime,defined_lifetime,no,No,No plans for decommissioning app
+Data storage is time-limited,storage_time_limited,14 days,14 days,
+Data storage is time-limited,storage_time_limited,21 days,21 days,
+Data storage is time-limited,storage_time_limited,30 days,30 days,
+Data storage is time-limited,storage_time_limited,other,Unlimited/unknown,No stated time limit on data retention
+Opt-in download and use,opt_in_download_use,yes,Yes,No explicit or implicit coercion to use app
+Opt-in download and use,opt_in_download_use,no,No,App is mandatory
+Opt-in data sharing,opt_in_share,yes,Yes,No explicit or implicit coercion to share data or diagnosis through app
+Opt-in data sharing,opt_in_share,no,No,Sharing data and/or diagnosis is mandatory
+Not tied to other benefits,other_benefits,yes,Yes,"App use is not tied to ""perks"" or ability to access services"
+Not tied to other benefits,other_benefits,no,No,"App use is tied to ""perks"" or ability to access services"
+Data used only for establishing contacts,only_contacts,yes,Yes,Data used for contact tracing only
+Data used only for establishing contacts,only_contacts,no,No,"Data used for additional public health or scientific ends, such as disease heatmaps or mobility tracking"
+No PII collection,no_pii,yes,Yes,No personally identifiable information collected
+No PII collection,no_pii,no,No,"App collects PII, such as phone numbers, national ID numbers, address, etc."
+Open source,open_source,yes,Yes,Source code is freely accessible
+Open source,open_source,no,No,App is closed source
+Published privacy policy,privacy_policy,yes,Yes,Privacy policy is published and easily accessible
+Published privacy policy,privacy_policy,no,No,No easily accessible published privacy policy
+Freely available,free,yes,Yes,App is free
+Freely available,free,no,No,App has a cost to use
+Android and iOS (when necessary),android_ios,both,Both,Available for both Android and iOS phones
+Android and iOS (when necessary),android_ios,ios only,iOS only,Available only for iOS
+Android and iOS (when necessary),android_ios,android only,Android only,Available only for Android
+Android and iOS (when necessary),android_ios,na,Not mobile app,Not a mobile app (e.g. wearable or a web app)
+Decentralized storage,decentralized_storage,yes,Yes,All contact history is stored on user devices
+Decentralized storage,decentralized_storage,no,No,Some or all contact history is stored in a central/cloud database
+Can erase data,erase_data,yes,Yes,Users can erase any data directly linked to them
+Can erase data,erase_data,no,No,Users cannot erase all data directly linked to them
+Decentralized matching,decentralized_matching,yes,Yes,Contact matching is done on user devices
+Decentralized matching,decentralized_matching,no,No,Contact matching is done through a central server
+Rotating randomized beacon,rotating_randomized,yes,Yes,Users send out anonymous keys that change periodically (BLE apps only)
+Rotating randomized beacon,rotating_randomized,no,No,Broadcasted keys are either not anonymous or do not change at least once a day (ideally much more frequently)
+"Contact accuracy (BLE, not GPS or other)",ble_only,ble,BLE,App uses Bluetooth low energy (BLE)
+"Contact accuracy (BLE, not GPS or other)",ble_only,gps,GPS,App uses GPS
+"Contact accuracy (BLE, not GPS or other)",ble_only,qr code,QR code,App uses QR codes
+"Contact accuracy (BLE, not GPS or other)",ble_only,gps + qr code,GPS + QR code,App uses combination of GPS and QR codes
+"Contact accuracy (BLE, not GPS or other)",ble_only,ble + gps,BLE + GPS,App uses combination of BLE and GPS
+"Contact accuracy (BLE, not GPS or other)",ble_only,ble + qr code,BLE + QR code,App uses combination of BLE and QR codes
+"Contact accuracy (BLE, not GPS or other)",ble_only,other,Other,"App uses technology other than BLE, GPS, or QR codes"
+Positive cases verified by test,verify_test,yes,Yes,"For a user to report a positive diagnosis, they must have verification from a health authority"
+Positive cases verified by test,verify_test,no,No,Users can self-report positive diagnoses without verification
+Privacy-preserving protocol,protocol,Apple/Google,Apple/Google,Apple Google Exposure Notification protocol
+Privacy-preserving protocol,protocol,OpenTrace,OpenTrace,Reference implementation for Singapore's TraceTogether app
+Privacy-preserving protocol,protocol,TCN,TCN,"Temporary Contact Numbers: a decentralized, privacy-preserving protocol"
+Privacy-preserving protocol,protocol,SafePaths,SafePaths,"GPS-based ""geolocation diary"" protocol from MIT"
+Privacy-preserving protocol,protocol,DP3T,DP^3T,"Decentralized, Privacy-Preserving Proximity Tracing"
+Privacy-preserving protocol,protocol,PEPP-PT,PEPP-PT,Pan-European Privacy-Preserving Proximity Tracing
+Privacy-preserving protocol,protocol,Whisper,Whisper,Decentralized protocol that combines BLE and ultrasound technology to verify device proximity
+Privacy-preserving protocol,protocol,Safe2,Safe2,"Decentralized protocol that combines BLE and (optionally) GPS to track infections through direct contact and visits to ""infectious"" locations"
+Privacy-preserving protocol,protocol,ROBERT,ROBERT,Centralized BLE protocol from France based on PEPP-PT
+Government,government,yes,Yes,App is government-backed: government is involved app development or operation
+Government,government,no,No,App is not directly associated with any governmental entity

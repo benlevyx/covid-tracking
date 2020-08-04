@@ -53,6 +53,7 @@ ColorLegend.prototype.selectionChanged = function(newSelVar) {
 ColorLegend.prototype.highlight = function(d) {
   var vis = this;
 
+  console.log(d)
   vis.tbody.selectAll('tr')
       .data(vis.displayData)
       .style('opacity', e => e.level === d ? 1 : .2);
@@ -69,10 +70,13 @@ function makeRow(elem, vis) {
       .attr('class', 'color-dot')
       .append('span')
       .attr('class', 'dot')
-      .style('background-color', d => colorScales[vis.selected](d.level));
+      .style('background-color', function(d) {
+        var colorScale = colorScales[vis.selected] || defaultColorScale;
+        return colorScale(d.level);
+      });
   var textCell = elem.append('td');
   textCell.append('p')
-      .text(d => d.levelName)
+      .text(d => d.displayLevel)
       .attr('class', 'label');
   textCell.append('p')
       .text(d => d.description)

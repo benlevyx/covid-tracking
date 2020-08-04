@@ -20,6 +20,8 @@ Promise.all([
     })
   });
 
+  var appScoresNoGlobal = [],
+      noGlobalCountries = ['Global', 'EU', 'unknown'];
   appScores.forEach(d => {
     for (var e in question2var) {
       var varName = question2var[e];
@@ -27,16 +29,19 @@ Promise.all([
       d[varName] = f(d[e]);
       delete d[e];
     }
+    if (!(noGlobalCountries.includes(d.country))) {
+      appScoresNoGlobal.push(d);
+    }
   });
   appScores.columns = Object.keys(var2question);
   console.log(appScores);
 
   mapVis = new MapVis(
       'map-vis',
-      {apps: appScores, geo: countries},
+      {apps: appScoresNoGlobal, geo: countries},
       {height: 400, selectedVar: 'decentralized_matching'});
 
-  // colorLegend = new ColorLegend('color-legend', variables, {});
+  colorLegend = new ColorLegend('color-legend', variables, {});
 
   // timelineVis = new TimelineVis(
   //     'timeline-vis',
@@ -64,7 +69,8 @@ const replaceFuncs = {
       return 'no'
     }
   },
-  verify_test: x => x === 'na' || x === 'unknown' ? 'unknown' : (x === 'yes' ? x : 'no')
+  verify_test: x => x === 'na' || x === 'unknown' ? 'unknown' : (x === 'yes' ? x : 'no'),
+  country: x => x === 'Viet Nam' ? 'Vietnam' : x
 }
 const otherReplace = {
   'na': 'unknown',

@@ -9,11 +9,10 @@
     <meta charset="UTF-8">
     <meta property="og:image" content="img/covid-tracking-map.png" />
 
-    <title>COVID-19 Contact Tracing Apps</title>
+    <title>COVID-19 Contact Tracing Apps Around the World</title>
 </head>
 <body>
     <div class="container">
-        <hr>
         <h3>COVID-19 contact tracing applications around the world</h3>
         <div class="row">
             <div class="col-md-8 col-sm-12">
@@ -47,7 +46,7 @@
                                             <option value="decentralized_matching">Bluetooth only</option>
                                             <option value="rotating_randomized">Verifies positive diagnosis with test</option>
                                             <option value="protocol">Privacy-preserving protocol</option>
-<!--                                            <option value="government">Government</option>-->
+                                            <!--                                            <option value="government">Government</option>-->
                                         </select>
                                     </div>
                                 </div>
@@ -64,60 +63,12 @@
             </div>
         </div>
         <p class="description">*Scroll to zoom!</p>
-        <hr>
-        <div class="row">
-            <div class="col">
-                <h3>How the different protocols stack up</h3>
-                <div class="row">
-                    <div class="col-lg-6 col-md-12">
-                        <p>The main protocols were found were:</p>
-                        <ul>
-                            <li>TCN</li>
-                            <li>PrivateKit SafePaths</li>
-                            <li>BlueTrace/OpenTrace</li>
-                            <li>PEPP-PT</li>
-                            <li>DP3T</li>
-                        </ul>
-                        <p>
-                            Of these, three distinct groups arise: Decentralized geolocation (Private Kit SafePaths),
-                            decentralized Bluetooth (DP^3T, TCN, Apple/Google), and centralized Bluetooth (PEPP-PT, ROBERT, OpenTrace).
-                            No protocols were found to conduct centralized geolocation-based contact-tracing, since this
-                            is essentially government surveillance.
-                        </p>
-                        <p>
-                            By "centralized", we mean that the procotol does one or more of the following: (a) stores the
-                            pseudonymous IDs of each user on a central server; (b) conducts the contact matching process
-                            via a central server. Conversely, decentralized protocols require the application to store
-                            all data and conduct all contact matching on user devices, minimizing the opportunity for a
-                            a central authority to re-identify users or control their data.
-                        </p>
-                    </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 text-center">
-                        <img class="img-fluid" src="img/protocol-vis.png" alt="2x2 matrix of the major privacy-preserving contact tracing protocols">
-                        <p><span class="caption">Fig. 1:</span> The main privacy-preserving mobile contact tracing protocols.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <h3>Searchable table with all apps</h3>
-            <div id="app-table"></div>
-        </div>
-        <hr>
     </div>
-    <div class="row footer">
-        <div class="col text-center">
-            <p class="label">© 2020 <a href="https://benlevyx.github.io/">Benjamin Levy</a> and <a href="https://mpstewart.net/">Matthew Stewart</a></p>
-            <p class="label">Suggestions? <a href="mailto:benjaminlevy@g.harvard.edu">Contact us here</a></p>
-        </div>
-    </div>
-    
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
-<!--    <script src="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.js"></script>-->
+    <!--    <script src="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.js"></script>-->
 
 
     <script src="js/libs/d3.min.js"></script>

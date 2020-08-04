@@ -140,17 +140,13 @@ const colorScales = {
       .domain(['no', 'yes'])
       .range(['var(--no-government)', 'var(--government)'])
       .unknown('var(--other)'),
-  open_source: d3.scaleOrdinal()
-      .domain(['no', 'yes'])
-      .range(['var(--no-open-source)', 'var(--open-source)'])
-      .unknown('var(--other)'),
   opt_in: d3.scaleOrdinal()
       .domain(['no', 'yes'])
       .range(['var(--no-opt-in)', 'var(--opt-in)'])
       .unknown('var(--other)'),
   protocol: d3.scaleOrdinal()
-      .domain(['BlueTrace', 'p2pkit', 'SafePaths', 'PEPP-PT', 'ROBERT', 'DP3T', 'TCN', 'Apple/Google', 'other', ""])
-      .range(['var(--bluetrace)', 'var(--p2pkit)', 'var(--safepaths)', 'var(--pepppt)', 'var(--pepppt)', 'var(--dp3t)', 'var(--tcn)', 'var(--applegoogle)', 'var(--other)', 'var(--other)'])
+      .domain(['OpenTrace', 'Whisper', 'SafePaths', 'PEPP-PT', 'ROBERT', 'DP3T', 'TCN', 'Apple/Google', 'Safe2'])
+      .range(['var(--opentrace)', 'var(--whisper)', 'var(--safepaths)', 'var(--pepppt)', 'var(--pepppt)', 'var(--dp3t)', 'var(--tcn)', 'var(--applegoogle)', 'var(--safe2)'])
       .unknown('var(--other)'),
   status: d => `var(--${d})`
 };

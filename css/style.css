@@ -17,13 +17,15 @@
     --gps: #F7301C;
     --centralized: #243E95;
     --decentralized: #2ca25f;
-    --bluetrace: #243E95;
-    --p2pkit: #fa50e6;
+
+    --opentrace: #243E95;
+    --whisper: #fa50e6;
     --safepaths: #666AF6;
     --dp3t: #d95f02;
     --pepppt: #F7301C;
     --applegoogle: #2ca25f;
     --tcn: #B2BAA4;
+    --safe2: #eeeb5d;
 
     --no-government: var(--decentralized);
     --government: var(--centralized);
