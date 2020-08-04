@@ -40,7 +40,7 @@ function makeAppTable(parentElem, data) {
 function makeDataTable(tableNode) {
   $(document).ready(function() {
     $(tableNode).DataTable({
-      fixedHeader: true
+      // fixedHeader: true
     });
   });
 }

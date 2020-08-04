@@ -43,7 +43,8 @@ hr {
 }
 h1, h2, h3, legend, label,
 p.label, th .footer, .caption, .title,
-th.sorting, th.sorting_asc, th.sorting_desc {
+th.sorting, th.sorting_asc, th.sorting_desc,
+div.dataTables_info {
     font-family: 'Roboto Mono', monospace;
     color: var(--white);
     fill: var(--white);
@@ -141,4 +142,7 @@ table.dataTable.no-footer.fixedHeader-floating tr {
 }
 #app-table tbody > tr > td.sorting_1, .sorting_1 {
     background-color: #1f1fa7 !important;
+}
+a.page-link {
+    color: var(--none) !important;
 }
