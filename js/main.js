@@ -23,11 +23,14 @@ Promise.all([
   var appScoresNoGlobal = [],
       noGlobalCountries = ['Global', 'EU', 'unknown'];
   appScores.forEach(d => {
-    for (var e in question2var) {
+    let e;
+    for (e in question2var) {
       var varName = question2var[e];
       var f = replaceFuncs[varName] || replaceFuncs.other;
       d[varName] = f(d[e]);
-      delete d[e];
+      if (varName !== e) {
+        delete d[e];
+      }
     }
     if (!(noGlobalCountries.includes(d.country))) {
       appScoresNoGlobal.push(d);
@@ -81,4 +84,5 @@ const otherReplace = {
   'both': 'yes',
   'android only': 'yes',
   'iOS only': 'no',
+  '': 'unknown'
 }

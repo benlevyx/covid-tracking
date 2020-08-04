@@ -27,7 +27,7 @@ ColorLegend.prototype.wrangleData = function() {
     vis.displayData.push({
       name: vis.selected,
       level: 'other',
-      levelName: 'Other',
+      displayLevel: 'Other/unknown',
       description: 'Other or unknown'
     });
   }

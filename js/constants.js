@@ -20,6 +20,7 @@ const question2var = {
         '8.2. Positive cases verified by test': 'verify_test',
         'Average Rating (Google Play)': 'avg_rating',
         'Installs (Google Play)': 'installs',
-        'Links': 'links'
+        'Links': 'links',
+        'protocol': 'protocol'
 };
     var2question = swap(question2var);

@@ -122,32 +122,32 @@ function sumValues( obj ) {
 
 // Initializing color scales
 var dataTypeColors = d3.schemeRdYlBu[3];
-dataTypeColors.push('var(--other)');
+dataTypeColors.push('var(--unknown)');
 
 const colorScales = {
   central_id_storage: d3.scaleOrdinal()
       .domain(["no", "yes"])
       .range(['var(--decentralized)', 'var(--centralized)'])
-      .unknown('var(--other)'),
+      .unknown('var(--unknown)'),
   data_persistence_days: d3.scaleSequential()
       .domain([0, 30])
       .interpolator(d3.interpolateOrRd),
   data_type: d3.scaleOrdinal()
       .domain(['gps', 'gps + bluetooth', 'bluetooth', ''])
       .range(['var(--gps)', 'var(--gps-bluetooth)', 'var(--bluetooth)', 'var(--other)'])
-      .unknown('var(--other)'),
+      .unknown('var(--unknown)'),
   government: d3.scaleOrdinal()
       .domain(['no', 'yes'])
       .range(['var(--no-government)', 'var(--government)'])
-      .unknown('var(--other)'),
+      .unknown('var(--unknown)'),
   opt_in: d3.scaleOrdinal()
       .domain(['no', 'yes'])
       .range(['var(--no-opt-in)', 'var(--opt-in)'])
-      .unknown('var(--other)'),
+      .unknown('var(--unknown)'),
   protocol: d3.scaleOrdinal()
       .domain(['OpenTrace', 'Whisper', 'SafePaths', 'PEPP-PT', 'ROBERT', 'DP3T', 'TCN', 'Apple/Google', 'Safe2'])
       .range(['var(--opentrace)', 'var(--whisper)', 'var(--safepaths)', 'var(--pepppt)', 'var(--pepppt)', 'var(--dp3t)', 'var(--tcn)', 'var(--applegoogle)', 'var(--safe2)'])
-      .unknown('var(--other)'),
+      .unknown('var(--unknown)'),
   status: d => `var(--${d})`
 };
 

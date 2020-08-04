@@ -238,10 +238,10 @@ function fillColor(d, vis) {
 
 const specialCentroids = {
   'United States': {
-    offset: [50, 25]
+    offset: [20, 20]
   },
   'Canada': {
-    offset: [0, 25]
+    offset: [-10, 0]
   },
   'Hong Kong': {
     anchor: 'Vietnam',
