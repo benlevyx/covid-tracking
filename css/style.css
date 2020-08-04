@@ -129,13 +129,16 @@ div#color-legend {
 div#app-table {
     overflow: auto;
 }
-#app-table tr{
-    background-color: #10104b;
+#app-table tr,
+#app-table thead > tr,
+table.dataTable.no-footer.fixedHeader-floating tr {
+    background-color: #10104b !important;
 }
 #app-table thead > tr > th.sorting_asc,
-#app-table thead > tr > th.sorting_desc {
-    background-color: #1f1fa7;
+#app-table thead > tr > th.sorting_desc,
+.sorting_asc, .sorting_desc {
+    background-color: #1f1fa7 !important;
 }
-#app-table tbody > tr > td.sorting_1 {
-    background-color: #1f1fa7;
+#app-table tbody > tr > td.sorting_1, .sorting_1 {
+    background-color: #1f1fa7 !important;
 }

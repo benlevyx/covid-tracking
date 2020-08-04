@@ -39,6 +39,8 @@ function makeAppTable(parentElem, data) {
 }
 function makeDataTable(tableNode) {
   $(document).ready(function() {
-    $(tableNode).DataTable();
+    $(tableNode).DataTable({
+      fixedHeader: true
+    });
   });
 }
