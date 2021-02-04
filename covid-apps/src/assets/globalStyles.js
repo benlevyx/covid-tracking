@@ -3,8 +3,9 @@ import { createGlobalStyle } from 'styled-components';
 
 const colors = {
   darkBlue: '#10104b',
-  white: '#f7f7f7'
-}
+  white: '#f7f7f7',
+  gray: '#bdbdbd'
+};
 
 const GlobalStyle = createGlobalStyle`
   body {
