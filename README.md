@@ -1,2 +1,7 @@
 # covid-tracking
-Surveying how geolocation data can be used to help track the spread of COVID-19 while also balancing privacy concerns
+
+Data and Code for "Watching the Watchmen: A systematic review of the ethics and efficacy of digital contact tracing implementations (HDSR, 2020)"
+
+Surveying the ethics and privacy implications of digital contact tracing apps for COVID-19.
+
+Benjamin Levy and Matthew Stewart
