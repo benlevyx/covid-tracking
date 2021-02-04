@@ -1,4 +1,5 @@
 from pathlib import Path
+from datetime import date
 
 
 root = Path(__file__).parent.parent.parent
@@ -11,11 +12,8 @@ notebooks = root / 'notebooks'
 models = root / 'models'
 figs = root / 'figs'
 
+start_date = date(2020, 2, 1) # February 1, 2020
+end_date = date(2021, 1, 31) # January 1, 2021
 
-xmode_cols = ['advertiser_id', 'platform', 'location_at', 'latitude', 'longitude',
-              'altitude', 'horizontal_accuracy', 'vertical_accuracy', 'heading',
-              'speed', 'ipv_4', 'ipv_6', 'final_country', 'user_agent', 'background',
-              'publisher_id', 'wifi_ssid', 'wifi_bssid', 'tech_signals', 'carrier',
-              'device_model', 'venue_name', 'venue_category', 'dwell_time']
 
 plotly_credentials_file = root / 'PLOTLY_CREDENTIALS.yaml'
