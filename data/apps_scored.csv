@@ -1,0 +1,154 @@
+,Name,Country,Links,government,11_defined_lifetime,12_storage_time_limited,21_opt_in_download_use,22_opt_in_share,23_other_benefits,31_only_contacts,32_no_pii,41_open_source,42_privacy_policy,51_free,52_android_ios,61_decentralized_storage,62_erase_data,71_decentralized_matching,72_rotating_randomized,81_ble_only,82_verify_test,protocol,Installs (Google Play),Average Rating (Google Play),who_region,status,date_released,date_cancelled,has_protocol,state,protocol_other,score
+0,COVIDSafe,Australia,https://www.health.gov.au/resources/apps-and-tools/covidsafe-app,yes,1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,1,1,none,"1,000,000",3.1,WPRO,released,2020-04-26,,no,,none,6.5
+1,Stopp Corona,Austria,https://www.roteskreuz.at/site/faq-app-stopp-corona/datenschutzinformation-zur-stopp-corona-app/#c253470,yes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,Apple/Google,"100,000",3.3,EURO,released,2020-03-27,,yes,,Apple/Google,7.5
+2,BeAware,Bahrain,https://play.google.com/store/apps/details?id=bh.bahrain.corona.tracker,yes,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,none,"100,000",4.5,EMRO,released,2020-04-09,,no,,none,1.5
+3,Corona Tracer BD,Bangladesh,https://play.google.com/store/apps/details?id=com.shohoz.tracer&hl=en_US,yes,0,1,1,1,1,0,0,0,1,1,1,1,1,1,1,0,0,none,"500,000",3.5,SEARO,released,2020-06-03,,no,,none,5.0
+4,Romware Radius,Belgium,https://rombit.be/covid-solutions/,no,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,none,,,EURO,released,,,no,,none,1.0
+5,Coronalert,Belgium,https://coronalert.be/en/,yes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,DP3T,"1,000,000",2.8,EURO,released,2020-09-16,,yes,,DP3T/TCN,8.0
+6,WeHealth Bermuda,Bermuda,https://www.gov.bm/wehealthpilot,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,500,,NORAM,released,2020-11-08,,yes,,Apple/Google,7.0
+7,Tô de Olho,Brazil,https://todeolho.mprn.mp.br/,yes,1,0,1,1,0,0,0,0,1,1,1,0,0,0,0,0,0,none,"10,000",3.7,LATAM,released,2020-03-30,,no,,none,2.6666666666666665
+8,Coronavírus - SUS,Brazil,https://www.gov.br/pt-br/apps/coronavirus-sus,yes,0,0,1,0,0,0,0,0,0,1,1,0,0,1,1,1,1,Apple/Google,"5,000,000",3.6,LATAM,released,2020-07-26,,yes,,Apple/Google,3.333333333333333
+9,ViruSafe,Bulgaria,https://virusafe.info/,yes,0,0,1,1,0,1,0,1,1,1,1,0,0,0,0,0,0,none,"10,000",3.5,EURO,released,2020-04-07,,no,,none,3.1666666666666665
+10,Unmaze,Bulgaria,http://cyborgsys.com/unmaze/,no,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,none,,,EURO,released,,,no,,none,0.0
+11,ABTraceTogether,Canada,https://www.alberta.ca/ab-trace-together-privacy.aspx,yes,1,1,1,1,1,1,1,0,1,1,1,0,1,0,1,1,1,OpenTrace,"100,000",1.1,NORAM,released,2020-05-01,,yes,,other,6.5
+12,MyTrace,Canada,https://www.mytrace.ca/,no,0,1,1,1,1,0,0,0,1,1,1,1,1,0,0,0,0,none,,,NORAM,cancelled,,,no,,none,4.0
+13,Covi,Canada,https://covicanada.org/?gclid=CjwKCAjw8J32BRBCEiwApQEKgYT17Ril920EAZBfnUYbJWm81Q5bj-TBpwzTUtWVT0JZA1FKtUBMKhoC96sQAvD_BwE,no,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,none,,,NORAM,development,,,no,,none,7.0
+14,ConTrac,Canada,https://livnao.com/covid19/,no,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,none,,,NORAM,released,2020-04-25,,no,,none,0.0
+15,COVID Alert,Canada,https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert/privacy-policy/assessment.html#a2,yes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,Apple/Google,"1,000,000",3.6,NORAM,released,2020-07-30,,yes,,Apple/Google,8.0
+16,flaat,Canada,https://app.flaat.io/,no,0,0,1,1,1,1,0,1,1,1,0,1,1,1,1,1,1,TCN,,,NORAM,cancelled,,,yes,,DP3T/TCN,6.0
+17,Alipay Health Code + Close Contact Detector,China,https://www.nytimes.com/2020/03/01/business/china-coronavirus-surveillance.html,yes,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,none,,,WPRO,released,,,no,,none,1.0
+18,CoronApp,Colombia,https://coronaviruscolombia.gov.co/test/aislamiento-saludable/coronapp.html,yes,0,0,1,0,1,1,1,0,0,1,1,1,0,0,1,0,0,OpenTrace,"10,000,000",3.7,LATAM,released,2020-03-15,,yes,,other,3.6666666666666665
+19,Stop COVID-19,Croatia,https://github.com/Stop-COVID-19-Croatia?language=java,yes,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,Apple/Google,"50,000",3.6,EURO,released,2020-07-21,,yes,,Apple/Google,7.5
+20,CovTracer,Cyprus,https://covid-19.rise.org.cy/en/,yes,0,1,1,1,1,0,1,0,0,1,1,1,1,1,0,0,0,SafePaths,"1,000",4.3,EURO,released,2020-05-15,,yes,,other,4.5
+21,ERouška,Czechia,https://erouska.cz,yes,0,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,none,"1,000,000",3.8,EURO,released,2020-04-12,,no,,none,6.5
+22,Smittestop,Denmark,https://smittestop.dk/en,yes,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"500,000",2.7,EURO,released,2020-06-16,,yes,,Apple/Google,7.5
+23,ASI,Ecuador,https://asiecuador.com/,yes,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,DP3T,"500,000",3.3,LATAM,released,2020-08-01,,yes,,DP3T/TCN,7.5
+24,HOIA,Estonia,https://hoia.me/en/,yes,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,Apple/Google,"100,000",3.3,EURO,released,2020-08-17,,yes,,Apple/Google,7.5
+25,CoCOVID,EU,https://cocovid.info/,no,0,1,1,1,0,0,0,0,0,1,0,1,0,0,0,1,0,none,,,EURO,cancelled,,,no,,none,2.6666666666666665
+26,careFIJI,Fiji,https://carefiji.digitalfiji.gov.fj/,yes,0,1,1,1,1,1,0,0,1,1,1,1,1,0,1,1,1,OpenTrace,"50,000",3.6,WPRO,released,2020-05-24,,yes,,other,6.0
+27,Koronavilkku,Finland,https://koronavilkku.fi/en/,yes,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,Apple/Google,"1,000,000",3.6,EURO,released,2020-08-26,,yes,,Apple/Google,7.5
+28,TousAntiCovid,France,https://www.gouvernement.fr/info-coronavirus/tousanticovid,yes,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,0,ROBERT,"5,000,000",3.5,EURO,released,2020-05-31,,yes,,other,6.0
+29,Stop Covid,Georgia,https://play.google.com/store/apps/details?id=gov.georgia.novid20,yes,0,1,1,1,1,1,0,1,1,1,1,1,1,0,0,1,1,PEPP-PT,"100,000",3.8,EURO,released,2020-04-04,,yes,,other,6.0
+30,Corona GO,Germany,https://corona-go.de/,no,1,1,1,1,1,1,0,1,1,1,0,0,1,0,0,1,0,PEPP-PT,,,EURO,cancelled,,2020-04-14,yes,,other,5.0
+31,OHIOH,Germany,https://ohioh.de/,no,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,TCN,,,EURO,development,,,yes,,DP3T/TCN,6.5
+32,Cotect,Germany,https://cotect.launchaco.com/,no,0,1,1,1,1,0,1,1,1,1,1,0,1,0,0,0,0,none,,,EURO,cancelled,,,no,,none,4.5
+33,Coronika,Germany,https://www.coronika.app/,no,0,0,1,1,1,1,0,1,1,1,1,1,1,0,0,0,0,none,"50,000",4.0,EURO,released,2020-03-19,,no,,none,4.5
+34,Pandoa,Germany,https://pandoa.org/,no,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,0,none,,,EURO,cancelled,,2020-04-25,no,,none,6.0
+35,Ito,Germany,https://www.ito-app.org/,no,0,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,TCN,,,EURO,cancelled,,,yes,,DP3T/TCN,6.5
+36,Corona-Warn-App,Germany,https://www.coronawarn.app/,yes,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,DP3T,"10,000,000",3.1,EURO,released,2020-06-11,,yes,,DP3T/TCN,7.5
+37,my co:radar,Germany,http://mycoradar.de/my-coradar-eu/,no,0,1,1,1,0,1,1,1,1,1,1,1,1,0,0,1,0,none,,,EURO,cancelled,,2020-05-04,no,,none,5.666666666666666
+38,Plinks,Germany,https://plinks.io/,no,0,0,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,none,,,EURO,released,,,no,,none,3.1666666666666665
+39,GH COVID-19 Tracker App,Ghana,https://ghcovid19.com/,yes,0,0,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,none,"5,000",3.8,AFRO,released,2020-04-15,,no,,none,2.0
+40,Beat COVID Gibraltar,Gibraltar,https://www.gibraltar.gov.gi/beatcovidapp,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1,0,none,"10,000",3.1,EURO,released,2020-06-17,,no,,none,6.0
+41,Covid Community Alert,Global,https://coronavirus-outbreak-control.github.io/web/index_en.html,no,0,1,1,1,0,0,1,1,0,1,1,0,0,0,0,1,0,none,,,,cancelled,,,no,,none,3.6666666666666665
+42,Stay Home Safe,Hong Kong,https://www.coronavirus.gov.hk/eng/stay-home-safe.html,yes,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,none,"50,000",2.5,WPRO,released,2020-03-18,,no,,none,1.0
+43,Virus Radar,Hungary,https://virusradar.hu/,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,0,0,1,0,none,"100,000",3.1,EURO,released,2020-05-10,,no,,none,5.5
+44,Rakning C-19,Iceland,https://www.covid.is/app/,yes,0,1,1,1,1,1,0,1,1,1,1,1,1,0,0,0,1,none,"100,000",3.0,EURO,released,2020-03-31,,no,,none,5.5
+45,Aarogya Setu,India,https://theprint.in/opinion/india-can-prevent-long-term-lockdown-contain-covid-if-90-people-download-aarogya-setu/401116/,yes,0,1,0,0,0,0,0,1,1,1,1,0,1,0,0,0,1,none,"100,000,000",4.1,SEARO,released,2020-04-02,,no,,none,3.5
+46,SMC COVID-19 Tracker,India,https://pib.gov.in/PressReleseDetailm.aspx?PRID=1613926,yes,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,none,"100,000",3.1,SEARO,released,2020-04-03,,no,,none,1.5
+47,Unmaze,India,https://www.expresscomputer.in/news/indian-ai-startup-creates-app-that-alerts-presence-of-nearby-home-quarantined-people-for-coronavirus/52117/,no,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,none,,,EURO,released,,,no,,none,0.5
+48,SAIYAM,India,https://government.economictimes.indiatimes.com/news/digital-india/pune-municipal-corporation-develops-saiyam-app-to-track-home-quarantine/75286114,yes,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,none,"1,000",3.8,SEARO,released,2020-04-26,,no,,none,1.5
+49,COVID-19 Quarantine Monitor,India,https://play.google.com/store/apps/details?id=com.pixxonai.covid19&hl=en_US&gl=US,yes,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,none,"100,000",3.9,SEARO,released,2020-05-09,,no,,none,1.5
+50,Mahakavach,India,https://play.google.com/store/apps/details?id=com.mahakavach&hl=en_CA,yes,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,none,"100,000",2.6,SEARO,released,2020-05-09,,no,,none,1.5
+51,Quarantine Watch,India,https://play.google.com/store/apps/details?id=com.bmc.qrtnwatch&hl=en_US&gl=US,yes,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,none,"100,000",3.2,SEARO,released,2020-03-27,,no,,none,2.1666666666666665
+52,Quarantine Watch,India,https://www.business-standard.com/article/technology/quarantine-watch-karnataka-uses-apps-to-keep-track-of-people-under-watch-120040201641_1.html,yes,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,none,"100,000",2.0,SEARO,released,2020-03-30,,no,,none,1.5
+53,PeduliLindungi,Indonesia,https://play.google.com/store/apps/details?id=com.telkom.tracencare,yes,0,1,1,1,0,0,1,0,0,1,1,1,0,0,0,1,0,none,"1,000,000",3.9,SEARO,released,2020-04-13,,no,,none,3.6666666666666665
+54,Mask.ir,Iran,https://mask.ir/faq.html,yes,1,0,1,1,0,0,0,0,1,1,1,0,1,0,0,0,0,none,,,EMRO,released,,,no,,none,3.1666666666666665
+55,COVID Tracker app,Ireland,https://covidtracker.gov.ie/,yes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,Apple/Google,"500,000",4.3,EURO,development,2020-06-24,,yes,,Apple/Google,8.0
+56,Code Orange,Israel,https://docs.google.com/document/d/1Nv_Uxt3ATyzaD-rY5nu-BU-CXNHvF9LblwdOFzWc0s4,yes,0,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,none,,,EMRO,cancelled,,2020-03-15,no,,none,2.1666666666666665
+57,Track Virus,Israel,https://www.track-virus.com/,yes,0,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,1,none,"100,000",3.4,EMRO,released,2020-03-31,,no,,none,3.0
+58,HaMagen,Israel,https://govextra.gov.il/ministry-of-health/hamagen-app/download-en/,no,0,1,1,1,1,1,1,1,0,1,1,1,1,0,0,0,1,none,"1,000,000",3.9,EMRO,released,2020-03-22,,no,,none,5.5
+59,SM_Covid19,Italy,https://www.smcovid19.org/,no,0,1,1,1,1,0,0,0,1,1,1,1,1,0,1,1,0,ReCoVer,"50,000",4.0,EMRO,released,2020-03-31,,yes,,other,5.0
+60,Immuni,Italy,https://www.nytimes.com/reuters/2020/04/17/technology/17reuters-health-coronavirus-italy-technology.html,yes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,Apple/Google,"1,000,000",3.8,EURO,released,2020-06-01,,yes,,Apple/Google,8.0
+61,diAry,Italy,https://covid19app.uniurb.it/en/diary-lets-stop-covid-19-together/,no,0,1,1,1,0,0,0,1,1,1,1,1,1,0,0,0,0,none,500,,EURO,development,,,no,,none,4.166666666666666
+62,COVID19Radar,Japan,https://lp-covid-19radarjapan.studio.design/,no,0,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,none,,,WPRO,released,2020-05-25,,no,,none,6.5
+63,COCOA,Japan,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/cocoa_00138.html,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"1,000,000",2.7,WPRO,released,2020-06-17,,yes,,Apple/Google,7.0
+64,Jersey COVID Alert,Jersey,https://covidalert.gov.je/Pages/default.aspx,yes,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,Apple/Google,"10,000",3.3,EURO,released,2020-10-12,,yes,,Apple/Google,7.5
+65,AMAN App,Jordan,https://www.amanapp.jo/en,yes,0,1,1,1,0,1,1,0,1,1,1,1,1,0,0,0,1,none,"500,000",4.4,EMRO,released,2020-05-21,,no,,none,5.166666666666666
+66,Saqbol,Kazakhstan,https://egov.kz/cms/en/information/about/Saqbol_mobileapp,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"100,000",1.8,EURO,released,2020-09-02,,yes,,Apple/Google,7.0
+67,Shlonik,Kuwait,https://play.google.com/store/apps/details?id=com.healthcarekw.app&hl=en_US,yes,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,none,"50,000",4.0,EMRO,released,2020-04-09,,no,,none,1.6666666666666665
+68,Apturi Covid Latvia,Latvia,https://apturicovid.lv/#en,yes,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,Apple/Google,"50,000",3.5,EMRO,released,2020-05-26,,yes,,Apple/Google,7.5
+69,Korona Stop LT,Lithuania,https://koronastop.lrv.lt/en/,yes,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"100,000",2.1,EURO,released,2020-11-03,,yes,,Apple/Google,7.5
+70,MyTrace,Malaysia,https://www.malaysiakini.com/news/523824,yes,1,0,1,1,0,0,0,0,0,1,1,0,0,0,0,1,1,none,"100,000",3.9,WPRO,released,2020-04-22,,no,,none,3.1666666666666665
+71,Gerak Malaysia,Malaysia,https://www.gerakmalaysia.gov.my/,yes,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,none,"1,000,000",3.3,WPRO,released,2020-04-12,,no,,none,2.0
+72,COVIDTrace,Malaysia,https://play.google.com/store/apps/details?id=com.sains.safetrace&hl=en_US,yes,0,1,1,1,1,1,0,0,1,1,1,1,1,0,1,0,1,none,"50,000",3.3,WPRO,released,2020-05-05,,no,,none,5.5
+73,MySejahtera,Malaysia,https://mysejahtera.malaysia.gov.my/intro_en/,yes,0,0,1,1,0,0,0,0,1,1,1,0,1,0,0,0,0,none,"1,000,000",4.7,SEARO,released,2020-03-27,,no,,none,2.6666666666666665
+74,COVID Alert Malta,Malta,https://covidalert.gov.mt/,yes,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,DP3T,"50,000",4.3,EURO,released,2020-09-02,,yes,,DP3T/TCN,7.5
+75,CovidRadar,Mexico,http://covidradar.mx/,yes,0,0,1,1,0,0,1,0,1,1,1,0,0,0,0,1,0,none,,,LATAM,released,2020-04-19,,no,,none,3.1666666666666665
+76,Wiqaytna,Morocco,https://www.wiqaytna.ma/Default_Fr.aspx,yes,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,none,"1,000,000",4.3,EMRO,released,2020-05-31,,no,,none,7.5
+77,PrivateTracer,Netherlands,https://www.privatetracer.org/,no,0,0,1,1,1,1,0,1,0,1,1,1,1,1,1,1,0,DP3T,,,EURO,cancelled,,,yes,,DP3T/TCN,5.5
+78,CoronaMelder,Netherlands,https://www.coronamelder.nl/en/,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"1,000,000",3.0,EURO,released,2020-08-15,,yes,,Apple/Google,7.0
+79,NZ COVID Tracer,New Zealand,https://tracing.covid19.govt.nz/,yes,0,1,1,1,0,1,0,0,1,1,1,1,1,0,0,0,1,none,"100,000",2.2,WPRO,released,2020-05-20,,no,,none,4.666666666666666
+80,StopKorona!,North Macedonia,https://stop.koronavirus.gov.mk/,yes,0,1,1,1,1,1,0,0,1,1,1,1,1,0,0,1,1,none,"50,000",3.1,EURO,released,2020-04-12,,no,,none,5.5
+81,StopCOVID NI,Northern Ireland,https://covid-19.hscni.net/stop-covid-ni-mobile-app/,yes,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,Apple/Google,"100,000",3.3,EURO,released,2020-07-28,,yes,,Apple/Google,7.5
+82,Smittestopp,Norway,https://helsenorge.no/smittestopp,yes,1,1,1,1,1,0,0,0,1,1,1,0,1,0,0,0,1,none,"100,000",2.2,EURO,released,2020-04-16,,no,,none,4.5
+83,PeruEnTusManos,Peru,https://play.google.com/store/apps/details?id=peruentusmanos.gob.pe,yes,0,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,none,"1,000,000",2.9,LATAM,released,2020-04-03,,no,,none,2.1666666666666665
+84,"
+StaySafe PH",Philippines,https://www.staysafe.ph/,no,0,0,1,1,0,0,0,0,1,1,1,0,0,0,0,0,0,none,"100,000",3.9,WPRO,released,2020-05-04,,no,,none,2.1666666666666665
+85,ENDCoV,Philippines,https://endcov.org/,no,0,0,1,1,0,0,0,0,1,1,1,0,0,0,0,0,0,none,"5,000",3.8,WPRO,released,2020-03-27,,no,,none,2.1666666666666665
+86,WeTrace PH,Philippines,https://www.wetrace.ph/,yes,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,none,"5,000",3.2,WPRO,released,2020-04-05,,no,,none,2.0
+87,ProteGO Safe,Poland,https://play.google.com/store/apps/details?id=pl.gov.mc.protegosafe&hl=en_US,yes,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,Apple/Google,"100,000",3.1,EURO,released,2020-04-19,,yes,,Apple/Google,7.5
+88,STAYAWAY COVID,Portugal,https://stayawaycovid.pt/landing-page/,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"1,000,000",2.8,EURO,released,2020-08-20,,yes,,Apple/Google,7.0
+89,Ehteraz,Qatar,https://portal.www.gov.qa/wps/portal/media-center/news/news-details/todeterminecoronavirustransmissionchainsehterazappisnowavailablefordownload,yes,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,none,"1,000,000",3.7,EMRO,released,2020-04-25,,no,,none,1.0
+90,Contact Tracer,Russia,https://contacttracer.ru/,no,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,none,,,EURO,released,,,no,,none,0.5
+91,Social Monitoring,Russia,https://play.google.com/store/apps/details?id=ru.mos.app,yes,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,none,"500,000",4.1,EURO,released,2020-03-25,,no,,none,2.0
+92,Tabaud,Saudi Arabia,https://tabaud.sdaia.gov.sa/,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,Apple/Google,"500,000",4.4,EMRO,released,2020-06-12,,yes,,Apple/Google,6.5
+93,Tawakkalna,Saudi Arabia,https://play.google.com/store/apps/details?id=sa.gov.nic.tawakkalna&hl=en_CA,yes,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,none,"1,000,000",4.7,EMRO,released,2020-04-06,,no,,none,1.0
+94,Protect Scotland,Scotland,https://protect.scot/,yes,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,Apple/Google,"500,000",3.7,EURO,released,2020-09-06,,yes,,Apple/Google,7.5
+95,Daancovid19,Senegal,https://daancovid19.sn/,yes,0,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,0,Whisper,,,AFRO,cancelled,,,yes,,other,6.166666666666666
+96,TraceTogether,Singapore,https://www.tracetogether.gov.sg/,yes,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,OpenTrace,"1,000,000",4.2,WPRO,released,2020-02-18,,yes,,other,7.0
+97,CovCT,Singapore,https://covct.org/,no,0,0,0,0,1,1,0,0,1,1,1,0,1,0,0,0,1,none,,,WPRO,released,,,no,,none,3.333333333333333
+98,Zostaň Zdravý,Slovakia,https://www.zostanzdravy.sk/,no,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,1,0,none,,,EURO,released,2020-03-16,,no,,none,3.1666666666666665
+99,#OstaniZdrav,Slovenia,https://www.gov.si/en/topics/coronavirus-disease-covid-19/the-ostanizdrav-mobile-application/,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"100,000",2.2,EURO,released,2020-08-11,,yes,,Apple/Google,7.0
+100,Covi-ID,South Africa,https://coviid.me/,no,0,0,1,1,0,1,1,1,1,1,1,1,1,1,0,0,1,none,100,,AFRO,cancelled,2020-04-30,,no,,none,5.666666666666666
+101,COVID Alert South Africa,South Africa,https://sacoronavirus.co.za/covidalert/,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"1,000,000",3.5,AFRO,released,2020-08-16,,yes,,Apple/Google,7.0
+102,Corona 100m (Co100),South Korea,https://play.google.com/store/apps/details?id=com.tina3d.corona100m&hl=en_US,yes,0,0,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,none,,,WPRO,released,,,no,,none,2.6666666666666665
+103,Open Coronavirus,Spain,https://opencoronavirus.app/,no,0,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,DP3T,,,EURO,released,,,yes,,DP3T/TCN,6.666666666666666
+104,Radar COVID,Spain,https://radarcovid.gob.es/,yes,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,DP3T,"1,000,000",2.8,EURO,released,2020-06-27,,yes,,DP3T/TCN,7.5
+105,WeTrace,Switzerland,https://wetrace.ch/,no,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,none,,,WPRO,cancelled,2020-04-19,,no,,none,6.666666666666666
+106,SwissCOVID,Switzerland,https://play.google.com/store/apps/details?id=ch.admin.bag.dp3t&hl=en_US,yes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,DP3T,"500,000",3.6,EURO,released,2020-05-22,,yes,,DP3T/TCN,8.0
+107,MyLog14,Taiwan,https://devpost.com/software/mylog14,no,0,1,1,1,0,0,0,1,0,1,1,1,1,0,0,0,0,none,,,WPRO,cancelled,2020-07-07,,no,,none,3.6666666666666665
+108,MorChana,Thailand,https://apps.apple.com/th/app/allthaialert/id1505185420?_branch_match_id=719443404369189740&utm_source=10april&utm_campaign=10april&utm_medium=marketing,yes,0,0,1,1,0,0,0,0,1,1,1,0,0,0,0,0,0,none,"100,000",4.2,SEARO,released,2020-04-01,,no,,none,2.1666666666666665
+109,E7mi,Tunisia,https://www.e7mi.tn/,yes,0,1,1,1,0,0,1,0,1,1,1,0,0,0,1,1,0,none,"10,000",4.2,EMRO,released,2020-05-09,,no,,none,4.166666666666666
+110,Hayat Eve Sığar,Turkey,https://hayatevesigar.saglik.gov.tr/,yes,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,none,"10,000,000",4.0,EMRO,released,2020-04-13,,no,,none,1.5
+111,TraceCovid,UAE,https://tracecovid.ae/,yes,0,0,1,1,0,1,1,0,1,1,1,1,0,0,1,1,0,none,"100,000",3.6,EMRO,released,2020-04-05,,no,,none,4.666666666666666
+112,ALHOSN UAE,UAE,https://play.google.com/store/apps/details?id=doh.health.shield&hl=en_US,yes,0,1,1,1,0,1,0,0,0,1,1,0,0,0,0,1,1,none,"500,000",3.8,EMRO,released,2020-04-06,,no,,none,3.6666666666666665
+113,NHS COVID-19,United Kingdom,https://play.google.com/store/apps/details?id=uk.nhs.nhsx.colocate&hl=en_US,yes,0,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,0,Apple/Google,"50,000",,EURO,released,2020-08-11,,yes,,Apple/Google,4.666666666666666
+114,SafeTrace,United States,https://github.com/enigmampc/SafeTrace,no,0,1,1,1,0,0,0,1,1,1,1,1,1,1,1,0,0,TCN,,,NORAM,cancelled,,,yes,,DP3T/TCN,5.166666666666666
+115,CoronaTrace,United States,https://www.coronatrace.org/,no,0,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,SafePaths,,,NORAM,development,,,yes,,other,4.166666666666666
+116,Coalition,United States,http://CoalitionNetwork.org,no,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,Whisper,"1,000",4.2,NORAM,released,2020-04-10,,yes,,other,7.5
+117,Contact Tracing,United States,https://apps.apple.com/us/app/contact-tracing/id1504531104,no,0,1,1,1,0,0,0,0,1,1,1,0,1,0,0,0,0,none,,,NORAM,released,2020-04-04,,no,,none,3.1666666666666665
+118,SafePass,United States,https://citizen.com/safepass,no,0,1,1,1,0,0,0,0,0,1,1,0,1,0,0,1,1,none,"1,000,000",4.4,NORAM,released,2020-06-25,,no,,none,3.6666666666666665
+119,CoEpi,United States,https://www.coepi.org,no,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,TCN,,,NORAM,development,,,yes,,DP3T/TCN,7.0
+120,Safe2,United States,https://safe2.org/,no,0,1,1,1,0,0,1,1,1,1,1,0,1,1,1,0,0,Safe2,,,NORAM,development,,,yes,,other,5.166666666666666
+121,COVID Watch,United States,https://www.covid-watch.org/,no,0,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,0,TCN,,,NORAM,development,,,yes,,DP3T/TCN,5.666666666666666
+122,NOVID,United States,https://www.novid.org/,no,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,0,TCN,"10,000",4.2,NORAM,released,2020-05-01,,yes,,DP3T/TCN,6.0
+123,Opendemic,United States,https://www.opendemic.org/,no,0,0,1,1,1,0,1,1,1,1,1,0,0,0,0,0,0,none,,,NORAM,cancelled,2020-03-17,,no,,none,3.5
+124,ZeroBase,United States,https://www.zerobase.io/,no,0,0,1,1,0,0,1,0,1,1,1,0,0,0,0,0,0,none,,,NORAM,released,2020-04-05,,no,,none,2.6666666666666665
+125,GuideSafe,United States,https://www.guidesafe.org/exposure-notification-app/#signup,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"100,000",3.5,NORAM,released,2020-08-11,,yes,AL,Apple/Google,7.0
+126,Covid Watch Arizona,United States,https://www.covidwatch.org/,yes,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,Apple/Google,"5,000",3.8,NORAM,released,2020-08-06,,yes,AZ,Apple/Google,7.5
+127,CA Notify,United States,https://canotify.uchealth.edu/,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"500,000",3.4,NORAM,development,2020-12-07,,yes,CA,Apple/Google,7.0
+128,CO Exposure Notifications,United States,https://covid19.colorado.gov/Exposure-notifications,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"100,000",3.3,NORAM,released,2020-10-18,,yes,CO,Apple/Google,7.0
+129,COVID Alert CT,United States,https://portal.ct.gov/coronavirus/covidalertCT/homepage,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"50,000",3.8,NORAM,released,2020-10-29,,yes,CT,Apple/Google,7.0
+130,DC CAN,United States,https://coronavirus.dc.gov/dccan,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"10,000",4.1,NORAM,released,2020-10-14,,yes,DC,Apple/Google,7.0
+131,COVID Alert DE,United States,https://coronavirus.delaware.gov/covidalert/,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"10,000",4.3,NORAM,released,2020-09-13,,yes,DE,Apple/Google,7.0
+132,Guam COVID Alert,United States,https://guamcovidalert.guam.gov/,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"10,000",4.4,WPRO,released,2020-08-25,,yes,Guam,Apple/Google,7.0
+133,AlohaSafe Alert,United States,http://alohasafealert.org/,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"1,000",4.4,NORAM,released,2020-11-10,,yes,HI,Apple/Google,7.0
+134,COVID Defense,United States,https://www.coviddefensela.com/,yes,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,Apple/Google,"5,000",4.1,NORAM,released,2021-01-18,,yes,LA,Apple/Google,7.5
+135,MD COVID Alert,United States,https://covidlink.maryland.gov/content/mdcovidalert/,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"100,000",3.5,NORAM,released,2020-11-09,,yes,MD,Apple/Google,7.0
+136,MI COVID Alert,United States,"https://www.michigan.gov/coronavirus/0,9753,7-406-99891_102592---,00.html",yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"100,000",3.2,NORAM,released,2020-10-12,,yes,MI,Apple/Google,7.0
+137,COVIDaware MN,United States,https://covidawaremn.com/,yes,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,Apple/Google,"100,000",3.5,NORAM,released,2020-11-17,,yes,MN,Apple/Google,7.5
+138,SlowCOVIDNC,United States,https://covid19.ncdhhs.gov/slowcovidnc,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"100,000",4.0,NORAM,released,2020-09-15,,yes,NC,Apple/Google,7.0
+139,Care19 Alert,United States,https://www.care19.app/,yes,0,1,1,1,1,0,1,0,1,1,1,0,1,1,1,1,1,Apple/Google,"10,000",3.4,NORAM,released,2020-08-11,,yes,"ND, WY",Apple/Google,6.0
+140,COVID Alert NJ,United States,https://covid19.nj.gov/pages/app,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"100,000",4.2,NORAM,released,2020-09-23,,yes,NJ,Apple/Google,7.0
+141,COVID Trace Nevada,United States,https://nvhealthresponse.nv.gov/covidtrace/,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"50,000",3.1,NORAM,released,2020-08-21,,yes,NV,Apple/Google,7.0
+142,COVID Alert NY,United States,https://coronavirus.health.ny.gov/covid-alert-ny/,yes,0,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,Apple/Google,"500,000",3.9,NORAM,released,2020-09-29,,yes,NY,Apple/Google,6.0
+143,Oregon Exposure Notifications,United States,https://covid.oregonstate.edu/exposure,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,,,NORAM,development,,,yes,OR,Apple/Google,7.0
+144,COVID Alert PA,United States,https://www.pa.gov/covid/covid-alert-pa/,yes,0,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,Apple/Google,"50,000",4.2,NORAM,released,2020-09-10,,yes,PA,Apple/Google,6.5
+145,Rastrea El Virus,United States,https://rastreaelvirus.com/,yes,0,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,Apple/Google,100,,NORAM,development,,,yes,PR,Apple/Google,6.0
+146,COVIDWISE,United States,https://www.vdh.virginia.gov/covidwise/,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"100,000",4.3,NORAM,released,2020-08-03,,yes,VA,Apple/Google,7.0
+147,WA Notify,United States,https://wanotify.uw.edu/index.html,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"100,000",3.6,NORAM,released,2020-10-28,,yes,WA,Apple/Google,7.0
+148,WI Exposure Notification,United States,https://www.dhs.wisconsin.gov/covid-19/notification.htm,yes,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,Apple/Google,"100,000",3.9,NORAM,released,2020-12-20,,yes,WI,Apple/Google,7.0
+149,Coronavirus UY,Uruguay,https://www.gub.uy/ministerio-salud-publica/coronavirus,yes,0,1,1,1,0,0,0,0,1,1,1,1,0,1,1,1,1,Apple/Google,"500,000",3.8,LATAM,released,2020-03-19,,yes,,Apple/Google,5.166666666666666
+150,NCOVI,Viet Nam,https://ncov.moh.gov.vn/,yes,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,none,"1,000,000",7.0,WPRO,released,2020-03-11,,no,,none,1.0
+151,BlueZone,Vietnam,https://bluezone.ai/,yes,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,none,"100,000",4.1,WPRO,released,2020-04-17,,no,,none,6.5
