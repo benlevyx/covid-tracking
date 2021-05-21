@@ -71,7 +71,7 @@ toml==0.10.2
 tornado==6.0.4
 -e git+https://github.com/benlevyx/covid-tracking.git@cf8c5777b030192af1bdaad183af792640bf0e3c#egg=tracking&subdirectory=module
 traitlets==4.3.3
-urllib3==1.26.2
+urllib3==1.26.4
 wcwidth==0.1.9
 webencodings==0.5.1
 widgetsnbextension==3.5.1
