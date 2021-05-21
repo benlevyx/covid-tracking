@@ -137,5 +137,11 @@ dmypy.json
 # Data files
 data/raw/
 
+# Images
+figs/
+
 # Plotly credentials file
 PLOTLY_CREDENTIALS
+
+# VSCode
+.vscode
