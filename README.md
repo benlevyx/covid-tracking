@@ -6,6 +6,8 @@ Surveying the ethics and privacy implications of digital contact tracing apps fo
 
 Benjamin Levy and Matthew Stewart
 
+[Click here to see an interactive map and table](https://www.benjaminlevy.ca/covid-apps)
+
 **Code to generate scores:** `scripts/app_scoring.py`
 
 **Code to generate figures:** `notebooks/visualization.ipynb`
